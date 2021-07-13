@@ -1,11 +1,19 @@
+const brandColors = {
+  mediumPurple: '#9879e9',
+  slateBlue: '#7559d1',
+  mandy: '#eb4e58',
+  whiteLilac: '#e8e8e8',
+  hintOfRed: '#f9f9f9',
+  romance: '#fcfdfd',
+  eastBay: '#455970',
+  regentGray: '#7e858c',
+  loblolly: '#b7b7b7',
+  blueMoon: '#eff1fd',
+}
+
 const choices = {
-    colors: {
-      brand: {
-        mediumPurple: '#9879e9',
-        white: '#fff',
-        whiteLilac: '#e8e8e8',
-        eastBay: '#455970',
-      },
+    color: {
+      brand: brandColors,
 
       transparent: 'transparent',
 
@@ -259,7 +267,26 @@ const choices = {
   },
   decisions = {
     colors: {
-      primary: choices.colors.brand.mediumPurple,
+      primary: choices.color.brand.mediumPurple,
+      primaryHighlight: choices.color.brand.blueMoon,
+      primaryMuted: choices.color.brand.slateBlue,
+      secondary: choices.color.brand.mandy,
+      fontBase: choices.color.brand.eastBay,
+      fontHighlight: choices.color.brand.loblolly,
+      fontMuted: choices.color.brand.regentGray,
+    },
+    backgroundColor: {
+      primary: choices.color.brand.hintOfRed,
+      highlight: choices.color.brand.romance,
+    },
+    container: {
+      maxWidth: '800px',
+    },
+    button: {
+      maxWidth: '300px',
+    },
+    input: {
+      height: '38px',
     },
   }
 

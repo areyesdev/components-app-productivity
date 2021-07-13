@@ -113,53 +113,31 @@
   --color-pink-800: #97266d;
   --color-pink-900: #702459;
 
-  --spacing-0: 0;
-  --spacing-1: 0.25rem;
-  --spacing-2: 0.5rem;
-  --spacing-3: 0.75rem;
-  --spacing-4: 1rem;
-  --spacing-5: 1.25rem;
-  --spacing-6: 1.5rem;
-  --spacing-8: 2rem;
-  --spacing-10: 2.5rem;
-  --spacing-12: 3rem;
-  --spacing-16: 4rem;
-  --spacing-20: 5rem;
-  --spacing-24: 6rem;
-  --spacing-32: 8rem;
-  --spacing-40: 10rem;
-  --spacing-48: 12rem;
-  --spacing-56: 14rem;
-  --spacing-64: 16rem;
-  --spacing-px: 1px;
+  --spacing-none: 0;
+  --spacing-xs: 5;
+  --spacing-sm: 15;
+  --spacing-md: 20;
+  --spacing-lg: 40;
 
-  --screens-xs: 420px;
-  --screens-sm: 640px;
-  --screens-md: 768px;
-  --screens-lg: 1024px;
-  --screens-xl: 1280px;
+  --media-query-min-width-sm: 576px;
+  --media-query-min-width-md: 768px;
+  --media-query-min-width-lg: 992px;
+  --media-query-min-width-xl: 1200px;
 
-  --screens-max-xs: 419px;
-  --screens-max-sm: 639px;
-  --screens-max-md: 767px;
-  --screens-max-lg: 1023px;
-  --screens-max-xl: 1279px;
+  --media-query-max-width-xs: 575.98px;
+  --media-query-max-width-sm: 767.98px;
+  --media-query-max-width-md: 991.98px;
+  --media-query-max-width-lg: 1199px;
 
-  --font-family-serif: Roboto Slab, "Times New Roman", serif;
-  --font-family-sans: Apercu, Arial, sans-serif;
-  --font-family-mono: "Roboto Mono", Consolas, monospace;
+  --font-family-sans: Quicksand, Arial, sans-serif;
 
   --font-size-base: 10px;
-  --font-size-xs: .75rem;
-  --font-size-sm: .875rem;
-  --font-size-md: 1rem;
-  --font-size-lg: 1.125rem;
-  --font-size-xl: 1.25rem;
-  --font-size-2xl: 1.5rem;
-  --font-size-3xl: 1.875rem;
-  --font-size-4xl: 2.25rem;
-  --font-size-5xl: 3rem;
-  --font-size-6xl: 4rem;
+  --font-size-xs: 1.1rem;
+  --font-size-sm: 1.3rem;
+  --font-size-md: 1.5rem;
+  --font-size-lg: 1.8rem;
+  --font-size-xl: 2.1rem;
+  --font-size-2xl: 6rem;
 
   --font-weight-hairline: 100;
   --font-weight-thin: 200;
@@ -185,41 +163,22 @@
   --letter-spacing-wider: .05em;
   --letter-spacing-widest: .1em;
 
-  --shadows-outline: 0 0 0 3px rgba(66, 153, 225, 0.5);
-  --shadows-none: none;
+  --box-shadow-none: none;
+  --box-shadow-sm: 0px 4px 5px #e8e8e8;
 
-  --shadows-down-sm: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
-  --shadows-down-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-  --shadows-down-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
-  --shadows-down-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
-  --shadows-down-2xl: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
-  --shadows-down-inner: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06);
+  --border-radius-none: 0;
+  --border-radius-sm: 10px;
+  --border-radius-lg: 30px;
+  --border-radius-full: 9999px;
 
-  --shadows-up-sm: 0 -1px 3px 0 rgba(0, 0, 0, 0.1), 0 -1px 2px 0 rgba(0, 0, 0, 0.06);
-  --shadows-up-md: 0 -4px 6px -1px rgba(0, 0, 0, 0.1), 0 -2px 4px -1px rgba(0, 0, 0, 0.06);
-  --shadows-up-lg: 0 -10px 15px -3px rgba(0, 0, 0, 0.1), 0 -4px 6px -2px rgba(0, 0, 0, 0.05);
-  --shadows-up-xl: 0 -20px 25px -5px rgba(0, 0, 0, 0.1), 0 -10px 10px -5px rgba(0, 0, 0, 0.04);
-  --shadows-up-2xl: 0 -25px 50px -12px rgba(0, 0, 0, 0.25);
-  --shadows-up-inner: inset 0 -2px 4px 0 rgba(0, 0, 0, 0.06);
-
-  --min-height-0: 0;
-  --min-height-full: 100%;
-  --min-height-screen: 100vh;
-
-  --min-width-0: 0;
-  --min-width-full: 100%;
+  --border-width-none: 0;
+  --border-width-default: 1px;
 
   --opacity-0: 0;
   --opacity-25: 0.25;
   --opacity-50: 0.5;
   --opacity-75: 0.75;
   --opacity-100: 1;
-
-  --border-radius-none: 0;
-  --border-radius-sm: 0.125rem;
-  --border-radius-md: 0.25rem;
-  --border-radius-lg: 0.5rem;
-  --border-radius-full: 9999px;
 
   --z-index-0: 0;
   --z-index-10: 10;
@@ -229,13 +188,13 @@
   --z-index-50: 50;
   --z-index-auto: auto;
 
-  --colors-primary: #9879e9;
-  --colors-primary-highlight: #eff1fd;
-  --colors-primary-muted: #7559d1;
-  --colors-secondary: #eb4e58;
-  --colors-font-base: #455970;
-  --colors-font-highlight: #b7b7b7;
-  --colors-font-muted: #7e858c;
+  --color-primary: #9879e9;
+  --color-primary-highlight: #eff1fd;
+  --color-primary-muted: #7559d1;
+  --color-secondary: #eb4e58;
+  --color-font-base: #455970;
+  --color-font-highlight: #b7b7b7;
+  --color-font-muted: #7e858c;
 
   --background-color-primary: #f9f9f9;
   --background-color-highlight: #fcfdfd;

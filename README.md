@@ -17,16 +17,26 @@ The project is located [here](https://github.com/areyesdev/app-productivity.git)
 
 - Create tokens.js file
 - Create script to transform the tokens into custom properties
+- Add brand colors to tokens\*
 
 ### Atoms & Molecules [Components]
 
 - Create Paragraph Atom
 - Create Heading Atom
 - Create Button Molecule
+- Create Icon Atom
+- Create Picture Atom\*
+- Create ButtonIcon Molecule
+- Create Spacer's Layout\*
 
 ### Eslint and Prettier
 
-- Add Eslint and Prettier
+- Add a modified version of [EditorConfig](https://github.com/airbnb/javascript/blob/master/.editorconfig)
+
+1. Install ESLint and create a config file following the instructions [here](https://eslint.org/docs/user-guide/getting-started#installation-and-usage)
+2. Install Prettier `yarn add --dev prettier`
+3. Install the prettier configuration along ESLint following [these](https://github.com/prettier/eslint-plugin-prettier#recommended-configuration) instructions
+4. Finally configure the precommit hook with lint-staged [here](https://prettier.io/docs/en/precommit.html#option-1-lint-stagedhttpsgithubcomokonetlint-staged)
 
 # Notes
 

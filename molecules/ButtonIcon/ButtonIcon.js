@@ -4,13 +4,15 @@ import PropTypes from 'prop-types'
 import Button from '../../atoms/Button'
 import Icon from '../../atoms/Icon'
 
-const ButtonIcon = ({ children, type, icon }) => (
-  <Button type={type} isBlock={false}>
-    <span style={{ marginRight: 10 }}>{children}</span>{' '}
-    {/* FIXME: Add vertical spacer copmponent */}
-    <Icon type={icon} />
-  </Button>
-)
+function ButtonIcon({ children, type, icon }) {
+  return (
+    <Button type={type} isBlock={false}>
+      <span style={{ marginRight: 10 }}>{children}</span>{' '}
+      {/* FIXME: Add vertical spacer copmponent */}
+      <Icon type={icon} />
+    </Button>
+  )
+}
 
 ButtonIcon.propTypes = {
   children: PropTypes.node.isRequired,

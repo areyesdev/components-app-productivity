@@ -4,11 +4,13 @@ import { mapType } from './helpers'
 
 import './Icon.css'
 
-const Icon = ({ type }) => (
-  <div>
-    <img src={mapType(type)} />
-  </div>
-)
+function Icon({ type }) {
+  return (
+    <div>
+      <img src={mapType(type)} />
+    </div>
+  )
+}
 
 Icon.propTypes = {
   type: PropTypes.string.isRequired,

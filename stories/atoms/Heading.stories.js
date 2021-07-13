@@ -6,9 +6,21 @@ export default {
   component: Heading,
 }
 
-export const Default = () => <Heading>Heading</Heading>
-export const ColorPrimary = () => <Heading color="primary">Heading</Heading>
-export const ColorDefault = () => <Heading color="dafault">Heading</Heading>
-export const Medium = () => <Heading size="md">Heading</Heading>
-export const Small = () => <Heading size="sm">Heading</Heading>
-export const ExtraSmall = () => <Heading size="xs">Heading</Heading>
+export function Default() {
+  return <Heading>Heading</Heading>
+}
+export function ColorPrimary() {
+  return <Heading color="primary">Heading</Heading>
+}
+export function ColorDefault() {
+  return <Heading color="dafault">Heading</Heading>
+}
+export function Medium() {
+  return <Heading size="md">Heading</Heading>
+}
+export function Small() {
+  return <Heading size="sm">Heading</Heading>
+}
+export function ExtraSmall() {
+  return <Heading size="xs">Heading</Heading>
+}

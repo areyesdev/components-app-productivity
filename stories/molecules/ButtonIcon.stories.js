@@ -6,6 +6,6 @@ export default {
   component: ButtonIcon,
 }
 
-export const Default = () => (
-  <ButtonIcon icon="arrowRight">Button icon</ButtonIcon>
-)
+export function Default() {
+  return <ButtonIcon icon="arrowRight">Button icon</ButtonIcon>
+}

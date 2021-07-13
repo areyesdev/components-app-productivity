@@ -3,20 +3,22 @@ import PropTypes from 'prop-types'
 import classNames from 'classnames'
 import './Heading.css'
 
-const Heading = ({ children, color, size }) => (
-  <heading
-    className={classNames('heading', {
-      [`color-${color}`]: color,
-      [`size-${size}`]: size,
-    })}
-  >
-    {children}
-  </heading>
-)
+function Heading({ children, color, size }) {
+  return (
+    <heading
+      className={classNames('heading', {
+        [`color-${color}`]: color,
+        [`size-${size}`]: size,
+      })}
+    >
+      {children}
+    </heading>
+  )
+}
 
 Heading.propTypes = {
   children: PropTypes.node.isRequired,
-  color: PropTypes.oneOf['primary'],
+  color: PropTypes.oneOf.primary,
   size: PropTypes.oneOf[('xs', 'sm', 'md')],
 }
 

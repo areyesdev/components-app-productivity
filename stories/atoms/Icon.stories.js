@@ -6,5 +6,9 @@ export default {
   component: Icon,
 }
 
-export const ArrowRight = () => <Icon type="arrowRight" />
-export const AngleDown = () => <Icon type="angleDown" />
+export function ArrowRight() {
+  return <Icon type="arrowRight" />
+}
+export function AngleDown() {
+  return <Icon type="angleDown" />
+}

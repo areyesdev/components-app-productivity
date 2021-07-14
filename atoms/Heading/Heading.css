@@ -1,19 +1,37 @@
 .heading {
-  line-height: 1.25;
+  line-height: var(--line-height-tight);
+  font-weight: var(--font-weight-bold);
+  font-family: var(--font-family-sans);
 }
+
 .color-default {
-  color: var(--colors-font-base);
+  color: var(--color-font-base);
 }
+
 .color-primary {
-  color: var(--colors-brand-medium-purple);
+  color: var(--color-primary);
+}
+
+.size-xs {
+  font-size: var(--font-size-xs);
+}
+
+.size-sm {
+  font-size: var(--font-size-sm);
 }
 
 .size-md {
-  font-size: 21px;
+  font-size: var(--font-size-md);
 }
-.size-sm {
-  font-size: 18px;
+
+.size-lg {
+  font-size: var(--font-size-lg);
 }
-.size-xs {
-  font-size: 16px;
+
+.size-xl {
+  font-size: var(--font-size-xl);
+}
+
+.size-2xl {
+  font-size: var(--font-size-2xl);
 }

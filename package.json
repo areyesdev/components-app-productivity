@@ -7,8 +7,7 @@
     "lint": "eslint .",
     "storybook": "start-storybook -p 6006 -s ./assets",
     "build-tokens": "node ./scripts/build-tokens",
-    "build-storybook": "build-storybook -s ./assets",
-    "prepare": "husky install"
+    "build-storybook": "build-storybook -s ./assets"
   },
   "keywords": [],
   "author": "",

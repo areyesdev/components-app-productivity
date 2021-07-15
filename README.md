@@ -12,12 +12,16 @@ The project is located [here](https://github.com/areyesdev/app-productivity.git)
 - `yarn storybook`
 - Add classNames
 - `yarn add classnames`
+- Add global styles `globals.css`\*
+- Add reset styles `https://jgthms.com/minireset.css`\*
+- Add typography from Google Fonts
 
 ### Design Tokens [Components]
 
 - Create tokens.js file
 - Create script to transform the tokens into custom properties
-- Add brand colors to tokens\*
+- Add brand colors to tokens
+- Add the rest of the tokens based on the project\*
 
 ### Atoms & Molecules [Components]
 
@@ -25,9 +29,11 @@ The project is located [here](https://github.com/areyesdev/app-productivity.git)
 - Create Heading Atom
 - Create Button Molecule
 - Create Icon Atom
-- Create Picture Atom\*
+- Create Picture Atom
 - Create ButtonIcon Molecule
-- Create Spacer's Layout\*
+- Create Spacer's Layout
+- Create Avatar Atom\*
+- Create Card Atom\*
 
 ### Eslint and Prettier
 
@@ -37,6 +43,7 @@ The project is located [here](https://github.com/areyesdev/app-productivity.git)
 2. Install Prettier `yarn add --dev prettier`
 3. Install the prettier configuration along ESLint following [these](https://github.com/prettier/eslint-plugin-prettier#recommended-configuration) instructions
 4. Finally configure the precommit hook with lint-staged [here](https://prettier.io/docs/en/precommit.html#option-1-lint-stagedhttpsgithubcomokonetlint-staged)
+5. Configure stylelint\*
 
 # Notes
 

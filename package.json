@@ -1,7 +1,7 @@
 {
-  "name": "components",
-  "version": "1.0.0",
-  "description": "",
+  "name": "@areyesdev/components",
+  "version": "0.1.0",
+  "description": "A components library to create apps from zero to production",
   "main": "index.js",
   "scripts": {
     "lint": "eslint .",

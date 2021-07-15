@@ -1,6 +1,7 @@
 {
   "name": "@areyesdev/components",
   "version": "0.1.1",
+  "private": false,
   "description": "A components library to create apps from zero to production",
   "main": "index.js",
   "scripts": {

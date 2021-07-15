@@ -8,6 +8,7 @@
   font-size: var(--font-size-md);
   height: var(--input-height);
 }
+
 .input::placeholder {
   color: var(--color-font-highlight);
 }

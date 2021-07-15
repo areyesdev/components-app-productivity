@@ -5,19 +5,20 @@ import classNames from 'classnames'
 import Horizontal from './Horizontal'
 import Vertical from './Vertical'
 import { getSize } from './helpers'
-import './Spacer.css'
+
+import styles from './Spacer.module.css'
 
 const Spacer = ({ size, isVisible }) => (
   <div
-    className={classNames('spacer', {
-      'is-visible': isVisible,
+    className={classNames(styles.spacer, {
+      [styles['is-visible']]: isVisible,
     })}
     style={{
       display: 'inline-block',
       width: getSize(size),
       height: getSize(size),
     }}
-  ></div>
+  />
 )
 
 Spacer.defaultProps = {
@@ -25,7 +26,7 @@ Spacer.defaultProps = {
 }
 
 Spacer.propTypes = {
-  size: PropTypes.number.isRequired,
+  size: PropTypes.string,
   isVisible: PropTypes.bool,
 }
 

@@ -4,23 +4,49 @@ import Heading from '../../atoms/Heading'
 export default {
   title: 'Atoms/Heading',
   component: Heading,
+  decorators: [
+    (Story) => (
+      <div style={{ display: 'flex', flexDirection: 'column' }}>
+        <Story />
+      </div>
+    ),
+  ],
 }
 
-export function Default() {
-  return <Heading>Heading</Heading>
-}
-export function ColorPrimary() {
-  return <Heading color="primary">Heading</Heading>
-}
-export function ColorDefault() {
-  return <Heading color="dafault">Heading</Heading>
-}
-export function Medium() {
-  return <Heading size="md">Heading</Heading>
-}
-export function Small() {
-  return <Heading size="sm">Heading</Heading>
-}
-export function ExtraSmall() {
-  return <Heading size="xs">Heading</Heading>
-}
+export const Default = () => <Heading>Default Heading</Heading>
+
+export const Colors = () => (
+  <>
+    <Heading color="default">Default Color</Heading>
+    <Heading color="primary">Primary Color</Heading>
+  </>
+)
+
+export const Sizes = () => (
+  <>
+    <Heading size="xs">
+      El veloz murciélago hindú comía feliz cardillo y kiwi. La cigüeña toca el
+      saxofón detrás del palenque de paja.
+    </Heading>
+    <Heading size="sm">
+      El veloz murciélago hindú comía feliz cardillo y kiwi. La cigüeña toca el
+      saxofón detrás del palenque de paja.
+    </Heading>
+    <Heading size="md">
+      El veloz murciélago hindú comía feliz cardillo y kiwi. La cigüeña toca el
+      saxofón detrás del palenque de paja.
+    </Heading>
+    <Heading size="lg">
+      El veloz murciélago hindú comía feliz cardillo y kiwi. La cigüeña toca el
+      saxofón detrás del palenque de paja.
+    </Heading>
+    <Heading size="xl">
+      El veloz murciélago hindú comía feliz cardillo y kiwi. La cigüeña toca el
+      saxofón detrás del palenque de paja.
+    </Heading>
+    <Heading size="2xl">
+      El veloz murciélago hindú comía feliz cardillo y kiwi. La cigüeña toca el
+      saxofón detrás del palenque de paja.
+    </Heading>
+  </>
+)

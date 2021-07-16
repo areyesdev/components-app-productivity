@@ -1,6 +1,6 @@
 {
   "name": "@areyesdev/components",
-  "version": "0.1.2",
+  "version": "0.0.0-development",
   "private": false,
   "description": "A components library to create apps from zero to production",
   "main": "index.js",
@@ -14,7 +14,8 @@
     "lint": "eslint .",
     "storybook": "start-storybook -p 6006 -s ./assets",
     "build-tokens": "node ./scripts/build-tokens",
-    "build-storybook": "build-storybook -s ./assets"
+    "build-storybook": "build-storybook -s ./assets",
+    "semantic-release": "semantic-release"
   },
   "keywords": [],
   "author": "Andres Reyes <areyesdev@gmail.com>",
@@ -45,7 +46,8 @@
     "lint-staged": ">=10",
     "minireset.css": "0.0.7",
     "prettier": "^2.3.2",
-    "react-test-renderer": "17.0.2"
+    "react-test-renderer": "17.0.2",
+    "semantic-release": "^17.4.4"
   },
   "peerDependencies": {
     "minireset.css": "0.0.7"

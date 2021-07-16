@@ -45,6 +45,13 @@ The project is located [here](https://github.com/areyesdev/app-productivity.git)
 4. Finally configure the precommit hook with lint-staged [here](https://prettier.io/docs/en/precommit.html#option-1-lint-stagedhttpsgithubcomokonetlint-staged)
 5. Configure stylelint\*
 
+### Creating tests
+
+1. Install Jest for React following [this](https://jestjs.io/docs/en/tutorial-react) instructions.
+2. Mock the CSS and CSS Modules files for Storybook [here](https://jestjs.io/docs/en/webpack#mocking-css-modules)
+3. Configure Storyshoots [here](https://storybook.js.org/docs/react/workflows/snapshot-testing)
+4. Configure Cromatic in https://www.chromatic.com/
+
 # Notes
 
 - TODO: Decidir cómo debería comportarse nuestro Atomic Design, respecto a que debería ser un Atomo o una Molecula.

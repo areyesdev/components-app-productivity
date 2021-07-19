@@ -1,5 +1,25 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Storyshots Atoms/Avatar Default 1`] = `
+<div
+  className="avatar"
+>
+  <picture
+    className="picture is-rounded"
+  >
+    <img
+      src="https://placeimg.com/200/200/people"
+      style={
+        Object {
+          "height": 44,
+          "maxWidth": 44,
+        }
+      }
+    />
+  </picture>
+</div>
+`;
+
 exports[`Storyshots Atoms/Button Default 1`] = `
 <button
   className="button is-block"
@@ -34,6 +54,77 @@ exports[`Storyshots Atoms/Button Tertiary 1`] = `
 >
   Tertiary Button
 </button>
+`;
+
+exports[`Storyshots Atoms/Card Colors 1`] = `
+<div
+  style={
+    Object {
+      "display": "flex",
+      "flexDirection": "column",
+    }
+  }
+>
+  <div
+    className="card color-default size-sm"
+  >
+    Default Color
+  </div>
+  <div
+    className="card color-primary size-sm"
+  >
+    Primary Color
+  </div>
+  <div
+    className="card color-secondary size-sm"
+  >
+    Secondary Color
+  </div>
+</div>
+`;
+
+exports[`Storyshots Atoms/Card Default 1`] = `
+<div
+  style={
+    Object {
+      "display": "flex",
+      "flexDirection": "column",
+    }
+  }
+>
+  <div
+    className="card color-default size-sm"
+  >
+    Default Card
+  </div>
+</div>
+`;
+
+exports[`Storyshots Atoms/Card Sizes 1`] = `
+<div
+  style={
+    Object {
+      "display": "flex",
+      "flexDirection": "column",
+    }
+  }
+>
+  <div
+    className="card color-default size-sm"
+  >
+    El veloz murciélago hindú comía feliz cardillo y kiwi. La cigüeña toca el saxofón detrás del palenque de paja.
+  </div>
+  <div
+    className="card color-default size-md"
+  >
+    El veloz murciélago hindú comía feliz cardillo y kiwi. La cigüeña toca el saxofón detrás del palenque de paja.
+  </div>
+  <div
+    className="card color-default size-lg"
+  >
+    El veloz murciélago hindú comía feliz cardillo y kiwi. La cigüeña toca el saxofón detrás del palenque de paja.
+  </div>
+</div>
 `;
 
 exports[`Storyshots Atoms/Heading Colors 1`] = `
@@ -362,8 +453,6 @@ exports[`Storyshots Layout/Spacer/Vertical Default 1`] = `
   className="spacer vertical is-visible"
   style={
     Object {
-      "display": "block",
-      "height": "100vh",
       "maxHeight": 200,
       "width": 0,
     }
@@ -376,8 +465,6 @@ exports[`Storyshots Layout/Spacer/Vertical Extra Small 1`] = `
   className="spacer vertical is-visible"
   style={
     Object {
-      "display": "block",
-      "height": "100vh",
       "maxHeight": 200,
       "width": 5,
     }
@@ -390,8 +477,6 @@ exports[`Storyshots Layout/Spacer/Vertical Large 1`] = `
   className="spacer vertical is-visible"
   style={
     Object {
-      "display": "block",
-      "height": "100vh",
       "maxHeight": 200,
       "width": 40,
     }
@@ -404,8 +489,6 @@ exports[`Storyshots Layout/Spacer/Vertical Medium 1`] = `
   className="spacer vertical is-visible"
   style={
     Object {
-      "display": "block",
-      "height": "100vh",
       "maxHeight": 200,
       "width": 20,
     }
@@ -418,8 +501,6 @@ exports[`Storyshots Layout/Spacer/Vertical Small 1`] = `
   className="spacer vertical is-visible"
   style={
     Object {
-      "display": "block",
-      "height": "100vh",
       "maxHeight": 200,
       "width": 15,
     }
@@ -437,8 +518,6 @@ exports[`Storyshots Molecules/ButtonIcon Default 1`] = `
     className="spacer vertical"
     style={
       Object {
-        "display": "block",
-        "height": "100vh",
         "maxHeight": "100%",
         "width": 5,
       }

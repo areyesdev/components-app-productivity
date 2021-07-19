@@ -14,9 +14,7 @@
     "lint": "eslint .",
     "storybook": "start-storybook -p 6006 -s ./assets",
     "build-tokens": "node ./scripts/build-tokens",
-    "build-storybook": "build-storybook -s ./assets",
-    "semantic-release": "semantic-release",
-    "chromatic": "npx chromatic --project-token=9a9dd82602a1"
+    "build-storybook": "build-storybook -s ./assets"
   },
   "keywords": [],
   "author": "Andres Reyes <areyesdev@gmail.com>",
@@ -56,7 +54,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged"
+      "pre-commit": "build-tokens && lint-staged"
     }
   },
   "lint-staged": {

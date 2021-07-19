@@ -32,8 +32,8 @@ The project is located [here](https://github.com/areyesdev/app-productivity.git)
 - Create Picture Atom
 - Create ButtonIcon Molecule
 - Create Spacer's Layout
-- Create Avatar Atom\*
-- Create Card Atom\*
+- Create Avatar Atom
+- Create Card Atom
 
 ### Eslint and Prettier
 

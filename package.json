@@ -14,7 +14,8 @@
     "lint": "eslint .",
     "storybook": "start-storybook -p 6006 -s ./assets",
     "build-tokens": "node ./scripts/build-tokens",
-    "build-storybook": "build-storybook -s ./assets"
+    "build-storybook": "build-storybook -s ./assets",
+    "create-component": "node ./scripts/create-component"
   },
   "keywords": [],
   "author": "Andres Reyes <areyesdev@gmail.com>",

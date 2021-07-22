@@ -1,12 +1,8 @@
 const { choices, decisions } = require('../tokens')
-const fs = require('fs'),
-  toKebabCase = (string) =>
-    string
-      .replace(/([A-Z])([A-Z])/g, '$1-$2')
-      .replace(/([a-z])([A-Z])/g, '$1-$2')
-      .replace(/[\s_]+/g, '-')
-      .toLowerCase(),
-  cleanLines = (string = '') => string.trim().replace(/^\n\n/gm, '\n')
+const toKebabCase = require('../utils/toKebabCase')
+const fs = require('fs')
+
+const cleanLines = (string = '') => string.trim().replace(/^\n\n/gm, '\n')
 
 function transformTokens(parentKey, object) {
   const objectKeys = Object.keys(object)

@@ -1,8 +1,8 @@
 import React from 'react'
-import Component from '../../atomic/Component'
+import Component from '../../atoms/Component'
 
 export default {
-  title: 'Atomic/Component',
+  title: 'Atoms/Component',
   component: Component,
 }
 

@@ -296,6 +296,14 @@ exports[`Storyshots Atoms/Input Text 1`] = `
 />
 `;
 
+exports[`Storyshots Atoms/Paragraph Default 1`] = `
+<div
+  className="paragraph"
+>
+  Hello Paragraph
+</div>
+`;
+
 exports[`Storyshots Atoms/Picture Default 1`] = `
 <picture
   className="picture"

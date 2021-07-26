@@ -1,8 +1,8 @@
 import React from 'react'
-import Paragraph from '../../atomic/Paragraph'
+import Paragraph from '../../atoms/Paragraph'
 
 export default {
-  title: 'Atomic/Paragraph',
+  title: 'Atoms/Paragraph',
   component: Paragraph,
 }
 

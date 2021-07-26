@@ -1,5 +1,7 @@
 # Cero a producción
 
+FIXME: improve readme structure
+
 ## Components library
 
 The project is located [here](https://github.com/areyesdev/app-productivity.git)
@@ -51,7 +53,29 @@ The project is located [here](https://github.com/areyesdev/app-productivity.git)
 2. Mock the CSS and CSS Modules files for Storybook [here](https://jestjs.io/docs/en/webpack#mocking-css-modules)
 3. Configure Storyshoots [here](https://storybook.js.org/docs/react/workflows/snapshot-testing)
 4. Configure Cromatic in https://www.chromatic.com/
+5. FIXME: Configure Chromatic with GitHub. Review with checks should with got with the Pull request.
+6. TODO: Creating unit tests for `scripts` and `utils`
+7. TODO: Create a coverage script with `instanbul`.
+8. TODO: Upload the coverage HTML report to a service per pull request
 
-# Notes
+### NPM scripts
 
-- TODO: Decidir cómo debería comportarse nuestro Atomic Design, respecto a que debería ser un Atomo o una Molecula.
+- TODO: Create an script to watch when the `tokens/index.js` changes and build it. This script should be part of `yarn dev`.
+
+### Github Actions
+
+- Create a GitHub action for a pull request
+- Create a GitHub action for a release
+
+### PUblishing in NPM
+
+- FIXME: Create the process of release a new version using `semantic-release`
+- TODO: Configure commitizen to enable conventional commits messages
+- TODO: Create a hook to force conventional commit messages
+
+### Adding a Good README
+
+- TODO: Create instructions to run this project in dev
+- TODO: Create instructions to run the tests of this project
+- TODO: Add NPM, Coverage, GitHub actions badges to the README.
+- TODO: Create a `CONTRIBUTING.md` file with instructions.

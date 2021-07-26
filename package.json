@@ -11,7 +11,9 @@
   "scripts": {
     "dev": "yarn storybook",
     "test": "jest",
-    "lint": "eslint .",
+    "lint": "yarn lint-js && yarn lint-css",
+    "lint-js": "eslint .",
+    "lint-css": "stylelint \"**/*.css\"",
     "storybook": "start-storybook -p 6006 -s ./assets",
     "build-tokens": "node ./scripts/build-tokens",
     "build-storybook": "build-storybook -s ./assets",
@@ -49,7 +51,10 @@
     "minireset.css": "0.0.7",
     "prettier": "^2.3.2",
     "react-test-renderer": "17.0.2",
-    "semantic-release": "^17.4.4"
+    "semantic-release": "^17.4.4",
+    "stylelint": "13.7.2",
+    "stylelint-config-prettier": "8.0.2",
+    "stylelint-prettier": "1.1.2"
   },
   "peerDependencies": {
     "minireset.css": "0.0.7"

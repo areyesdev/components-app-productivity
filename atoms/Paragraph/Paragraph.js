@@ -5,7 +5,7 @@ import PropTypes from 'prop-types'
 import styles from './Paragraph.module.css'
 
 const Paragraph = ({ children }) => {
-  return <div className={classNames(styles.component)}>{children}</div>
+  return <div className={classNames(styles['paragraph'])}>{children}</div>
 }
 
 Paragraph.propTypes = {

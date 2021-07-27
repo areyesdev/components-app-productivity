@@ -14,8 +14,8 @@ const AddButton = ({ children, type }) => {
         [styles[`type-${type}`]]: type,
       })}
     >
-      <Icon type="iconPlus" size="sm" />
-      <Spacer.Vertical size="xs" />
+      <Icon type="iconPlus" size="sm" hasBackground />
+      <Spacer.Vertical size="sm" />
       <Paragraph>{children}</Paragraph>
     </div>
   )

@@ -6,4 +6,4 @@ export default {
   component: AddButton,
 }
 
-export const Default = () => <AddButton>Agregar Tarea</AddButton>
+export const Default = () => <AddButton>Toca para agregar la tarea</AddButton>

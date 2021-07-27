@@ -6,4 +6,4 @@ export default {
   component: AddButton,
 }
 
-export const Default = () => <AddButton>Hola mundo</AddButton>
+export const Default = () => <AddButton>Agregar Tarea</AddButton>

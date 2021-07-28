@@ -7,3 +7,9 @@ export default {
 }
 
 export const Default = () => <AddButton>Toca para agregar la tarea</AddButton>
+export const Types = () => (
+  <>
+    <AddButton type="primary">Toca para agregar la tarea</AddButton>
+    <AddButton type="secondary">Toca para agregar la tarea</AddButton>
+  </>
+)

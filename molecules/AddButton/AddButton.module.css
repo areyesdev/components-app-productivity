@@ -13,6 +13,6 @@
 }
 
 .type-secondary {
-  border-color: var(--color-font-primary);
+  border-color: var(--color-primary);
   border-radius: var(--border-radius-md);
 }

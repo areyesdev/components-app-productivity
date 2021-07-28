@@ -1,20 +1,20 @@
 name: Code Review
 on:
-  push:
-    pull_request:
-      - master
+  pull_request:
+    branches:
+      - main
 jobs:
   build:
-    name: Build
-    runs-on: ubuntu-20.04
+    name: Build, lint and Test
+    runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v1
-      - name: Setup Node.js
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Setup Node.js v15
         uses: actions/setup-node@v1
         with:
-          node-version: 14
-      - name: Install Dependencies
+          node-version: 15
+      - name: Install dependencies
         run: yarn install --frozen-lockfile
       - name: Lint Code
         run: yarn lint

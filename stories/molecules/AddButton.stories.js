@@ -13,3 +13,9 @@ export const Types = () => (
     <AddButton type="secondary">Toca para agregar la tarea</AddButton>
   </>
 )
+
+export const Editable = () => (
+  <AddButton onAdd={alert} isEditable>
+    Toca para agregar la tarea
+  </AddButton>
+)

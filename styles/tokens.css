@@ -157,12 +157,12 @@
   --line-height-relaxed: 1.625;
   --line-height-loose: 2;
 
-  --letter-spacing-tighter: -0.05em;
-  --letter-spacing-tight: -0.025em;
+  --letter-spacing-tighter: -.05em;
+  --letter-spacing-tight: -.025em;
   --letter-spacing-normal: 0;
-  --letter-spacing-wide: 0.025em;
-  --letter-spacing-wider: 0.05em;
-  --letter-spacing-widest: 0.1em;
+  --letter-spacing-wide: .025em;
+  --letter-spacing-wider: .05em;
+  --letter-spacing-widest: .1em;
 
   --box-shadow-none: none;
   --box-shadow-sm: 0px 4px 5px #e8e8e8;
@@ -206,4 +206,5 @@
   --button-max-width: 300px;
 
   --input-height: 38px;
+  --input-max-width: 300px;
 }

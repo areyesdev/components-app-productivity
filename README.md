@@ -67,7 +67,7 @@ The project is located [here](https://github.com/areyesdev/app-productivity.git)
 - Create a GitHub action for a pull request
 - Create a GitHub action for a release
 
-### PUblishing in NPM
+### Publishing in NPM
 
 - FIXME: Create the process of release a new version using `semantic-release`
 - TODO: Configure commitizen to enable conventional commits messages

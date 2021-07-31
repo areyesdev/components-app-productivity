@@ -1,4 +1,6 @@
 .heading {
+  display: flex;
+  align-items: center;
   font-family: var(--font-family-sans);
   font-weight: var(--font-weight-bold);
   line-height: var(--line-height-tight);
@@ -38,4 +40,11 @@
 
 .size-2xl {
   font-size: var(--font-size-2xl);
+}
+.weight-normal {
+  font-weight: var(--font-weight-normal);
+}
+
+.weight-bold {
+  font-weight: var(--font-weight-bold);
 }

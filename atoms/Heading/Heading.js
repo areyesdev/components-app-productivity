@@ -1,30 +1,30 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import classNames from 'classnames'
 
 import styles from './Heading.module.css'
 import { options } from './constants'
+import withStyles from '../../hocs/withStyles'
 
-const Heading = ({ children, color, size }) => (
-  <heading
-    className={classNames(styles.heading, {
-      [styles[`color-${color}`]]: color,
-      [styles[`size-${size}`]]: size,
-    })}
-  >
-    {children}
-  </heading>
-)
+export const Heading = ({ children, styles }) => {
+  return (
+    <header className={styles('heading', ['color', 'size', 'weight'])}>
+      {children}
+    </header>
+  )
+}
 
 Heading.propTypes = {
-  children: PropTypes.node.isRequired,
+  children: PropTypes.string.isRequired,
+  styles: PropTypes.func.isRequired,
   color: PropTypes.oneOf(options.colors),
   size: PropTypes.oneOf(options.sizes),
+  weight: PropTypes.oneOf(options.weights),
 }
 
 Heading.defaultProps = {
   color: 'base',
   size: 'md',
+  weight: 'bold',
 }
 
-export default Heading
+export default withStyles(styles)(Heading)

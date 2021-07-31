@@ -4,13 +4,13 @@ export const handleClick =
     setEditMode(true)
   }
 
-export const handleOnChange =
+export const handleChange =
   ({ setInputValue }) =>
   (event) => {
     setInputValue(event.currentTarget.value)
   }
 
-export const handleOnKeyDown =
+export const handleKeyDown =
   ({ onAdd, setEditMode, setInputValue, inputValue }) =>
   (event) => {
     if (event.key === 'Enter') {
@@ -18,4 +18,15 @@ export const handleOnKeyDown =
       setInputValue('')
       setEditMode(false)
     }
+
+    if (event.key === 'Escape') {
+      setInputValue('')
+      setEditMode(false)
+    }
+  }
+
+export const handleBlur =
+  ({ inputValue, setEditMode }) =>
+  () => {
+    !inputValue && setEditMode(false)
   }

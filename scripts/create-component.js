@@ -4,6 +4,7 @@ const path = require('path')
 const enquirer = require('enquirer')
 const toPascalCase = require('../utils/toPascalCase')
 const toKebabCase = require('../utils/toKebabCase')
+const toCapitalize = require('../utils/toCapitalize')
 
 const ATOMIC_DESIGN_TYPES = {
   atom: 'atoms',
@@ -23,13 +24,21 @@ function readComponentFile(componentTemplate) {
   )
 }
 
-function replaceComponentFile(componentIsStory, componentFile, componentName) {
+function replaceComponentFile(
+  componentIsStory,
+  componentFile,
+  componentName,
+  mappedType
+) {
   if (!componentIsStory) {
     return componentFile
       .replace(/component/g, toKebabCase(componentName))
       .replace(/Component/g, componentName)
   } else {
-    return componentFile.replace(/Component/g, componentName)
+    return componentFile
+      .replace(/Component/g, componentName)
+      .replace(/atomic/g, mappedType)
+      .replace(/Atomic/g, toCapitalize(mappedType))
   }
 }
 
@@ -43,11 +52,9 @@ async function createComponent(componentTemplates, type, componentName) {
     __dirname,
     `../${mappedType}/${componentName}`
   )
-  const storiesComponentPath = path.join(__dirname, `../stories/${mappedType}`)
 
   try {
     await createComponentFolder(atomicComponentPath)
-    await createComponentFolder(storiesComponentPath)
     console.log('🔧 component folder created!')
 
     for (const componentTemplate of componentTemplates) {
@@ -61,13 +68,11 @@ async function createComponent(componentTemplates, type, componentName) {
       const replacedComponentFile = await replaceComponentFile(
         componentIsStory,
         componentFile,
-        componentName
+        componentName,
+        mappedType
       )
       await createComponentFile(
-        path.join(
-          componentIsStory ? storiesComponentPath : atomicComponentPath,
-          componentTemplateRenamed
-        ),
+        path.join(atomicComponentPath, componentTemplateRenamed),
         replacedComponentFile
       )
       console.log(`🔧 component file ${componentTemplateRenamed} created!`)

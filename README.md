@@ -36,6 +36,9 @@ The project is located [here](https://github.com/areyesdev/app-productivity.git)
 - Create Spacer's Layout
 - Create Avatar Atom
 - Create Card Atom
+- Create Spacer Layout
+- Create ButtonIcon Molecule
+- Create AddButton Molecule
 
 ### Eslint and Prettier
 
@@ -45,7 +48,7 @@ The project is located [here](https://github.com/areyesdev/app-productivity.git)
 2. Install Prettier `yarn add --dev prettier`
 3. Install the prettier configuration along ESLint following [these](https://github.com/prettier/eslint-plugin-prettier#recommended-configuration) instructions
 4. Finally configure the precommit hook with lint-staged [here](https://prettier.io/docs/en/precommit.html#option-1-lint-stagedhttpsgithubcomokonetlint-staged)
-5. Configure stylelint\*
+5. Configure stylelint
 
 ### Creating tests
 

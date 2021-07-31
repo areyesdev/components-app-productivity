@@ -1,15 +1,16 @@
 import React, { useState } from 'react'
 import classNames from 'classnames'
 import PropTypes from 'prop-types'
+
 import Paragraph from '../../atoms/Paragraph'
 import Icon from '../../atoms/Icon'
 import Spacer from '../../layout/Spacer'
 
 import styles from './AddButton.module.css'
-
+import { options } from './constants'
 import { handleClick, handleOnChange, handleOnKeyDown } from './handlers'
 
-const AddButton = ({ children, type, onAdd, isEditable }) => {
+const AddButton = ({ children, type, icon, onAdd, isEditable }) => {
   const [editMode, setEditMode] = useState(isEditable)
   const [inputValue, setInputValue] = useState('')
 
@@ -36,7 +37,11 @@ const AddButton = ({ children, type, onAdd, isEditable }) => {
         />
       ) : (
         <>
-          <Icon type="iconPlus" size="sm" hasBackground={type === 'primary'} />
+          <Icon
+            name={icon}
+            color={type === 'primary' ? 'base' : 'highlight'}
+            hasBackground={type === 'primary'}
+          />
           <Spacer.Vertical size="sm" />
           <Paragraph>{children}</Paragraph>
         </>
@@ -48,12 +53,14 @@ const AddButton = ({ children, type, onAdd, isEditable }) => {
 AddButton.propTypes = {
   children: PropTypes.node.isRequired,
   onAdd: PropTypes.func.isRequired,
-  type: PropTypes.oneOf(['primary', 'secondary']),
+  type: PropTypes.oneOf(options.types),
+  icon: PropTypes.oneOf(options.icons),
   isEditable: PropTypes.bool,
 }
 
 AddButton.defaultProps = {
   type: 'primary',
+  icon: 'plusCircle',
   isEditable: false,
   onAdd: () => {},
 }

@@ -130,7 +130,7 @@
   --media-query-max-width-lg: 1199px;
 
   --font-family-sans: Quicksand, Arial, sans-serif;
-  --font-family-mono: Roboto Mono, monospace;
+  --font-family-mono: 'Roboto Mono', 'Courier New', monospace;
 
   --font-size-base: 10px;
   --font-size-xs: 1.1rem;
@@ -157,15 +157,15 @@
   --line-height-relaxed: 1.625;
   --line-height-loose: 2;
 
-  --letter-spacing-tighter: -.05em;
-  --letter-spacing-tight: -.025em;
+  --letter-spacing-tighter: -0.05em;
+  --letter-spacing-tight: -0.025em;
   --letter-spacing-normal: 0;
-  --letter-spacing-wide: .025em;
-  --letter-spacing-wider: .05em;
-  --letter-spacing-widest: .1em;
+  --letter-spacing-wide: 0.025em;
+  --letter-spacing-wider: 0.05em;
+  --letter-spacing-widest: 0.1em;
 
   --box-shadow-none: none;
-  --box-shadow-sm: 0px 4px 5px #e8e8e8;
+  --box-shadow-sm: 0px 4px 5px rgba(0, 0, 0, 0.07);
 
   --border-radius-none: 0;
   --border-radius-sm: 10px;
@@ -174,7 +174,8 @@
   --border-radius-full: 9999px;
 
   --border-width-none: 0;
-  --border-width-default: 1px;
+  --border-width-thin: 1px;
+  --border-width-thick: 2px;
 
   --opacity-0: 0;
   --opacity-25: 0.25;
@@ -191,10 +192,13 @@
   --z-index-auto: auto;
 
   --color-primary: #9879e9;
+  --color-primary-inverted: #fff;
   --color-primary-highlight: #eff1fd;
   --color-primary-muted: #7559d1;
   --color-secondary: #eb4e58;
+  --color-secondary-inverted: #fff;
   --color-font-base: #455970;
+  --color-font-inverted: #fff;
   --color-font-highlight: #b7b7b7;
   --color-font-muted: #7e858c;
 
@@ -206,5 +210,5 @@
   --button-max-width: 300px;
 
   --input-height: 38px;
-  --input-max-width: 300px;
+  --input-max-width: 400px;
 }

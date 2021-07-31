@@ -1,46 +1,71 @@
-# Cero a producción
+# Cero Components
 
-FIXME: improve readme structure
+learning from the great Guillermo Rodas @glrodasz
 
-## Components library
+## Methodologies
 
-The project is located [here](https://github.com/areyesdev/app-productivity.git)
+### Atomic Design
 
-### Storybook configuration [Components]
+For this project will be using the methodology to create componentes called [Atomic Design](https://shop.bradfrost.com/products/atomic-design-ebook). The component library will be creating just **Atoms** and **Molecules** with the following definitions:
 
-- `npx sb init`
-- Choose that is a Reat project
-- `yarn add react react-dom`
-- `yarn storybook`
-- Add classNames
-- `yarn add classnames`
-- Add global styles `globals.css`\*
-- Add reset styles `https://jgthms.com/minireset.css`\*
-- Add typography from Google Fonts
+#### Atoms definition
 
-### Design Tokens [Components]
+For this project an atom will be a component that is composed by an unique Atom with or without HTML tags, or just HTML tags.
 
-- Create tokens.js file
-- Create script to transform the tokens into custom properties
-- Add brand colors to tokens
-- Add the rest of the tokens based on the project\*
+#### Molecules definition
 
-### Atoms & Molecules [Components]
+For this project a molecule is a component that is composed by at least 2 different atoms.
 
-- Create Paragraph Atom
+## Components Library
+
+These are the instructions about how this components library project has been created for future reference.
+
+### Storybook configuration
+
+- Start the project with `npx sb init`.
+- Choose that is a `React` project.
+- Run `yarn storybook`.
+- Add global styles `globals.css`.
+- Add reset styles `https://jgthms.com/minireset.css`.
+- Add typography from **Google Fonts**.
+
+### Design Tokens
+
+- Create `tokens/index.js` file.
+- Add brand colors and decisions
+- Create `build-tokens` script
+
+### Create template script
+
+- Create a template script for copy the template of a component with
+  the following structure `templates/components` and files:
+
+```
+Component.js
+Component.module.css
+Component.stories.js
+constants.js
+index.js
+```
+
+- Include inquirer to choose the options from the terminal
+- Copy and parse the rest of template files
+
+### Atoms & Molecules
+
 - Create Heading Atom
-- Create Button Molecule
-- Create Icon Atom
+- Create Paragraph Atom
+- Create Button Atom
 - Create Picture Atom
-- Create ButtonIcon Molecule
-- Create Spacer's Layout
 - Create Avatar Atom
+- Create Icon Atom
 - Create Card Atom
 - Create Spacer Layout
+- Create Layout Components
 - Create ButtonIcon Molecule
 - Create AddButton Molecule
 
-### Eslint and Prettier
+### Lint and styling
 
 - Add a modified version of [EditorConfig](https://github.com/airbnb/javascript/blob/master/.editorconfig)
 
@@ -50,12 +75,18 @@ The project is located [here](https://github.com/areyesdev/app-productivity.git)
 4. Finally configure the precommit hook with lint-staged [here](https://prettier.io/docs/en/precommit.html#option-1-lint-stagedhttpsgithubcomokonetlint-staged)
 5. Configure stylelint
 
+- Install `yarn add --dev stylelint stylelint-config-recommended stylelint-config-idiomatic-order`
+- Create the `.stylelintrc.json` file
+- Configure the scripts for lint css
+- Make sure Prettier runs for CSS files as well
+  Note: Idiomatic CSS order based on https://css-tricks.com/poll-results-how-do-you-order-your-css-properties/
+
 ### Creating tests
 
 1. Install Jest for React following [this](https://jestjs.io/docs/en/tutorial-react) instructions.
 2. Mock the CSS and CSS Modules files for Storybook [here](https://jestjs.io/docs/en/webpack#mocking-css-modules)
 3. Configure Storyshoots [here](https://storybook.js.org/docs/react/workflows/snapshot-testing)
-4. Configure Cromatic in https://www.chromatic.com/
+4. Configure Chromatic in https://www.chromatic.com/
 5. FIXME: Configure Chromatic with GitHub. Review with checks should with got with the Pull request.
 6. TODO: Creating unit tests for `scripts` and `utils`
 7. TODO: Create a coverage script with `instanbul`.
@@ -67,10 +98,10 @@ The project is located [here](https://github.com/areyesdev/app-productivity.git)
 
 ### Github Actions
 
-- Create a GitHub action for a pull request
-- Create a GitHub action for a release
+- FIXME: Create a GitHub action for a pull request
+- FIXME: Create a GitHub action for a release the library
 
-### Publishing in NPM
+### PUblishing in NPM
 
 - FIXME: Create the process of release a new version using `semantic-release`
 - TODO: Configure commitizen to enable conventional commits messages

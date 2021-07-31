@@ -2,35 +2,40 @@ const { choices, decisions } = require('../tokens')
 const toKebabCase = require('../utils/toKebabCase')
 const fs = require('fs')
 
-const cleanLines = (string = '') => string.trim().replace(/^\n\n/gm, '\n')
-
 function transformTokens(parentKey, object) {
   const objectKeys = Object.keys(object)
 
-  return objectKeys.reduce((transformedTokens, objectKey) => {
-    const value = object[objectKey],
-      customProperty = parentKey
-        ? toKebabCase(`${parentKey}-${objectKey}`)
-        : toKebabCase(`${objectKey}`)
+  return objectKeys.reduce((tokensTransformed, objectKey) => {
+    const value = object[objectKey]
+    const customProperty = parentKey
+      ? `${parentKey}-${objectKey}`
+      : `${objectKey}`
 
     if (Array.isArray(value)) {
-      return `${transformedTokens}\n  --${customProperty}: ${value.join(', ')};`
+      return `${tokensTransformed}\n  --${toKebabCase(
+        customProperty
+      )}: ${value.join(', ')};`
     } else if (typeof value === 'object') {
-      return `${transformedTokens}\n${transformTokens(customProperty, value)}`
+      return `${tokensTransformed}\n${transformTokens(
+        `${toKebabCase(customProperty)}`,
+        value
+      )}`
     }
-
-    const label = `--${parentKey}-${toKebabCase(objectKey)}`
-    return `${transformedTokens}\n  ${label}: ${value};`
+    return `${tokensTransformed}\n  --${parentKey}-${toKebabCase(
+      objectKey
+    )}: ${value};`
   }, '')
 }
 
 function buildTokens() {
-  const transformedChoices = transformTokens(null, choices),
-    transformedDecisions = transformTokens(null, decisions),
-    customProperties = `${transformedChoices}${transformedDecisions}`,
-    data = `:root {\n  ${cleanLines(customProperties)}\n}\n`
+  const customProperties = `${transformTokens(null, choices)}${transformTokens(
+    null,
+    decisions
+  )}`
 
-  fs.writeFile('./styles/tokens.css', data, 'utf8', (error) => {
+  const data = [':root {', customProperties.trim()].join('\n  ').concat('\n}')
+
+  fs.writeFile('./styles/tokens.css', data, 'utf8', function (error) {
     if (error) {
       throw error
     }

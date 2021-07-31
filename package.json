@@ -1,6 +1,6 @@
 {
   "name": "@areyesdev/components",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "private": false,
   "description": "A components library to create apps from zero to production",
   "main": "index.js",
@@ -20,7 +20,7 @@
     "lint-css": "prettier '**/*.css' --write && stylelint '**/*.css' --fix",
     "storybook": "start-storybook -p 6006",
     "build-tokens": "node ./scripts/build-tokens",
-    "build-storybook": "build-storybook",
+    "build-storybook": "yarn build-tokens && build-storybook",
     "deploy-storybook": "build-storybook && vercel --prod",
     "create-component": "node ./scripts/create-component"
   },
@@ -70,7 +70,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "build-tokens && lint-staged"
+      "pre-commit": "lint-staged"
     }
   },
   "lint-staged": {

@@ -16,5 +16,4 @@ export { default as Paragraph } from './atoms/Paragraph'
 
 // Molecules
 export { default as ButtonIcon } from './molecules/ButtonIcon'
-export { default as Dropdown } from './molecules/Dropdown'
 export { default as AddButton } from './molecules/AddButton'

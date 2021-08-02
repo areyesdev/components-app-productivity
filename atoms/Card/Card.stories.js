@@ -24,6 +24,16 @@ export default {
 
 export const Default = Template.bind({})
 
+export const Clickable = Template.bind({})
+Clickable.args = {
+  isClickable: true,
+}
+
+export const Dragabble = Template.bind({})
+Dragabble.args = {
+  isDraggable: true,
+}
+
 export const Colors = ListTemplate.bind({})
 Colors.args = { items: options.colors.map((color) => ({ color })) }
 

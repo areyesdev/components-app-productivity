@@ -16,7 +16,7 @@ exports[`Storyshots Molecules/Task Checked 1`] = `
   }
 >
   <div
-    className="card color-base size-sm is-clickable"
+    className="card color-base size-sm"
     onClick={[Function]}
   >
     <div
@@ -151,7 +151,7 @@ exports[`Storyshots Molecules/Task Default 1`] = `
   }
 >
   <div
-    className="card color-base size-sm is-clickable"
+    className="card color-base size-sm"
     onClick={[Function]}
   >
     <div
@@ -262,7 +262,7 @@ exports[`Storyshots Molecules/Task Long 1`] = `
   }
 >
   <div
-    className="card color-base size-sm is-clickable"
+    className="card color-base size-sm"
     onClick={[Function]}
   >
     <div
@@ -373,7 +373,7 @@ exports[`Storyshots Molecules/Task Types 1`] = `
   }
 >
   <div
-    className="card color-base size-sm is-clickable"
+    className="card color-base size-sm"
     onClick={[Function]}
   >
     <div
@@ -466,7 +466,7 @@ exports[`Storyshots Molecules/Task Types 1`] = `
     </div>
   </div>
   <div
-    className="card color-base size-sm is-clickable"
+    className="card color-base size-sm"
     onClick={[Function]}
   >
     <div

@@ -16,7 +16,7 @@ exports[`Storyshots Molecules/ButtonIcon Default 1`] = `
   }
 >
   <button
-    className="button type-secondary"
+    className="button type-secondary is-inline"
     onClick={[Function]}
   >
     <header
@@ -81,7 +81,7 @@ exports[`Storyshots Molecules/ButtonIcon Types 1`] = `
   }
 >
   <button
-    className="button type-primary"
+    className="button type-primary is-inline"
     onClick={[Function]}
   >
     <header
@@ -128,7 +128,7 @@ exports[`Storyshots Molecules/ButtonIcon Types 1`] = `
     </div>
   </button>
   <button
-    className="button type-secondary"
+    className="button type-secondary is-inline"
     onClick={[Function]}
   >
     <header

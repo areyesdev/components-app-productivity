@@ -1,4 +1,5 @@
 import { Icon, styles, options } from '.'
+
 import {
   getTemplate,
   getListTemplate,
@@ -12,7 +13,6 @@ export default {
   title: 'Atoms/Icon',
   component: Icon,
   args: {
-    __sb: { fd: 'row' },
     name: 'arrowRight',
   },
   argTypes: {
@@ -22,6 +22,7 @@ export default {
     background: getOptionsArgTypes(options.backgrounds),
     onClick: { defaultValue: null },
   },
+  parameters: { __sb: { fd: 'row' } },
 }
 
 export const Default = Template.bind({})

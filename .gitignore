@@ -162,4 +162,5 @@ $RECYCLE.BIN/
 
 package-lock.json
 storybook-static
+!Icon
 .vercel

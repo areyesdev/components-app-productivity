@@ -44,7 +44,7 @@ exports[`Storyshots Atoms/Button Inline 1`] = `
   }
 >
   <button
-    className="button type-primary"
+    className="button type-primary is-inline"
     onClick={null}
   >
     <header
@@ -120,7 +120,7 @@ exports[`Storyshots Atoms/Button Types 1`] = `
     </header>
   </button>
   <button
-    className="button type-tertiary"
+    className="button type-tertiary is-inline"
     onClick={null}
   >
     <header

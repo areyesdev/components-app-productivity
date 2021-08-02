@@ -16,16 +16,23 @@
     "build:storybook": "build-storybook",
     "build:tokens": "node ./scripts/build-tokens",
     "build": "run-s build:*",
-    "deploy:vercel": "vercel --prod",
-    "deploy": "run-s build deploy:*",
+    "deploy:vercel:stag": "vercel",
+    "deploy:vercel:prod": "vercel --prod",
+    "deploy:stag": "run-s build deploy:vercel:stag",
+    "deploy:prod": "run-s build deploy:vercel:prod",
     "dev:storybook": "start-storybook -p 6006",
     "dev:tokens": "watch 'yarn build:tokens' ./tokens",
     "dev": "concurrently 'npm:dev:*'",
-    "lint:css:prettier": "prettier '**/*.css' --write",
-    "lint:css:stylelint": "stylelint '**/*.css' --fix",
-    "lint:css": "yarn lint:css:stylelint && yarn lint:css:prettier",
-    "lint:js": "eslint --cache --fix",
-    "lint": "run-p lint:*",
+    "lint:css:prettier": "prettier '**/*.css' --list-different",
+    "lint:css:prettier:fix": "yarn lint:css:prettier --write",
+    "lint:css:stylelint": "stylelint '**/*.css'",
+    "lint:css:stylelint:fix": "yarn lint:css:stylelint --fix",
+    "lint:css": "run-s lint:css:stylelint lint:css:prettier",
+    "lint:css:fix": "yarn lint:css:prettier:fix && yarn lint:css:stylelint:fix",
+    "lint:js": "eslint --cache",
+    "lint:js:fix": "yarn lint:js --fix",
+    "lint": "run-p lint:js lint:css",
+    "lint:fix": "run-p lint:js:fix lint:css:fix",
     "cc": "node ./scripts/create-component",
     "test": "jest"
   },
@@ -75,14 +82,5 @@
     "minireset.css": "0.0.7",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
-  "lint-staged": {
-    "*.js": "yarn lint:js",
-    "*.css": "yarn lint:css"
   }
 }

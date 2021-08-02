@@ -4,11 +4,11 @@ on:
     branches:
       - main
 jobs:
-  release:
-    name: Release
+  build:
+    name: Build, Lint, and Test
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout code
         uses: actions/checkout@v1
       - name: Setup Node.js v15
         uses: actions/setup-node@v1
@@ -16,7 +16,53 @@ jobs:
           node-version: 15
       - name: Install dependencies
         run: yarn install --frozen-lockfile
-      - name: Release
+      - name: Lint code
+        run: yarn lint
+      - name: Run tests
+        run: yarn test
+      - name: Build storybook
+        run: yarn build
+  deploy:
+    name: Deploy Storybook
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Setup Node.js v15
+        uses: actions/setup-node@v1
+        with:
+          node-version: 15
+      - name: Install dependencies
+        run: yarn install --frozen-lockfile
+      - name: Build storybook
+        run: yarn build
+      - name: Deploy in Vercel (prod)
+        uses: amondnet/vercel-action@v19
+        with:
+          vercel-args: '--prod'
+          vercel-token: ${{ secrets.VERCEL_TOKEN }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          vercel-org-id: ${{ secrets.ORG_ID}}
+          vercel-project-id: ${{ secrets.PROJECT_ID}}
+  release:
+    name: Release package
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v1
+      - name: Setup Node.js v15
+        uses: actions/setup-node@v1
+        with:
+          node-version: 15
+      - name: Install dependencies
+        run: yarn install --frozen-lockfile
+      - name: Lint code
+        run: yarn lint
+      - name: Run tests
+        run: yarn test
+      - name: Build storybook
+        run: yarn build
+      - name: Publish in NPM
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}

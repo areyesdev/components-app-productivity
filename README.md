@@ -86,12 +86,11 @@ index.js
 
 1. Install Jest for React following [this](https://jestjs.io/docs/en/tutorial-react) instructions.
 2. Mock the CSS and CSS Modules files for Storybook [here](https://jestjs.io/docs/en/webpack#mocking-css-modules)
-3. Configure Storyshoots [here](https://storybook.js.org/docs/react/workflows/snapshot-testing)
+3. Configure Storyshoots [here](https://storybook.js.org/docs/react/workflows/snapshot-testing) and move snapshots to separate files.
 4. Configure Chromatic in https://www.chromatic.com/
-5. FIXME: Configure Chromatic with GitHub. Review with checks should with got with the Pull request.
-6. TODO: Creating unit tests for `scripts`, `utils` and `helpers`
-7. TODO: Create a coverage script with `instanbul`.
-8. TODO: Upload the coverage HTML report to a service per pull request
+5. TODO: Creating unit tests for `scripts`, `utils` and `helpers`
+6. TODO: Create a coverage script with `instanbul`.
+7. TODO: Upload the coverage HTML report to a service per pull request
 
 ### NPM scripts
 
@@ -100,12 +99,12 @@ index.js
 
 ### Github Actions
 
-- FIXME: Create a GitHub action for a pull request
-- FIXME: Create a GitHub action for a release the library
+- Create a GitHub action when a pull request is made: `.github/workflows/review.yml`
+- Create a GitHub action when pushing in master: `.github/workflows/release.yml`
 
 ### PUblishing in NPM
 
-- FIXME: Create the process of release a new version using `semantic-release`
+- Create the process of release a new version using `semantic-release`: You need to create a NPM Token that is able to publish without multifactor auth.
 - TODO: Configure commitizen to enable conventional commits messages
 - TODO: Create a hook to force conventional commit messages
 

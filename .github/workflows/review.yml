@@ -5,7 +5,7 @@ on:
       - main
 jobs:
   build:
-    name: Build, lint and Test
+    name: Build, Lint, and Test
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
@@ -16,12 +16,30 @@ jobs:
           node-version: 15
       - name: Install dependencies
         run: yarn install --frozen-lockfile
-      - name: Lint Code
+      - name: Lint code
         run: yarn lint
-      - name: Run Tests
+      - name: Run tests
         run: yarn test
-      - name: Run Chromatic
-        uses: chromaui/action@v1
+      - name: Build storybook
+        run: yarn build
+  deploy:
+    name: Deploy Storybook
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Setup Node.js v15
+        uses: actions/setup-node@v1
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
+          node-version: 15
+      - name: Install dependencies
+        run: yarn install --frozen-lockfile
+      - name: Build storybook
+        run: yarn build
+      - name: Deploy in Vercel (stag)
+        uses: amondnet/vercel-action@v19
+        with:
+          vercel-token: ${{ secrets.VERCEL_TOKEN }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          vercel-org-id: ${{ secrets.ORG_ID}}
+          vercel-project-id: ${{ secrets.PROJECT_ID}}

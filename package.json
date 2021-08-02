@@ -9,7 +9,7 @@
     "url": "https://github.com/areyesdev/components-app-productivity.git"
   },
   "engines": {
-    "node": ">=14.17.3",
+    "node": ">=15.0.0",
     "yarn": ">=1.22.10"
   },
   "scripts": {

@@ -8,10 +8,6 @@
     "type": "git",
     "url": "https://github.com/areyesdev/components-app-productivity.git"
   },
-  "engines": {
-    "node": ">=15.0.0",
-    "yarn": ">=1.22.10"
-  },
   "scripts": {
     "build:storybook": "build-storybook --no-dll",
     "build:tokens": "node ./scripts/build-tokens",

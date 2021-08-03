@@ -59,7 +59,7 @@ jobs:
       - name: Install dependencies
         run: yarn install --frozen-lockfile
       - name: Build storybook docs
-        run: yarn build:docs
+        run: yarn build
       - name: Deploy in Vercel (prod)
         uses: amondnet/vercel-action@v20
         with:

@@ -1,8 +1,8 @@
 {
   "name": "@areyesdev/components",
   "version": "0.4.0",
-  "private": false,
   "description": "A components library to create apps from zero to production",
+  "private": false,
   "main": "index.js",
   "repository": {
     "type": "git",
@@ -44,7 +44,7 @@
     "react",
     "components"
   ],
-  "author": "Guillermo Rodas <glrodasz@gmail.com>",
+  "author": "Andres Reyes <areyesdev@gmail.com>",
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "7.11.6",
@@ -87,6 +87,8 @@
     "watch": "1.0.2"
   },
   "peerDependencies": {
-    "react": "16.13.1"
+    "classnames": "2.3.1",
+    "react": "16.13.1",
+    "react-dom": "16.13.1"
   }
 }

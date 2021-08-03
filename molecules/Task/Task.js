@@ -11,12 +11,10 @@ import styles from './Task.module.css'
 import { options } from './constants'
 import withStyles from '../../hocs/withStyles'
 
-const handleClick =
-  ({ checked, setChecked, onCheck }) =>
-  () => {
-    setChecked(!checked)
-    onCheck(!checked)
-  }
+const handleClick = ({ checked, setChecked, onCheck }) => () => {
+  setChecked(!checked)
+  onCheck(!checked)
+}
 
 export const Task = ({
   children,

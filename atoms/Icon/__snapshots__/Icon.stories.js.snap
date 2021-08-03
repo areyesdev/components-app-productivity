@@ -17,7 +17,6 @@ exports[`Storyshots Atoms/Icon Backgrounds 1`] = `
 >
   <div
     className="icon color-base size-md background-transparent"
-    onClick={null}
     style={
       Object {
         "height": 35,
@@ -45,7 +44,6 @@ exports[`Storyshots Atoms/Icon Backgrounds 1`] = `
   </div>
   <div
     className="icon color-base size-md background-base"
-    onClick={null}
     style={
       Object {
         "height": 35,
@@ -73,7 +71,6 @@ exports[`Storyshots Atoms/Icon Backgrounds 1`] = `
   </div>
   <div
     className="icon color-base size-md background-highlight"
-    onClick={null}
     style={
       Object {
         "height": 35,
@@ -101,7 +98,6 @@ exports[`Storyshots Atoms/Icon Backgrounds 1`] = `
   </div>
   <div
     className="icon color-base size-md background-inverted"
-    onClick={null}
     style={
       Object {
         "height": 35,
@@ -129,7 +125,6 @@ exports[`Storyshots Atoms/Icon Backgrounds 1`] = `
   </div>
   <div
     className="icon color-base size-md background-muted"
-    onClick={null}
     style={
       Object {
         "height": 35,
@@ -157,7 +152,6 @@ exports[`Storyshots Atoms/Icon Backgrounds 1`] = `
   </div>
   <div
     className="icon color-base size-md background-spotlight"
-    onClick={null}
     style={
       Object {
         "height": 35,
@@ -203,7 +197,6 @@ exports[`Storyshots Atoms/Icon Clickable 1`] = `
 >
   <div
     className="icon color-base size-md background-transparent is-clickable"
-    onClick={null}
     style={
       Object {
         "height": 35,
@@ -249,7 +242,6 @@ exports[`Storyshots Atoms/Icon Colors 1`] = `
 >
   <div
     className="icon color-base size-md background-transparent"
-    onClick={null}
     style={
       Object {
         "height": 35,
@@ -277,7 +269,6 @@ exports[`Storyshots Atoms/Icon Colors 1`] = `
   </div>
   <div
     className="icon color-highlight size-md background-transparent"
-    onClick={null}
     style={
       Object {
         "height": 35,
@@ -305,7 +296,6 @@ exports[`Storyshots Atoms/Icon Colors 1`] = `
   </div>
   <div
     className="icon color-muted size-md background-transparent"
-    onClick={null}
     style={
       Object {
         "height": 35,
@@ -333,7 +323,6 @@ exports[`Storyshots Atoms/Icon Colors 1`] = `
   </div>
   <div
     className="icon color-primary size-md background-transparent"
-    onClick={null}
     style={
       Object {
         "height": 35,
@@ -361,7 +350,6 @@ exports[`Storyshots Atoms/Icon Colors 1`] = `
   </div>
   <div
     className="icon color-inverted size-md background-transparent"
-    onClick={null}
     style={
       Object {
         "height": 35,
@@ -407,7 +395,6 @@ exports[`Storyshots Atoms/Icon Default 1`] = `
 >
   <div
     className="icon color-base size-md background-transparent"
-    onClick={null}
     style={
       Object {
         "height": 35,
@@ -453,7 +440,6 @@ exports[`Storyshots Atoms/Icon Names 1`] = `
 >
   <div
     className="icon color-base size-md background-transparent"
-    onClick={null}
     style={
       Object {
         "height": 35,
@@ -486,7 +472,6 @@ exports[`Storyshots Atoms/Icon Names 1`] = `
   </div>
   <div
     className="icon color-base size-md background-transparent"
-    onClick={null}
     style={
       Object {
         "height": 35,
@@ -514,7 +499,6 @@ exports[`Storyshots Atoms/Icon Names 1`] = `
   </div>
   <div
     className="icon color-base size-md background-transparent"
-    onClick={null}
     style={
       Object {
         "height": 35,
@@ -537,7 +521,6 @@ exports[`Storyshots Atoms/Icon Names 1`] = `
   </div>
   <div
     className="icon color-base size-md background-transparent"
-    onClick={null}
     style={
       Object {
         "height": 35,
@@ -560,7 +543,6 @@ exports[`Storyshots Atoms/Icon Names 1`] = `
   </div>
   <div
     className="icon color-base size-md background-transparent"
-    onClick={null}
     style={
       Object {
         "height": 35,
@@ -583,7 +565,6 @@ exports[`Storyshots Atoms/Icon Names 1`] = `
   </div>
   <div
     className="icon color-base size-md background-transparent"
-    onClick={null}
     style={
       Object {
         "height": 35,
@@ -616,7 +597,6 @@ exports[`Storyshots Atoms/Icon Names 1`] = `
   </div>
   <div
     className="icon color-base size-md background-transparent"
-    onClick={null}
     style={
       Object {
         "height": 35,
@@ -644,7 +624,6 @@ exports[`Storyshots Atoms/Icon Names 1`] = `
   </div>
   <div
     className="icon color-base size-md background-transparent"
-    onClick={null}
     style={
       Object {
         "height": 35,
@@ -677,7 +656,6 @@ exports[`Storyshots Atoms/Icon Names 1`] = `
   </div>
   <div
     className="icon color-base size-md background-transparent"
-    onClick={null}
     style={
       Object {
         "height": 35,
@@ -725,7 +703,6 @@ exports[`Storyshots Atoms/Icon Names 1`] = `
   </div>
   <div
     className="icon color-base size-md background-transparent"
-    onClick={null}
     style={
       Object {
         "height": 35,
@@ -753,7 +730,6 @@ exports[`Storyshots Atoms/Icon Names 1`] = `
   </div>
   <div
     className="icon color-base size-md background-transparent"
-    onClick={null}
     style={
       Object {
         "height": 35,
@@ -781,7 +757,6 @@ exports[`Storyshots Atoms/Icon Names 1`] = `
   </div>
   <div
     className="icon color-base size-md background-transparent"
-    onClick={null}
     style={
       Object {
         "height": 35,
@@ -804,7 +779,6 @@ exports[`Storyshots Atoms/Icon Names 1`] = `
   </div>
   <div
     className="icon color-base size-md background-transparent"
-    onClick={null}
     style={
       Object {
         "height": 35,
@@ -843,7 +817,6 @@ exports[`Storyshots Atoms/Icon Sizes 1`] = `
 >
   <div
     className="icon color-base size-sm background-transparent"
-    onClick={null}
     style={
       Object {
         "height": 25,
@@ -871,7 +844,6 @@ exports[`Storyshots Atoms/Icon Sizes 1`] = `
   </div>
   <div
     className="icon color-base size-md background-transparent"
-    onClick={null}
     style={
       Object {
         "height": 35,
@@ -899,7 +871,6 @@ exports[`Storyshots Atoms/Icon Sizes 1`] = `
   </div>
   <div
     className="icon color-base size-lg background-transparent"
-    onClick={null}
     style={
       Object {
         "height": 50,
@@ -927,7 +898,6 @@ exports[`Storyshots Atoms/Icon Sizes 1`] = `
   </div>
   <div
     className="icon color-base size-xl background-transparent"
-    onClick={null}
     style={
       Object {
         "height": 70,

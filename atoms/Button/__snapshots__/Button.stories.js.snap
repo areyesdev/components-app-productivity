@@ -17,7 +17,7 @@ exports[`Storyshots Atoms/Button Default 1`] = `
 >
   <button
     className="button type-primary"
-    onClick={null}
+    onClick={[Function]}
   >
     <header
       className="heading color-inverted size-md weight-bold"
@@ -45,7 +45,7 @@ exports[`Storyshots Atoms/Button Inline 1`] = `
 >
   <button
     className="button type-primary is-inline"
-    onClick={null}
+    onClick={[Function]}
   >
     <header
       className="heading color-inverted size-md weight-bold"
@@ -73,7 +73,7 @@ exports[`Storyshots Atoms/Button Muted 1`] = `
 >
   <button
     className="button type-primary is-muted"
-    onClick={null}
+    onClick={[Function]}
   >
     <header
       className="heading color-inverted size-md weight-bold"
@@ -101,7 +101,7 @@ exports[`Storyshots Atoms/Button Types 1`] = `
 >
   <button
     className="button type-primary"
-    onClick={null}
+    onClick={[Function]}
   >
     <header
       className="heading color-inverted size-md weight-bold"
@@ -111,7 +111,7 @@ exports[`Storyshots Atoms/Button Types 1`] = `
   </button>
   <button
     className="button type-secondary"
-    onClick={null}
+    onClick={[Function]}
   >
     <header
       className="heading color-primary size-md weight-bold"
@@ -121,7 +121,7 @@ exports[`Storyshots Atoms/Button Types 1`] = `
   </button>
   <button
     className="button type-tertiary is-inline"
-    onClick={null}
+    onClick={[Function]}
   >
     <header
       className="heading color-primary size-md weight-bold"

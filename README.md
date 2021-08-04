@@ -118,3 +118,5 @@ index.js
 - TODO: Create instructions to run the tests of this project
 - TODO: Add NPM, Coverage, GitHub actions badges to the README.
 - TODO: Create a `CONTRIBUTING.md` file with instructions.
+
+### Prueba de checks PR

@@ -1,0 +1,12 @@
+.accordion {
+  width: 100%;
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  line-height: 1;
+  text-transform: uppercase;
+}

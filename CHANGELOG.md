@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/areyesdev/components-app-productivity/compare/v1.0.0...v1.1.0) (2021-08-04)
+
+
+### Features
+
+* **molecules:** add molecule Accordion, LoadingError and TaskCounter ([1d900ab](https://github.com/areyesdev/components-app-productivity/commit/1d900abf88c90e11a2284dd14ba04ccef4efb758))
+
 # 1.0.0 (2021-08-04)
 
 

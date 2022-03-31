@@ -10,10 +10,10 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
-      - name: Setup Node.js v16
+      - name: Setup Node.js v15
         uses: actions/setup-node@v1
         with:
-          node-version: 16
+          node-version: 15
       - name: Install dependencies
         run: yarn install --frozen-lockfile
       - name: Lint code
@@ -28,10 +28,10 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
-      - name: Setup Node.js v16
+      - name: Setup Node.js v15
         uses: actions/setup-node@v1
         with:
-          node-version: 16
+          node-version: 15
       - name: Install dependencies
         run: yarn install --frozen-lockfile
       - name: Run coverage tests

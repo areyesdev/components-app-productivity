@@ -50,11 +50,11 @@ exports[`Storyshots Molecules/Error Default 1`] = `
       }
     />
     <div>
-      <div
+      <p
         className="paragraph color-base size-md weight-normal"
       >
         Meets counts consumed 200 Meriadoc tombs rabble noble crash thread. Another kind Imladris. Dump each Kingdom mere other's by blame ugly sending bestow mist adventure.
-      </div>
+      </p>
     </div>
   </div>
 </div>
@@ -115,11 +115,11 @@ exports[`Storyshots Molecules/Error Title 1`] = `
       >
         Lindir glowers saw 111th utter.
       </header>
-      <div
+      <p
         className="paragraph color-base size-md weight-normal"
       >
         Meets counts consumed 200 Meriadoc tombs rabble noble crash thread. Another kind Imladris. Dump each Kingdom mere other's by blame ugly sending bestow mist adventure.
-      </div>
+      </p>
     </div>
   </div>
 </div>

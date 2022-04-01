@@ -4,3 +4,41 @@
 [![storybook](https://raw.githubusercontent.com/storybooks/brand/master/badge/badge-storybook.svg)](https://github.com/storybooks/storybook)
 
 🚀 Cero a Producción es un proyecto de sesiones de productividad.
+
+## Getting Started
+
+> You must have `react, react-dom and classnames installed` thiose are peer dependencies of this project.
+
+#### 1. Installation
+
+_Using NPM_
+
+```bash
+npm install @areyes.dev/components
+```
+
+_Using Yarn_
+
+```bash
+yarn add @areyes.dev/components
+```
+
+#### 2. Using the library
+
+- Import component
+
+```jsx
+import { Icon, ButtonIcon } from '@areyes.dev/components'
+```
+
+- Use component
+
+```js
+<ButtonIcon icon="arrowRight" type="primary">
+  Cowards Agreed
+</ButtonIcon>
+```
+
+## Storybook
+
+Check the rest of the available components in our [Storybook](https://components-app-productivity.vercel.app)

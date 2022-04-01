@@ -87,13 +87,14 @@ jobs:
           vercel-project-id: ${{ secrets.PROJECT_ID}}
           vercel-args: '--prod'
   release:
-    name: Release
+    name: Release package
+    if: "!contains(github.event.head_commit.message, 'skip ci')"
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout code
         uses: actions/checkout@v2
         with:
-          fetch-depth: 0
+          token: ${{ secrets.GH_SEMANTIC_RELEASE_TOKEN }}
       - name: Setup Node.js v16
         uses: actions/setup-node@v1
         with:

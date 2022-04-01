@@ -17,6 +17,7 @@ exports[`Storyshots Molecules/AddButton Default 1`] = `
 >
   <div
     className="add-button type-primary"
+    id="-add-button"
     onClick={[Function]}
   >
     <div
@@ -52,12 +53,10 @@ exports[`Storyshots Molecules/AddButton Default 1`] = `
       </svg>
     </div>
     <div
-      className="spacer vertical"
+      className="spacer horizontal"
       style={
         Object {
-          "height": "100%",
-          "maxHeight": "auto",
-          "width": 15,
+          "height": 15,
         }
       }
     />
@@ -87,6 +86,7 @@ exports[`Storyshots Molecules/AddButton Edit Mode 1`] = `
 >
   <div
     className="add-button type-primary is-editable"
+    id="-add-button"
     onClick={[Function]}
   >
     <div
@@ -94,6 +94,7 @@ exports[`Storyshots Molecules/AddButton Edit Mode 1`] = `
     >
       <input
         autoFocus={false}
+        id="-add-button-input"
         onBlur={[Function]}
         onChange={[Function]}
         onFocus={[Function]}
@@ -123,6 +124,7 @@ exports[`Storyshots Molecules/AddButton Help Text 1`] = `
 >
   <div
     className="add-button type-primary is-editable"
+    id="-add-button"
     onClick={[Function]}
   >
     <div
@@ -130,6 +132,7 @@ exports[`Storyshots Molecules/AddButton Help Text 1`] = `
     >
       <input
         autoFocus={false}
+        id="-add-button-input"
         onBlur={[Function]}
         onChange={[Function]}
         onFocus={[Function]}
@@ -143,15 +146,52 @@ exports[`Storyshots Molecules/AddButton Help Text 1`] = `
         Morgul-rats cripples you'll?
       </div>
       <div
-        className="spacer vertical"
+        className="spacer horizontal"
         style={
           Object {
-            "height": "100%",
-            "maxHeight": "auto",
-            "width": 15,
+            "height": 15,
           }
         }
       />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Molecules/AddButton Invalid 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": "auto",
+    }
+  }
+>
+  <div
+    className="add-button type-primary is-editable is-focused is-invalid"
+    id="-add-button"
+    onClick={[Function]}
+  >
+    <div
+      className="edit-container"
+    >
+      <input
+        autoFocus={false}
+        id="-add-button-input"
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        type="text"
+        value=""
+      />
+      
     </div>
   </div>
 </div>
@@ -174,6 +214,7 @@ exports[`Storyshots Molecules/AddButton Types 1`] = `
 >
   <div
     className="add-button type-primary"
+    id="-add-button"
     onClick={[Function]}
   >
     <div
@@ -209,12 +250,10 @@ exports[`Storyshots Molecules/AddButton Types 1`] = `
       </svg>
     </div>
     <div
-      className="spacer vertical"
+      className="spacer horizontal"
       style={
         Object {
-          "height": "100%",
-          "maxHeight": "auto",
-          "width": 15,
+          "height": 15,
         }
       }
     />
@@ -226,6 +265,7 @@ exports[`Storyshots Molecules/AddButton Types 1`] = `
   </div>
   <div
     className="add-button type-secondary"
+    id="-add-button"
     onClick={[Function]}
   >
     <div
@@ -261,12 +301,10 @@ exports[`Storyshots Molecules/AddButton Types 1`] = `
       </svg>
     </div>
     <div
-      className="spacer vertical"
+      className="spacer horizontal"
       style={
         Object {
-          "height": "100%",
-          "maxHeight": "auto",
-          "width": 15,
+          "height": 15,
         }
       }
     />

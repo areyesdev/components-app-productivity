@@ -1,3 +1,21 @@
+# [1.2.0](https://github.com/areyesdev/components-app-productivity/compare/v1.1.0...v1.2.0) (2022-04-01)
+
+
+### Bug Fixes
+
+* **nvmrc:** change version ([7311ccb](https://github.com/areyesdev/components-app-productivity/commit/7311ccbeca621e24a93e3d3e5c20f987960e3006))
+* **package:** change version ([ff7bda8](https://github.com/areyesdev/components-app-productivity/commit/ff7bda8d8e6dc86e84606329607ee679cf886771))
+* **package:** engine node 14 ([f8efb70](https://github.com/areyesdev/components-app-productivity/commit/f8efb7087c868dedbaf6f98f589d263f1a4db1f4))
+* **package:** remove version ([215c192](https://github.com/areyesdev/components-app-productivity/commit/215c19280352b25dfb05961d0502c92128ad0e0a))
+* **package:** update script package ([7c4167c](https://github.com/areyesdev/components-app-productivity/commit/7c4167c2bbe17166e81695281750198d8ac77246))
+* **release:** update action checkout ([88bcec1](https://github.com/areyesdev/components-app-productivity/commit/88bcec1a666ec15f1b4370f41e21fd98140d12fe))
+* **workflows:** change in secrets ([da08d18](https://github.com/areyesdev/components-app-productivity/commit/da08d184f288670f04128cb4bc9d1a85a6c0d2f6))
+
+
+### Features
+
+* **codecov:** add file codecov ([ead88b7](https://github.com/areyesdev/components-app-productivity/commit/ead88b740801968bbba1a7754aaa789b32da1fe3))
+
 # [1.1.0](https://github.com/areyesdev/components-app-productivity/compare/v1.0.0...v1.1.0) (2021-08-04)
 
 

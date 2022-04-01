@@ -9,11 +9,11 @@
     "url": "https://github.com/areyesdev/components-app-productivity.git"
   },
   "engines": {
-    "node": ">=16",
+    "node": ">=16.13.2",
     "yarn": ">=1.22.17"
   },
   "scripts": {
-    "build:storybook": "build-storybook --no-dll",
+    "build:storybook": "build-storybook",
     "build:tokens": "node ./scripts/build-tokens",
     "build": "run-s build:tokens build:storybook",
     "build:docs": "yarn build:tokens && yarn build:storybook --docs --no-manager-cache",

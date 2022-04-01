@@ -5,20 +5,31 @@ import styles from './Paragraph.module.css'
 import { options } from './constants'
 import withStyles from '../../hocs/withStyles'
 
-export const Paragraph = ({ getStyles, children, className, isStriked }) => {
+export const Paragraph = ({
+  getStyles,
+  children,
+  className,
+  isStriked,
+  isInline,
+  isMonospace,
+  isCentered,
+}) => {
   return (
-    <div
+    <p
       className={getStyles(
         className,
         'paragraph',
         ['color', 'size', 'weight'],
         {
           'is-striked': isStriked,
+          'is-inline': isInline,
+          'is-monospace': isMonospace,
+          'is-centered': isCentered,
         }
       )}
     >
       {children}
-    </div>
+    </p>
   )
 }
 
@@ -30,6 +41,9 @@ Paragraph.propTypes = {
   weight: PropTypes.oneOf(options.weights),
   className: PropTypes.string,
   isStriked: PropTypes.bool,
+  isInline: PropTypes.bool,
+  isCentered: PropTypes.bool,
+  isMonospace: PropTypes.bool,
 }
 
 Paragraph.defaultProps = {

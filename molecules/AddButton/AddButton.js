@@ -14,10 +14,12 @@ import {
   handleBlur,
   handleFocus,
 } from './handlers'
+import { useKeydownEnterKey } from './hooks'
 import { shouldShowHelpText } from './helpers'
 import withStyles from '../../hocs/withStyles'
 
 export const AddButton = ({
+  id,
   getStyles,
   children,
   focusHelpText,
@@ -26,35 +28,49 @@ export const AddButton = ({
   icon,
   onAdd,
   defaultIsEditable,
+  defaultIsFocused,
   defaultValue,
+  defaultIsInvalid,
 }) => {
   const [isEditable, setIsEditable] = useState(defaultIsEditable)
   const [inputValue, setInputValue] = useState(defaultValue)
-  const [isFocused, setIsFocused] = useState(false)
+  const [isInvalid, setIsInvalid] = useState(defaultIsInvalid)
+  const [isFocused, setIsFocused] = useState(defaultIsFocused)
   const inputRef = useRef(null)
+
+  useKeydownEnterKey(() => setIsEditable(true))
 
   return (
     <div
+      id={`${id}-add-button`}
       className={getStyles('add-button', ['type'], {
         'is-editable': isEditable,
         'is-focused': isFocused,
+        'is-invalid': isInvalid,
       })}
       onClick={handleClick({ setIsEditable, inputRef })}
     >
       {isEditable ? (
         <div className={getStyles('edit-container')}>
           <input
+            id={`${id}-add-button-input`}
             ref={inputRef}
             type="text"
             value={inputValue}
             autoFocus={!defaultIsEditable}
             onFocus={handleFocus({ setIsFocused })}
-            onBlur={handleBlur({ inputValue, setIsEditable, setIsFocused })}
-            onChange={handleChange({ setInputValue })}
+            onBlur={handleBlur({
+              inputValue,
+              setIsEditable,
+              setIsFocused,
+              setIsInvalid,
+            })}
+            onChange={handleChange({ setInputValue, setIsInvalid })}
             onKeyDown={handleKeyDown({
               setInputValue,
               setIsEditable,
               inputValue,
+              setIsInvalid,
               onAdd,
             })}
           />
@@ -72,7 +88,7 @@ export const AddButton = ({
               >
                 {isFocused ? focusHelpText : blurHelpText}
               </Paragraph>
-              <Spacer.Vertical size="sm" />
+              <Spacer.Horizontal size="sm" />
             </>
           )}
         </div>
@@ -83,7 +99,7 @@ export const AddButton = ({
             color={type === 'primary' ? 'base' : 'highlight'}
             background={type === 'primary' ? 'highlight' : undefined}
           />
-          <Spacer.Vertical size="sm" />
+          <Spacer.Horizontal size="sm" />
           <Paragraph weight="medium">{children}</Paragraph>
         </>
       )}
@@ -97,16 +113,22 @@ AddButton.propTypes = {
   onAdd: PropTypes.func.isRequired,
   type: PropTypes.oneOf(options.types),
   icon: PropTypes.oneOf(options.icons),
+  id: PropTypes.string,
   focusHelpText: PropTypes.string,
   blurHelpText: PropTypes.string,
   defaultIsEditable: PropTypes.bool,
+  defaultIsFocused: PropTypes.bool,
+  defaultIsInvalid: PropTypes.bool,
   defaultValue: PropTypes.string,
+  isInvalid: PropTypes.bool,
 }
 
 AddButton.defaultProps = {
+  id: '',
   type: 'primary',
   icon: 'plusCircle',
   defaultIsEditable: false,
+  defaultIsFocused: false,
   defaultValue: '',
   onAdd: () => {},
   getStyles: () => {},

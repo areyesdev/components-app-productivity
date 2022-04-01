@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/areyesdev/components-app-productivity/compare/v1.3.0...v1.4.0) (2022-04-01)
+
+
+### Features
+
+* **addbutton:** fix spacing ([8c6eb5b](https://github.com/areyesdev/components-app-productivity/commit/8c6eb5b548a9a99f718ae0fc672c5e2c25d69306))
+
 # [1.3.0](https://github.com/areyesdev/components-app-productivity/compare/v1.2.0...v1.3.0) (2022-04-01)
 
 

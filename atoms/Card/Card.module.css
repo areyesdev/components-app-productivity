@@ -4,7 +4,7 @@
   align-items: center;
   padding: 12px 10px;
   border: var(--border-width-thin) solid var(--color-base-transparent);
-  border-radius: var(--border-radius-sm);
+  border-radius: var(--card-border-radius);
   box-shadow: var(--box-shadow-sm);
   color: var(--color-font-base);
   transition: box-shadow 0.2s ease-in;
@@ -33,8 +33,8 @@
 }
 
 .color-base {
-  border: var(--border-width-thin) solid var(--color-gray-300);
-  background: var(--color-primary-inverted);
+  border: var(--border-width-thin) solid var(--color-gray-400);
+  background: var(--background-color-primary-highlight);
 }
 
 .is-clickable {

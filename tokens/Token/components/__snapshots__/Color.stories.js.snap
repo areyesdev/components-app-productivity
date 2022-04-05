@@ -1,5 +1,283 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Storyshots Tokens/Color Amber 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": 300,
+    }
+  }
+>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#fffbeb",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-amber-50)
+      </span>
+      <span
+        className="label"
+      >
+        #fffbeb
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#fef3c7",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-amber-100)
+      </span>
+      <span
+        className="label"
+      >
+        #fef3c7
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#fde68a",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-amber-200)
+      </span>
+      <span
+        className="label"
+      >
+        #fde68a
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#fcd34d",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-amber-300)
+      </span>
+      <span
+        className="label"
+      >
+        #fcd34d
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#fbbf24",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-amber-400)
+      </span>
+      <span
+        className="label"
+      >
+        #fbbf24
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#f59e0b",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-amber-500)
+      </span>
+      <span
+        className="label"
+      >
+        #f59e0b
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#d97706",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-amber-600)
+      </span>
+      <span
+        className="label"
+      >
+        #d97706
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#b45309",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-amber-700)
+      </span>
+      <span
+        className="label"
+      >
+        #b45309
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#92400e",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-amber-800)
+      </span>
+      <span
+        className="label"
+      >
+        #92400e
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#78350f",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-amber-900)
+      </span>
+      <span
+        className="label"
+      >
+        #78350f
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
 exports[`Storyshots Tokens/Color Backgrounds 1`] = `
 <div
   style={
@@ -11,7 +289,7 @@ exports[`Storyshots Tokens/Color Backgrounds 1`] = `
       "gap": "10px 30px",
       "height": "100%",
       "justifyContent": "flex-start",
-      "maxHeight": 250,
+      "maxHeight": 300,
     }
   }
 >
@@ -22,7 +300,7 @@ exports[`Storyshots Tokens/Color Backgrounds 1`] = `
       className="color"
       style={
         Object {
-          "backgroundColor": "#f9f9f9",
+          "backgroundColor": "#e8e8e8",
         }
       }
     />
@@ -37,7 +315,7 @@ exports[`Storyshots Tokens/Color Backgrounds 1`] = `
       <span
         className="label"
       >
-        #f9f9f9
+        #e8e8e8
       </span>
     </div>
   </div>
@@ -81,7 +359,7 @@ exports[`Storyshots Tokens/Color Base 1`] = `
       "gap": "10px 30px",
       "height": "100%",
       "justifyContent": "flex-start",
-      "maxHeight": 250,
+      "maxHeight": 300,
     }
   }
 >
@@ -177,7 +455,7 @@ exports[`Storyshots Tokens/Color Blue 1`] = `
       "gap": "10px 30px",
       "height": "100%",
       "justifyContent": "flex-start",
-      "maxHeight": 250,
+      "maxHeight": 300,
     }
   }
 >
@@ -444,7 +722,7 @@ exports[`Storyshots Tokens/Color Blue 1`] = `
 </div>
 `;
 
-exports[`Storyshots Tokens/Color Brand 1`] = `
+exports[`Storyshots Tokens/Color Blue Gray 1`] = `
 <div
   style={
     Object {
@@ -456,6 +734,284 @@ exports[`Storyshots Tokens/Color Brand 1`] = `
       "height": "100%",
       "justifyContent": "flex-start",
       "maxHeight": 300,
+    }
+  }
+>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#f8fafc",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-blue-gray-50)
+      </span>
+      <span
+        className="label"
+      >
+        #f8fafc
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#f1f5f9",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-blue-gray-100)
+      </span>
+      <span
+        className="label"
+      >
+        #f1f5f9
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#e2e8f0",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-blue-gray-200)
+      </span>
+      <span
+        className="label"
+      >
+        #e2e8f0
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#cbd5e1",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-blue-gray-300)
+      </span>
+      <span
+        className="label"
+      >
+        #cbd5e1
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#94a3b8",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-blue-gray-400)
+      </span>
+      <span
+        className="label"
+      >
+        #94a3b8
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#64748b",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-blue-gray-500)
+      </span>
+      <span
+        className="label"
+      >
+        #64748b
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#475569",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-blue-gray-600)
+      </span>
+      <span
+        className="label"
+      >
+        #475569
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#334155",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-blue-gray-700)
+      </span>
+      <span
+        className="label"
+      >
+        #334155
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#1e293b",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-blue-gray-800)
+      </span>
+      <span
+        className="label"
+      >
+        #1e293b
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#0f172a",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-blue-gray-900)
+      </span>
+      <span
+        className="label"
+      >
+        #0f172a
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Tokens/Color Brand 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": 450,
     }
   }
 >
@@ -774,7 +1330,7 @@ exports[`Storyshots Tokens/Color Brand 1`] = `
 </div>
 `;
 
-exports[`Storyshots Tokens/Color Decisions 1`] = `
+exports[`Storyshots Tokens/Color Cool Gray 1`] = `
 <div
   style={
     Object {
@@ -786,6 +1342,562 @@ exports[`Storyshots Tokens/Color Decisions 1`] = `
       "height": "100%",
       "justifyContent": "flex-start",
       "maxHeight": 300,
+    }
+  }
+>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#f9fafb",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-cool-gray-50)
+      </span>
+      <span
+        className="label"
+      >
+        #f9fafb
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#f3f4f6",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-cool-gray-100)
+      </span>
+      <span
+        className="label"
+      >
+        #f3f4f6
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#e5e7eb",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-cool-gray-200)
+      </span>
+      <span
+        className="label"
+      >
+        #e5e7eb
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#d1d5db",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-cool-gray-300)
+      </span>
+      <span
+        className="label"
+      >
+        #d1d5db
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#9ca3af",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-cool-gray-400)
+      </span>
+      <span
+        className="label"
+      >
+        #9ca3af
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#6b7280",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-cool-gray-500)
+      </span>
+      <span
+        className="label"
+      >
+        #6b7280
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#4b5563",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-cool-gray-600)
+      </span>
+      <span
+        className="label"
+      >
+        #4b5563
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#374151",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-cool-gray-700)
+      </span>
+      <span
+        className="label"
+      >
+        #374151
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#1f2937",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-cool-gray-800)
+      </span>
+      <span
+        className="label"
+      >
+        #1f2937
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#111827",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-cool-gray-900)
+      </span>
+      <span
+        className="label"
+      >
+        #111827
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Tokens/Color Cyan 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": 300,
+    }
+  }
+>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#ecfeff",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-cyan-50)
+      </span>
+      <span
+        className="label"
+      >
+        #ecfeff
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#cffafe",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-cyan-100)
+      </span>
+      <span
+        className="label"
+      >
+        #cffafe
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#a5f3fc",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-cyan-200)
+      </span>
+      <span
+        className="label"
+      >
+        #a5f3fc
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#67e8f9",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-cyan-300)
+      </span>
+      <span
+        className="label"
+      >
+        #67e8f9
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#22d3ee",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-cyan-400)
+      </span>
+      <span
+        className="label"
+      >
+        #22d3ee
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#06b6d4",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-cyan-500)
+      </span>
+      <span
+        className="label"
+      >
+        #06b6d4
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#0891b2",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-cyan-600)
+      </span>
+      <span
+        className="label"
+      >
+        #0891b2
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#0e7490",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-cyan-700)
+      </span>
+      <span
+        className="label"
+      >
+        #0e7490
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#155e75",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-cyan-800)
+      </span>
+      <span
+        className="label"
+      >
+        #155e75
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#164e63",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-cyan-900)
+      </span>
+      <span
+        className="label"
+      >
+        #164e63
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Tokens/Color Decisions 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": 600,
     }
   }
 >
@@ -1219,7 +2331,7 @@ exports[`Storyshots Tokens/Color Default 1`] = `
       "gap": "10px 30px",
       "height": "100%",
       "justifyContent": "flex-start",
-      "maxHeight": 250,
+      "maxHeight": 300,
     }
   }
 >
@@ -1252,6 +2364,562 @@ exports[`Storyshots Tokens/Color Default 1`] = `
 </div>
 `;
 
+exports[`Storyshots Tokens/Color Emerald 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": 300,
+    }
+  }
+>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#ecfdf5",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-emerald-50)
+      </span>
+      <span
+        className="label"
+      >
+        #ecfdf5
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#d1fae5",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-emerald-100)
+      </span>
+      <span
+        className="label"
+      >
+        #d1fae5
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#a7f3d0",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-emerald-200)
+      </span>
+      <span
+        className="label"
+      >
+        #a7f3d0
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#6ee7b7",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-emerald-300)
+      </span>
+      <span
+        className="label"
+      >
+        #6ee7b7
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#34d399",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-emerald-400)
+      </span>
+      <span
+        className="label"
+      >
+        #34d399
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#10b981",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-emerald-500)
+      </span>
+      <span
+        className="label"
+      >
+        #10b981
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#059669",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-emerald-600)
+      </span>
+      <span
+        className="label"
+      >
+        #059669
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#047857",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-emerald-700)
+      </span>
+      <span
+        className="label"
+      >
+        #047857
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#065f46",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-emerald-800)
+      </span>
+      <span
+        className="label"
+      >
+        #065f46
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#064e3b",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-emerald-900)
+      </span>
+      <span
+        className="label"
+      >
+        #064e3b
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Tokens/Color Fuchsia 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": 300,
+    }
+  }
+>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#fdf4ff",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-fuchsia-50)
+      </span>
+      <span
+        className="label"
+      >
+        #fdf4ff
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#fae8ff",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-fuchsia-100)
+      </span>
+      <span
+        className="label"
+      >
+        #fae8ff
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#f5d0fe",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-fuchsia-200)
+      </span>
+      <span
+        className="label"
+      >
+        #f5d0fe
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#f0abfc",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-fuchsia-300)
+      </span>
+      <span
+        className="label"
+      >
+        #f0abfc
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#e879f9",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-fuchsia-400)
+      </span>
+      <span
+        className="label"
+      >
+        #e879f9
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#d946ef",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-fuchsia-500)
+      </span>
+      <span
+        className="label"
+      >
+        #d946ef
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#c026d3",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-fuchsia-600)
+      </span>
+      <span
+        className="label"
+      >
+        #c026d3
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#a21caf",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-fuchsia-700)
+      </span>
+      <span
+        className="label"
+      >
+        #a21caf
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#86198f",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-fuchsia-800)
+      </span>
+      <span
+        className="label"
+      >
+        #86198f
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#701a75",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-fuchsia-900)
+      </span>
+      <span
+        className="label"
+      >
+        #701a75
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
 exports[`Storyshots Tokens/Color Gray 1`] = `
 <div
   style={
@@ -1263,7 +2931,7 @@ exports[`Storyshots Tokens/Color Gray 1`] = `
       "gap": "10px 30px",
       "height": "100%",
       "justifyContent": "flex-start",
-      "maxHeight": 250,
+      "maxHeight": 300,
     }
   }
 >
@@ -1541,7 +3209,7 @@ exports[`Storyshots Tokens/Color Green 1`] = `
       "gap": "10px 30px",
       "height": "100%",
       "justifyContent": "flex-start",
-      "maxHeight": 250,
+      "maxHeight": 300,
     }
   }
 >
@@ -1819,7 +3487,7 @@ exports[`Storyshots Tokens/Color Indigo 1`] = `
       "gap": "10px 30px",
       "height": "100%",
       "justifyContent": "flex-start",
-      "maxHeight": 250,
+      "maxHeight": 300,
     }
   }
 >
@@ -2086,6 +3754,284 @@ exports[`Storyshots Tokens/Color Indigo 1`] = `
 </div>
 `;
 
+exports[`Storyshots Tokens/Color Lime 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": 300,
+    }
+  }
+>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#f7fee7",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-lime-50)
+      </span>
+      <span
+        className="label"
+      >
+        #f7fee7
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#ecfccb",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-lime-100)
+      </span>
+      <span
+        className="label"
+      >
+        #ecfccb
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#d9f99d",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-lime-200)
+      </span>
+      <span
+        className="label"
+      >
+        #d9f99d
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#bef264",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-lime-300)
+      </span>
+      <span
+        className="label"
+      >
+        #bef264
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#a3e635",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-lime-400)
+      </span>
+      <span
+        className="label"
+      >
+        #a3e635
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#84cc16",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-lime-500)
+      </span>
+      <span
+        className="label"
+      >
+        #84cc16
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#65a30d",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-lime-600)
+      </span>
+      <span
+        className="label"
+      >
+        #65a30d
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#4d7c0f",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-lime-700)
+      </span>
+      <span
+        className="label"
+      >
+        #4d7c0f
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#3f6212",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-lime-800)
+      </span>
+      <span
+        className="label"
+      >
+        #3f6212
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#365314",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-lime-900)
+      </span>
+      <span
+        className="label"
+      >
+        #365314
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
 exports[`Storyshots Tokens/Color Orange 1`] = `
 <div
   style={
@@ -2097,7 +4043,7 @@ exports[`Storyshots Tokens/Color Orange 1`] = `
       "gap": "10px 30px",
       "height": "100%",
       "justifyContent": "flex-start",
-      "maxHeight": 250,
+      "maxHeight": 300,
     }
   }
 >
@@ -2375,7 +4321,7 @@ exports[`Storyshots Tokens/Color Pink 1`] = `
       "gap": "10px 30px",
       "height": "100%",
       "justifyContent": "flex-start",
-      "maxHeight": 250,
+      "maxHeight": 300,
     }
   }
 >
@@ -2653,7 +4599,7 @@ exports[`Storyshots Tokens/Color Purple 1`] = `
       "gap": "10px 30px",
       "height": "100%",
       "justifyContent": "flex-start",
-      "maxHeight": 250,
+      "maxHeight": 300,
     }
   }
 >
@@ -2931,7 +4877,7 @@ exports[`Storyshots Tokens/Color Red 1`] = `
       "gap": "10px 30px",
       "height": "100%",
       "justifyContent": "flex-start",
-      "maxHeight": 250,
+      "maxHeight": 300,
     }
   }
 >
@@ -3198,6 +5144,562 @@ exports[`Storyshots Tokens/Color Red 1`] = `
 </div>
 `;
 
+exports[`Storyshots Tokens/Color Rose 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": 300,
+    }
+  }
+>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#fff1f2",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-rose-50)
+      </span>
+      <span
+        className="label"
+      >
+        #fff1f2
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#ffe4e6",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-rose-100)
+      </span>
+      <span
+        className="label"
+      >
+        #ffe4e6
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#fecdd3",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-rose-200)
+      </span>
+      <span
+        className="label"
+      >
+        #fecdd3
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#fda4af",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-rose-300)
+      </span>
+      <span
+        className="label"
+      >
+        #fda4af
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#fb7185",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-rose-400)
+      </span>
+      <span
+        className="label"
+      >
+        #fb7185
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#f43f5e",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-rose-500)
+      </span>
+      <span
+        className="label"
+      >
+        #f43f5e
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#e11d48",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-rose-600)
+      </span>
+      <span
+        className="label"
+      >
+        #e11d48
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#be123c",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-rose-700)
+      </span>
+      <span
+        className="label"
+      >
+        #be123c
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#9f1239",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-rose-800)
+      </span>
+      <span
+        className="label"
+      >
+        #9f1239
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#881337",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-rose-900)
+      </span>
+      <span
+        className="label"
+      >
+        #881337
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Tokens/Color Sky 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": 300,
+    }
+  }
+>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#f0f9ff",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-sky-50)
+      </span>
+      <span
+        className="label"
+      >
+        #f0f9ff
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#e0f2fe",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-sky-100)
+      </span>
+      <span
+        className="label"
+      >
+        #e0f2fe
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#bae6fd",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-sky-200)
+      </span>
+      <span
+        className="label"
+      >
+        #bae6fd
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#7dd3fc",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-sky-300)
+      </span>
+      <span
+        className="label"
+      >
+        #7dd3fc
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#38bdf8",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-sky-400)
+      </span>
+      <span
+        className="label"
+      >
+        #38bdf8
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#0ea5e9",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-sky-500)
+      </span>
+      <span
+        className="label"
+      >
+        #0ea5e9
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#0284c7",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-sky-600)
+      </span>
+      <span
+        className="label"
+      >
+        #0284c7
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#0369a1",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-sky-700)
+      </span>
+      <span
+        className="label"
+      >
+        #0369a1
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#075985",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-sky-800)
+      </span>
+      <span
+        className="label"
+      >
+        #075985
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#0c4a6e",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-sky-900)
+      </span>
+      <span
+        className="label"
+      >
+        #0c4a6e
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
 exports[`Storyshots Tokens/Color Teal 1`] = `
 <div
   style={
@@ -3209,7 +5711,7 @@ exports[`Storyshots Tokens/Color Teal 1`] = `
       "gap": "10px 30px",
       "height": "100%",
       "justifyContent": "flex-start",
-      "maxHeight": 250,
+      "maxHeight": 300,
     }
   }
 >
@@ -3476,6 +5978,840 @@ exports[`Storyshots Tokens/Color Teal 1`] = `
 </div>
 `;
 
+exports[`Storyshots Tokens/Color True Gray 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": 300,
+    }
+  }
+>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#fafafa",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-true-gray-50)
+      </span>
+      <span
+        className="label"
+      >
+        #fafafa
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#f5f5f5",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-true-gray-100)
+      </span>
+      <span
+        className="label"
+      >
+        #f5f5f5
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#e5e5e5",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-true-gray-200)
+      </span>
+      <span
+        className="label"
+      >
+        #e5e5e5
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#d4d4d4",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-true-gray-300)
+      </span>
+      <span
+        className="label"
+      >
+        #d4d4d4
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#a3a3a3",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-true-gray-400)
+      </span>
+      <span
+        className="label"
+      >
+        #a3a3a3
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#737373",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-true-gray-500)
+      </span>
+      <span
+        className="label"
+      >
+        #737373
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#525252",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-true-gray-600)
+      </span>
+      <span
+        className="label"
+      >
+        #525252
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#404040",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-true-gray-700)
+      </span>
+      <span
+        className="label"
+      >
+        #404040
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#262626",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-true-gray-800)
+      </span>
+      <span
+        className="label"
+      >
+        #262626
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#171717",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-true-gray-900)
+      </span>
+      <span
+        className="label"
+      >
+        #171717
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Tokens/Color Violet 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": 300,
+    }
+  }
+>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#f5f3ff",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-violet-50)
+      </span>
+      <span
+        className="label"
+      >
+        #f5f3ff
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#ede9fe",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-violet-100)
+      </span>
+      <span
+        className="label"
+      >
+        #ede9fe
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#ddd6fe",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-violet-200)
+      </span>
+      <span
+        className="label"
+      >
+        #ddd6fe
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#c4b5fd",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-violet-300)
+      </span>
+      <span
+        className="label"
+      >
+        #c4b5fd
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#a78bfa",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-violet-400)
+      </span>
+      <span
+        className="label"
+      >
+        #a78bfa
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#8b5cf6",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-violet-500)
+      </span>
+      <span
+        className="label"
+      >
+        #8b5cf6
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#7c3aed",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-violet-600)
+      </span>
+      <span
+        className="label"
+      >
+        #7c3aed
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#6d28d9",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-violet-700)
+      </span>
+      <span
+        className="label"
+      >
+        #6d28d9
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#5b21b6",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-violet-800)
+      </span>
+      <span
+        className="label"
+      >
+        #5b21b6
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#4c1d95",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-violet-900)
+      </span>
+      <span
+        className="label"
+      >
+        #4c1d95
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Tokens/Color Warm Gray 1`] = `
+<div
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "display": "flex",
+      "flexDirection": "column",
+      "flexWrap": "wrap",
+      "gap": "10px 30px",
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "maxHeight": 300,
+    }
+  }
+>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#fafaf9",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-warm-gray-50)
+      </span>
+      <span
+        className="label"
+      >
+        #fafaf9
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#f5f5f4",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-warm-gray-100)
+      </span>
+      <span
+        className="label"
+      >
+        #f5f5f4
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#e7e5e4",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-warm-gray-200)
+      </span>
+      <span
+        className="label"
+      >
+        #e7e5e4
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#d6d3d1",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-warm-gray-300)
+      </span>
+      <span
+        className="label"
+      >
+        #d6d3d1
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#a8a29e",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-warm-gray-400)
+      </span>
+      <span
+        className="label"
+      >
+        #a8a29e
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#78716c",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-warm-gray-500)
+      </span>
+      <span
+        className="label"
+      >
+        #78716c
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#57534e",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-warm-gray-600)
+      </span>
+      <span
+        className="label"
+      >
+        #57534e
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#44403c",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-warm-gray-700)
+      </span>
+      <span
+        className="label"
+      >
+        #44403c
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#292524",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-warm-gray-800)
+      </span>
+      <span
+        className="label"
+      >
+        #292524
+      </span>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="color"
+      style={
+        Object {
+          "backgroundColor": "#1c1917",
+        }
+      }
+    />
+    <div
+      className="description"
+    >
+      <span
+        className="label"
+      >
+        var(--color-warm-gray-900)
+      </span>
+      <span
+        className="label"
+      >
+        #1c1917
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
 exports[`Storyshots Tokens/Color Yellow 1`] = `
 <div
   style={
@@ -3487,7 +6823,7 @@ exports[`Storyshots Tokens/Color Yellow 1`] = `
       "gap": "10px 30px",
       "height": "100%",
       "justifyContent": "flex-start",
-      "maxHeight": 250,
+      "maxHeight": 300,
     }
   }
 >

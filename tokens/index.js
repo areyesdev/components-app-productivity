@@ -318,7 +318,7 @@ const choices = {
     mono: ["'Roboto Mono'", "'Courier New'", 'monospace'],
   },
   fontSize: {
-    base: '10px',
+    base: '14px',
     xs: '1.2rem',
     sm: '1.4rem',
     md: '1.6rem',
@@ -409,7 +409,7 @@ const decisions = {
     tertiaryInverted: choices.color.base.white,
   },
   backgroundColor: {
-    primary: choices.color.brand.hintOfRed,
+    primary: choices.color.brand.whiteLilac,
     primaryHighlight: choices.color.brand.romance,
   },
   container: {
@@ -430,6 +430,14 @@ const decisions = {
     borderRadius: choices.borderRadius.lg,
     fontSize: choices.fontSize.sm,
   },
+  paragraph: {
+    fontSize: {
+      xs: choices.fontSize.base,
+      sm: choices.fontSize.xs,
+      md: choices.fontSize.sm,
+      lg: choices.fontSize.md,
+    },
+  },
   textarea: {
     borderRadius: choices.borderRadius.sm,
   },
@@ -441,6 +449,19 @@ const decisions = {
   },
   task: {
     borderRadius: choices.borderRadius.sm,
+  },
+  chronometer: {
+    backgroundColor: choices.color.gray[300],
+    color: choices.color.yellow[500],
+    borderRadius: choices.borderRadius.full,
+    height: '6px',
+  },
+  modal: {
+    backdropColor: 'rgba(255, 255, 255, 0.85)',
+    desktop: {
+      height: '650px',
+      maxWidth: '750px',
+    },
   },
 }
 

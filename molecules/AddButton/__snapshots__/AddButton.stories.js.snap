@@ -56,7 +56,9 @@ exports[`Storyshots Molecules/AddButton Default 1`] = `
       className="spacer horizontal"
       style={
         Object {
-          "height": 15,
+          "height": "100%",
+          "maxHeight": "auto",
+          "width": 15,
         }
       }
     />
@@ -149,7 +151,9 @@ exports[`Storyshots Molecules/AddButton Help Text 1`] = `
         className="spacer horizontal"
         style={
           Object {
-            "height": 15,
+            "height": "100%",
+            "maxHeight": "auto",
+            "width": 15,
           }
         }
       />
@@ -253,7 +257,9 @@ exports[`Storyshots Molecules/AddButton Types 1`] = `
       className="spacer horizontal"
       style={
         Object {
-          "height": 15,
+          "height": "100%",
+          "maxHeight": "auto",
+          "width": 15,
         }
       }
     />
@@ -304,7 +310,9 @@ exports[`Storyshots Molecules/AddButton Types 1`] = `
       className="spacer horizontal"
       style={
         Object {
-          "height": 15,
+          "height": "100%",
+          "maxHeight": "auto",
+          "width": 15,
         }
       }
     />

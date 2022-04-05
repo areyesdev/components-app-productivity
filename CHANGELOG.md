@@ -1,3 +1,10 @@
+# [1.6.0](https://github.com/areyesdev/components-app-productivity/compare/v1.5.0...v1.6.0) (2022-04-05)
+
+
+### Features
+
+* **molecules, atoms:** new features throughout the component library ([498be75](https://github.com/areyesdev/components-app-productivity/commit/498be7570bc7ce52889a670ea043b5ef38ebcfe5))
+
 # [1.5.0](https://github.com/areyesdev/components-app-productivity/compare/v1.4.0...v1.5.0) (2022-04-05)
 
 

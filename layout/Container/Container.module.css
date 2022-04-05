@@ -5,10 +5,10 @@
   height: 100%;
   flex: auto;
   justify-content: center;
-  padding: 40px 30px 20px;
+  padding: 20px 15px 20px;
   margin: 0 auto;
 }
 
-.is-visible {
+.is-playground {
   border: var(--border-width-thick) dashed var(--color-primary);
 }

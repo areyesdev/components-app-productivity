@@ -6,8 +6,8 @@ import Icon from '../Icon'
 import styles from './Check.module.css'
 import withStyles from '../../hocs/withStyles'
 
-export const Check = ({ checked, getStyles }) => {
-  return checked ? (
+export const Check = ({ isChecked, getStyles }) => {
+  return isChecked ? (
     <Icon name="checkCircle" color="muted" isClickable />
   ) : (
     <span className={getStyles('check')} />
@@ -16,7 +16,7 @@ export const Check = ({ checked, getStyles }) => {
 
 Check.propTypes = {
   getStyles: PropTypes.func.isRequired,
-  checked: PropTypes.bool,
+  isChecked: PropTypes.bool,
 }
 
 Check.defaultProps = {

@@ -1,3 +1,11 @@
+# [1.5.0](https://github.com/areyesdev/components-app-productivity/compare/v1.4.0...v1.5.0) (2022-04-05)
+
+
+### Features
+
+* **atoms, molecules:** add new features molecules ([0bc6195](https://github.com/areyesdev/components-app-productivity/commit/0bc6195d769e80260c6c67a0bb4c2114324cf01c))
+* **modal:** add feature modal ([9f61b61](https://github.com/areyesdev/components-app-productivity/commit/9f61b61ee1f75f36d614af6d329a18fca9abe0cc))
+
 # [1.4.0](https://github.com/areyesdev/components-app-productivity/compare/v1.3.0...v1.4.0) (2022-04-01)
 
 

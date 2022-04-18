@@ -1,3 +1,15 @@
+## [1.6.1](https://github.com/areyesdev/components-app-productivity/compare/v1.6.0...v1.6.1) (2022-04-18)
+
+
+### Bug Fixes
+
+* **score:** remove temporarily Score component ([9ea0dce](https://github.com/areyesdev/components-app-productivity/commit/9ea0dce054903827241789fdef1dfb3f40f8a807))
+
+
+### Reverts
+
+* **score:** delete molecule Score ([d87d820](https://github.com/areyesdev/components-app-productivity/commit/d87d820de898aef6c7f1341203f1580a63479a4f))
+
 # [1.6.0](https://github.com/areyesdev/components-app-productivity/compare/v1.5.0...v1.6.0) (2022-04-05)
 
 

@@ -9,11 +9,11 @@
     "url": "https://github.com/areyesdev/components-app-productivity.git"
   },
   "engines": {
-    "node": ">=14",
+    "node": ">=16.13.2",
     "yarn": ">=1.22.17"
   },
   "scripts": {
-    "build:storybook": "build-storybook",
+    "build:storybook": "build-storybook --no-dll",
     "build:tokens": "node ./scripts/build-tokens",
     "build": "run-s build:tokens build:storybook",
     "build:docs": "yarn build:tokens && yarn build:storybook --docs --no-manager-cache",
@@ -41,8 +41,7 @@
     "test:coverage": "yarn test --coverage",
     "test:coverage:html": "yarn test:coverage & open coverage/lcov-report/index.html",
     "test:watch": "CONSOLE_LEVEL=debug yarn test --watch",
-    "test": "jest",
-    "semantic-release": "semantic-release"
+    "test": "jest"
   },
   "keywords": [
     "react",

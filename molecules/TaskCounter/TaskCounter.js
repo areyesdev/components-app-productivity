@@ -1,74 +1,70 @@
-import React from 'react'
+import React, { useState } from 'react'
 import PropTypes from 'prop-types'
 
 import Paragraph from '../../atoms/Paragraph'
 import Divider from '../../atoms/Divider'
+import Icon from '../../atoms/Icon'
 import Spacer from '../../layout/Spacer'
-import Accordion from '../Accordion'
 
 import styles from './TaskCounter.module.css'
+import { options } from './constants'
 import withStyles from '../../hocs/withStyles'
 
+const handleToggle = ({ onToggle, isCollapsed, setIsCollapsed }) => () => {
+  setIsCollapsed(!isCollapsed)
+  onToggle(!isCollapsed)
+}
+
 export const TaskCounter = ({
-  title,
   children,
   current,
   total,
   isToggleable,
   onToggle,
   getStyles,
-  defaultIsCollapsed,
 }) => {
-  if (isToggleable) {
-    return (
-      <Accordion
-        title={title}
-        addons={{
-          append: (
-            <Paragraph weight="medium" isInline>
-              {total ? `${current}/${total}` : current}
-            </Paragraph>
-          ),
-        }}
-        onToggle={onToggle}
-        defaultIsCollapsed={defaultIsCollapsed}
-      >
-        {children}
-      </Accordion>
-    )
-  }
+  const [isCollapsed, setIsCollapsed] = useState(true)
 
   return (
     <div className={getStyles('task-counter')}>
       <div className={getStyles('container')}>
-        <Paragraph weight="medium">{title}</Paragraph>
+        {isToggleable && (
+          <>
+            <Icon
+              color="inverted"
+              size="sm"
+              name={isCollapsed ? 'angleUp' : 'angleDown'}
+              background="fulfilled"
+              isClickable
+              onClick={handleToggle({ onToggle, isCollapsed, setIsCollapsed })}
+            />
+            <Spacer.Vertical size="xs" />
+          </>
+        )}
+        <Paragraph weight="medium">{children}</Paragraph>
         <Paragraph weight="medium" isInline>
           {total ? `${current}/${total}` : current}
         </Paragraph>
       </div>
-      <Spacer.Vertical size="xs" />
+      <Spacer.Horizontal size="xs" />
       <Divider />
-      {children}
     </div>
   )
 }
 
 TaskCounter.propTypes = {
-  title: PropTypes.string.isRequired,
+  children: PropTypes.node.isRequired,
   getStyles: PropTypes.func.isRequired,
+  type: PropTypes.oneOf(options.types),
   current: PropTypes.number.isRequired,
-  children: PropTypes.node,
   onToggle: PropTypes.func,
   isToggleable: PropTypes.bool,
   total: PropTypes.number,
-  defaultIsCollapsed: PropTypes.bool,
 }
 
 TaskCounter.defaultProps = {
   getStyles: () => {},
-  onToggle: () => {},
   current: 0,
-  defaultIsCollapsed: true,
 }
 
 export default withStyles(styles)(TaskCounter)

@@ -11,31 +11,17 @@ import styles from './Task.module.css'
 import { options } from './constants'
 import withStyles from '../../hocs/withStyles'
 
-const handleCheck = ({ isChecked, setIsChecked, isPending, onCheck }) => (
-  event
-) => {
-  event && event.stopPropagation()
-
+const handleCheck = ({ isChecked, setIsChecked, isPending, onCheck }) => () => {
   if (!isPending) {
     setIsChecked(!isChecked)
-    onCheck({ isChecked: !isChecked })
+    onCheck(!isChecked)
   }
-}
-
-const handleDelete = ({ onDelete }) => (event) => {
-  event && event.stopPropagation()
-  onDelete()
-}
-
-const handleClick = ({ onClick }) => () => {
-  onClick()
 }
 
 export const Task = ({
   children,
   defaultIsChecked,
   onCheck,
-  onClick,
   onDelete,
   getStyles,
   isPending,
@@ -45,7 +31,7 @@ export const Task = ({
   return (
     <div className={getStyles('container')}>
       <Card
-        onClick={handleClick({ onClick })}
+        onClick={handleCheck({ isChecked, setIsChecked, isPending, onCheck })}
         isClickable={!isPending}
         isDraggable={isPending}
       >
@@ -58,19 +44,9 @@ export const Task = ({
             {isPending ? (
               <Icon name="grip" size="sm" />
             ) : (
-              <div
-                className={getStyles('check-container')}
-                onClick={handleCheck({
-                  isChecked,
-                  setIsChecked,
-                  isPending,
-                  onCheck,
-                })}
-              >
-                <Check isChecked={isChecked} />
-              </div>
+              <Check isChecked={isChecked} />
             )}
-            <Spacer.Horizontal size="xs" />
+            <Spacer.Vertical size="xs" />
             <Paragraph
               color={isChecked ? 'muted' : 'base'}
               weight="medium"
@@ -79,13 +55,15 @@ export const Task = ({
               {children}
             </Paragraph>
           </div>
-          <Spacer.Horizontal size="sm" />
-          <Icon
-            name="trash"
-            size="sm"
-            onClick={handleDelete({ onDelete })}
-            background="inverted"
-          />
+          <Spacer.Vertical size="sm" />
+          <div onClick={(event) => event.stopPropagation()}>
+            <Icon
+              name="trash"
+              size="sm"
+              onClick={onDelete}
+              background="inverted"
+            />
+          </div>
         </div>
       </Card>
     </div>
@@ -96,7 +74,6 @@ Task.propTypes = {
   children: PropTypes.node.isRequired,
   getStyles: PropTypes.func.isRequired,
   onCheck: PropTypes.func.isRequired,
-  onClick: PropTypes.func.isRequired,
   onDelete: PropTypes.func.isRequired,
   type: PropTypes.oneOf(options.types),
   defaultIsChecked: PropTypes.bool,
@@ -106,7 +83,6 @@ Task.propTypes = {
 Task.defaultProps = {
   getStyles: () => {},
   onCheck: () => {},
-  onClick: () => {},
   onDelete: () => {},
   defaultIsChecked: false,
 }

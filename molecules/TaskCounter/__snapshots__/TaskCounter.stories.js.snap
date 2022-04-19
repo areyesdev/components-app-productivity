@@ -21,19 +21,19 @@ exports[`Storyshots Molecules/TaskCounter Default 1`] = `
     <div
       className="container"
     >
-      <p
+      <div
         className="paragraph color-base size-md weight-medium"
       >
         Em Sméagol body.
-      </p>
-      <p
+      </div>
+      <div
         className="paragraph color-base size-md weight-medium is-inline"
       >
         2
-      </p>
+      </div>
     </div>
     <div
-      className="spacer vertical"
+      className="spacer horizontal"
       style={
         Object {
           "height": 5,
@@ -43,7 +43,6 @@ exports[`Storyshots Molecules/TaskCounter Default 1`] = `
     <div
       className="divider"
     />
-    Fells defeated veins this. There and Back Again. A Hobbit's Tale. Loved lucky Istari difficult lay? Dale fellow's rioting. Blanket Misty Mountain started rival wriggles flatten convinced succumbed closing? Slug town fond pipe-weed flatten recognizes Goblins! Innards pouf admirable freely nothingness sleepless exactly afternoon cruelty Bofur? Craftsmen tested fair Alfrid gets figure words winter's field offer healed squash? These galumphing Grima tread mustn't seen melt ideal picked recover employment. Nazgûl alas luckiest?
   </div>
 </div>
 `;
@@ -64,14 +63,14 @@ exports[`Storyshots Molecules/TaskCounter Toggleable 1`] = `
   }
 >
   <div
-    className="accordion"
+    className="task-counter"
   >
     <div
       className="container"
-      onClick={[Function]}
     >
       <div
-        className="icon color-inverted size-sm background-muted"
+        className="icon color-inverted size-sm background-fulfilled is-clickable"
+        onClick={[Function]}
         style={
           Object {
             "height": 25,
@@ -81,40 +80,40 @@ exports[`Storyshots Molecules/TaskCounter Toggleable 1`] = `
       >
         <svg
           height={25}
-          viewBox="0 0 15 9"
+          viewBox="0 0 9 6"
           width={25}
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
             clipRule="evenodd"
-            d="M7.82633 8.70623L0.882568 1.54063L1.89405 0.496826L7.82633 6.61863L13.7586 0.496826L14.7701 1.54063L7.82633 8.70623Z"
+            d="M8.28864 5.121L4.46988 1.30224L0.651119 5.121L0 4.46988L4.46988 0L8.93976 4.46988L8.28864 5.121Z"
             fillRule="evenodd"
           />
         </svg>
       </div>
       <div
-        className="spacer horizontal"
+        className="spacer vertical"
         style={
           Object {
             "height": "100%",
             "maxHeight": "auto",
-            "width": 15,
+            "width": 5,
           }
         }
       />
-      <p
+      <div
         className="paragraph color-base size-md weight-medium"
       >
         Em Sméagol body.
-      </p>
-      <p
+      </div>
+      <div
         className="paragraph color-base size-md weight-medium is-inline"
       >
         2/10
-      </p>
+      </div>
     </div>
     <div
-      className="spacer vertical"
+      className="spacer horizontal"
       style={
         Object {
           "height": 5,
@@ -149,19 +148,19 @@ exports[`Storyshots Molecules/TaskCounter Total 1`] = `
     <div
       className="container"
     >
-      <p
+      <div
         className="paragraph color-base size-md weight-medium"
       >
         Em Sméagol body.
-      </p>
-      <p
+      </div>
+      <div
         className="paragraph color-base size-md weight-medium is-inline"
       >
         2/10
-      </p>
+      </div>
     </div>
     <div
-      className="spacer vertical"
+      className="spacer horizontal"
       style={
         Object {
           "height": 5,
@@ -171,7 +170,6 @@ exports[`Storyshots Molecules/TaskCounter Total 1`] = `
     <div
       className="divider"
     />
-    Fells defeated veins this. There and Back Again. A Hobbit's Tale. Loved lucky Istari difficult lay? Dale fellow's rioting. Blanket Misty Mountain started rival wriggles flatten convinced succumbed closing? Slug town fond pipe-weed flatten recognizes Goblins! Innards pouf admirable freely nothingness sleepless exactly afternoon cruelty Bofur? Craftsmen tested fair Alfrid gets figure words winter's field offer healed squash? These galumphing Grima tread mustn't seen melt ideal picked recover employment. Nazgûl alas luckiest?
   </div>
 </div>
 `;

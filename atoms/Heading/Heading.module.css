@@ -1,5 +1,6 @@
 .heading {
-  width: 100%;
+  display: flex;
+  align-items: center;
   font-family: var(--font-family-sans);
   line-height: var(--line-height-tight);
 }
@@ -9,7 +10,7 @@
 }
 
 .color-inverted {
-  color: var(--color-primary-inverted);
+  color: var(--color-font-inverted);
 }
 
 .color-primary {
@@ -50,13 +51,4 @@
 
 .weight-bold {
   font-weight: var(--font-weight-bold);
-}
-
-.is-centered {
-  text-align: center;
-}
-
-.is-inline {
-  display: inline-block;
-  max-width: max-content;
 }

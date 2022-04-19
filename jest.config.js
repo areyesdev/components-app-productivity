@@ -1,8 +1,5 @@
 module.exports = {
-  moduleNameMapper: {
-    '\\.css$': 'identity-obj-proxy',
-    '\\.svg$': '<rootDir>/utils/testUtils/svgrMock.js',
-  },
+  moduleNameMapper: { '\\.css$': 'identity-obj-proxy' },
   setupFilesAfterEnv: ['./jest.setup.js'],
   transform: {
     '^.+\\.stories\\.jsx?$': '@storybook/addon-storyshots/injectFileName',
@@ -10,7 +7,7 @@ module.exports = {
   },
   collectCoverageFrom: [
     '{atoms,molecules,layout}/**/!(index).js',
-    '{hocs,helpers}/*.js',
+    '{hocs,helpers,scripts}/*.js',
   ],
   coverageThreshold: {
     global: {

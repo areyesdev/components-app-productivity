@@ -85,8 +85,8 @@ exports[`Storyshots Molecules/Task Checked 1`] = `
           onClick={[Function]}
         >
           <div
-            className="icon color-base size-sm background-inverted is-clickable"
-            onClick={[Function]}
+            className="icon color-base size-sm background-inverted"
+            onClick={null}
             style={
               Object {
                 "height": 25,
@@ -200,8 +200,8 @@ exports[`Storyshots Molecules/Task Default 1`] = `
           onClick={[Function]}
         >
           <div
-            className="icon color-base size-sm background-inverted is-clickable"
-            onClick={[Function]}
+            className="icon color-base size-sm background-inverted"
+            onClick={null}
             style={
               Object {
                 "height": 25,
@@ -315,8 +315,8 @@ exports[`Storyshots Molecules/Task Long 1`] = `
           onClick={[Function]}
         >
           <div
-            className="icon color-base size-sm background-inverted is-clickable"
-            onClick={[Function]}
+            className="icon color-base size-sm background-inverted"
+            onClick={null}
             style={
               Object {
                 "height": 25,
@@ -447,8 +447,8 @@ exports[`Storyshots Molecules/Task Pending 1`] = `
           onClick={[Function]}
         >
           <div
-            className="icon color-base size-sm background-inverted is-clickable"
-            onClick={[Function]}
+            className="icon color-base size-sm background-inverted"
+            onClick={null}
             style={
               Object {
                 "height": 25,
@@ -579,8 +579,8 @@ exports[`Storyshots Molecules/Task Pending Types 1`] = `
           onClick={[Function]}
         >
           <div
-            className="icon color-base size-sm background-inverted is-clickable"
-            onClick={[Function]}
+            className="icon color-base size-sm background-inverted"
+            onClick={null}
             style={
               Object {
                 "height": 25,
@@ -693,8 +693,8 @@ exports[`Storyshots Molecules/Task Pending Types 1`] = `
           onClick={[Function]}
         >
           <div
-            className="icon color-base size-sm background-inverted is-clickable"
-            onClick={[Function]}
+            className="icon color-base size-sm background-inverted"
+            onClick={null}
             style={
               Object {
                 "height": 25,
@@ -808,8 +808,8 @@ exports[`Storyshots Molecules/Task Types 1`] = `
           onClick={[Function]}
         >
           <div
-            className="icon color-base size-sm background-inverted is-clickable"
-            onClick={[Function]}
+            className="icon color-base size-sm background-inverted"
+            onClick={null}
             style={
               Object {
                 "height": 25,
@@ -905,8 +905,8 @@ exports[`Storyshots Molecules/Task Types 1`] = `
           onClick={[Function]}
         >
           <div
-            className="icon color-base size-sm background-inverted is-clickable"
-            onClick={[Function]}
+            className="icon color-base size-sm background-inverted"
+            onClick={null}
             style={
               Object {
                 "height": 25,

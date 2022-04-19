@@ -11,11 +11,9 @@ export const Paragraph = ({
   className,
   isStriked,
   isInline,
-  isMonospace,
-  isCentered,
 }) => {
   return (
-    <p
+    <div
       className={getStyles(
         className,
         'paragraph',
@@ -23,13 +21,11 @@ export const Paragraph = ({
         {
           'is-striked': isStriked,
           'is-inline': isInline,
-          'is-monospace': isMonospace,
-          'is-centered': isCentered,
         }
       )}
     >
       {children}
-    </p>
+    </div>
   )
 }
 
@@ -42,8 +38,6 @@ Paragraph.propTypes = {
   className: PropTypes.string,
   isStriked: PropTypes.bool,
   isInline: PropTypes.bool,
-  isCentered: PropTypes.bool,
-  isMonospace: PropTypes.bool,
 }
 
 Paragraph.defaultProps = {

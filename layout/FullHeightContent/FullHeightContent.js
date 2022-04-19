@@ -19,7 +19,7 @@ export const FullHeightContent = ({
       })}
     >
       <div className={styles.content}>{content}</div>
-      <Spacer.Vertical size="sm" />
+      <Spacer.Horizontal size="sm" />
       <div className={styles.footer}>{footer}</div>
     </div>
   )

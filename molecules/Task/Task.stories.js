@@ -17,6 +17,8 @@ export default {
   },
   argTypes: {
     type: getOptionsArgTypes(options.types),
+    onCheck: { defaultValue: null },
+    onDelete: { defaultValue: null },
   },
 }
 

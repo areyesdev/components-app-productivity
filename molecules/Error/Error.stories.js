@@ -1,6 +1,6 @@
-import { Error, styles } from '.'
+import { Error, styles, options } from '.'
 
-import { getTemplate } from '../../helpers/storybook'
+import { getTemplate, getOptionsArgTypes } from '../../helpers/storybook'
 
 const Template = getTemplate(Error, styles)
 
@@ -10,6 +10,9 @@ export default {
   args: {
     children:
       "Meets counts consumed 200 Meriadoc tombs rabble noble crash thread. Another kind Imladris. Dump each Kingdom mere other's by blame ugly sending bestow mist adventure.",
+  },
+  argTypes: {
+    types: getOptionsArgTypes(options.types),
   },
 }
 

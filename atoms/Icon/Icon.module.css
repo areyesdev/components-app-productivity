@@ -21,58 +21,24 @@
   padding: 15px;
 }
 
-.color-base path,
-.color-base circle {
+.color-base path {
   fill: var(--color-font-base);
 }
 
-.color-base line,
-.color-base rect {
-  stroke: var(--color-font-base);
-}
-
-.color-highlight path,
-.color-highlight circle {
+.color-highlight path {
   fill: var(--color-font-highlight);
 }
 
-.color-highlight line,
-.color-highlight rect {
-  stroke: var(--color-font-highlight);
-}
-
-.color-muted path,
-.color-muted circle {
+.color-muted path {
   fill: var(--color-font-muted);
 }
 
-.color-muted line,
-.color-muted rect {
-  stroke: var(--color-font-muted);
-}
-
-.color-primary path,
-.color-primary circle {
+.color-primary path {
   fill: var(--color-primary);
 }
 
-.color-primary line,
-.color-primary rect {
-  stroke: var(--color-primary);
-}
-
-.color-inverted path,
-.color-inverted circle {
+.color-inverted path {
   fill: var(--color-primary-inverted);
-}
-
-.color-inverted line,
-.color-inverted rect {
-  stroke: var(--color-primary-inverted);
-}
-
-.icon rect:global(.transparent) {
-  fill: var(--color-base-transparent) !important;
 }
 
 .background-base {
@@ -96,13 +62,19 @@
 
 .background-inverted {
   border: var(--picture-border);
-  background: var(--color-font-inverted);
+  background: var(--color-primary-inverted);
   border-radius: var(--border-radius-full);
   box-shadow: var(--box-shadow-sm);
 }
 
 .background-spotlight {
   background: var(--color-yellow-100);
+  border-radius: var(--border-radius-full);
+  box-shadow: var(--box-shadow-sm);
+}
+
+.background-fulfilled {
+  background: var(--color-font-base);
   border-radius: var(--border-radius-full);
   box-shadow: var(--box-shadow-sm);
 }

@@ -14,7 +14,7 @@ export const ButtonIcon = ({ children, type, icon }) => (
     addons={{
       append: (
         <>
-          <Spacer.Horizontal size="xs"></Spacer.Horizontal>
+          <Spacer.Vertical size="xs"></Spacer.Vertical>
           <Icon
             name={icon}
             color={type === 'primary' ? 'inverted' : 'primary'}

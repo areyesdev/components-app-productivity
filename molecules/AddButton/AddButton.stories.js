@@ -17,6 +17,7 @@ export default {
   argTypes: {
     type: getOptionsArgTypes(options.types),
     icon: getOptionsArgTypes(options.icons),
+    onAdd: { defaultValue: null },
   },
 }
 
@@ -29,13 +30,6 @@ export const EditMode = Template.bind({})
 EditMode.args = {
   defaultValue: 'Fixed caught squash wax Silvan sweet-taking keeps.',
   defaultIsEditable: true,
-}
-
-export const Invalid = Template.bind({})
-Invalid.args = {
-  defaultIsInvalid: true,
-  defaultIsEditable: true,
-  defaultIsFocused: true,
 }
 
 export const HelpText = Template.bind({})

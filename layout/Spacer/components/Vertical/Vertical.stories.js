@@ -13,10 +13,17 @@ const ListTemplate = getListTemplate(Vertical, styles)
 export default {
   title: 'Layout/Spacer/Vertical',
   component: Vertical,
-  args: { isPlayground: true },
+  args: {
+    height: 100,
+    maxHeight: 100,
+    isPlayground: true,
+  },
   argTypes: {
     size: getOptionsArgTypes(options.sizes),
+    height: { control: 'number' },
+    maxHeight: { control: 'number' },
   },
+  parameters: { __sb: { fd: 'row' } },
 }
 
 export const Default = Template.bind({})

@@ -1,283 +1,5 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Storyshots Tokens/Color Amber 1`] = `
-<div
-  style={
-    Object {
-      "alignContent": "flex-start",
-      "display": "flex",
-      "flexDirection": "column",
-      "flexWrap": "wrap",
-      "gap": "10px 30px",
-      "height": "100%",
-      "justifyContent": "flex-start",
-      "maxHeight": 300,
-    }
-  }
->
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#fffbeb",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        var(--color-amber-50)
-      </span>
-      <span
-        className="label"
-      >
-        #fffbeb
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#fef3c7",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        var(--color-amber-100)
-      </span>
-      <span
-        className="label"
-      >
-        #fef3c7
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#fde68a",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        var(--color-amber-200)
-      </span>
-      <span
-        className="label"
-      >
-        #fde68a
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#fcd34d",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        var(--color-amber-300)
-      </span>
-      <span
-        className="label"
-      >
-        #fcd34d
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#fbbf24",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        var(--color-amber-400)
-      </span>
-      <span
-        className="label"
-      >
-        #fbbf24
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#f59e0b",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        var(--color-amber-500)
-      </span>
-      <span
-        className="label"
-      >
-        #f59e0b
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#d97706",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        var(--color-amber-600)
-      </span>
-      <span
-        className="label"
-      >
-        #d97706
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#b45309",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        var(--color-amber-700)
-      </span>
-      <span
-        className="label"
-      >
-        #b45309
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#92400e",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        var(--color-amber-800)
-      </span>
-      <span
-        className="label"
-      >
-        #92400e
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#78350f",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        var(--color-amber-900)
-      </span>
-      <span
-        className="label"
-      >
-        #78350f
-      </span>
-    </div>
-  </div>
-</div>
-`;
-
 exports[`Storyshots Tokens/Color Backgrounds 1`] = `
 <div
   style={
@@ -289,7 +11,7 @@ exports[`Storyshots Tokens/Color Backgrounds 1`] = `
       "gap": "10px 30px",
       "height": "100%",
       "justifyContent": "flex-start",
-      "maxHeight": 300,
+      "maxHeight": 250,
     }
   }
 >
@@ -300,7 +22,7 @@ exports[`Storyshots Tokens/Color Backgrounds 1`] = `
       className="color"
       style={
         Object {
-          "backgroundColor": "#e8e8e8",
+          "backgroundColor": "#f9f9f9",
         }
       }
     />
@@ -315,7 +37,7 @@ exports[`Storyshots Tokens/Color Backgrounds 1`] = `
       <span
         className="label"
       >
-        #e8e8e8
+        #f9f9f9
       </span>
     </div>
   </div>
@@ -359,7 +81,7 @@ exports[`Storyshots Tokens/Color Base 1`] = `
       "gap": "10px 30px",
       "height": "100%",
       "justifyContent": "flex-start",
-      "maxHeight": 300,
+      "maxHeight": 250,
     }
   }
 >
@@ -455,7 +177,7 @@ exports[`Storyshots Tokens/Color Blue 1`] = `
       "gap": "10px 30px",
       "height": "100%",
       "justifyContent": "flex-start",
-      "maxHeight": 300,
+      "maxHeight": 250,
     }
   }
 >
@@ -466,33 +188,7 @@ exports[`Storyshots Tokens/Color Blue 1`] = `
       className="color"
       style={
         Object {
-          "backgroundColor": "#eff6ff",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        var(--color-blue-50)
-      </span>
-      <span
-        className="label"
-      >
-        #eff6ff
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#dbeafe",
+          "backgroundColor": "#ebf8ff",
         }
       }
     />
@@ -507,7 +203,7 @@ exports[`Storyshots Tokens/Color Blue 1`] = `
       <span
         className="label"
       >
-        #dbeafe
+        #ebf8ff
       </span>
     </div>
   </div>
@@ -518,7 +214,7 @@ exports[`Storyshots Tokens/Color Blue 1`] = `
       className="color"
       style={
         Object {
-          "backgroundColor": "#bfdbfe",
+          "backgroundColor": "#bee3f8",
         }
       }
     />
@@ -533,7 +229,7 @@ exports[`Storyshots Tokens/Color Blue 1`] = `
       <span
         className="label"
       >
-        #bfdbfe
+        #bee3f8
       </span>
     </div>
   </div>
@@ -544,7 +240,7 @@ exports[`Storyshots Tokens/Color Blue 1`] = `
       className="color"
       style={
         Object {
-          "backgroundColor": "#93c5fd",
+          "backgroundColor": "#90cdf4",
         }
       }
     />
@@ -559,7 +255,7 @@ exports[`Storyshots Tokens/Color Blue 1`] = `
       <span
         className="label"
       >
-        #93c5fd
+        #90cdf4
       </span>
     </div>
   </div>
@@ -570,7 +266,7 @@ exports[`Storyshots Tokens/Color Blue 1`] = `
       className="color"
       style={
         Object {
-          "backgroundColor": "#60a5fa",
+          "backgroundColor": "#63b3ed",
         }
       }
     />
@@ -585,7 +281,7 @@ exports[`Storyshots Tokens/Color Blue 1`] = `
       <span
         className="label"
       >
-        #60a5fa
+        #63b3ed
       </span>
     </div>
   </div>
@@ -596,7 +292,7 @@ exports[`Storyshots Tokens/Color Blue 1`] = `
       className="color"
       style={
         Object {
-          "backgroundColor": "#3b82f6",
+          "backgroundColor": "#4299e1",
         }
       }
     />
@@ -611,7 +307,7 @@ exports[`Storyshots Tokens/Color Blue 1`] = `
       <span
         className="label"
       >
-        #3b82f6
+        #4299e1
       </span>
     </div>
   </div>
@@ -622,7 +318,7 @@ exports[`Storyshots Tokens/Color Blue 1`] = `
       className="color"
       style={
         Object {
-          "backgroundColor": "#2563eb",
+          "backgroundColor": "#3182ce",
         }
       }
     />
@@ -637,7 +333,7 @@ exports[`Storyshots Tokens/Color Blue 1`] = `
       <span
         className="label"
       >
-        #2563eb
+        #3182ce
       </span>
     </div>
   </div>
@@ -648,7 +344,7 @@ exports[`Storyshots Tokens/Color Blue 1`] = `
       className="color"
       style={
         Object {
-          "backgroundColor": "#1d4ed8",
+          "backgroundColor": "#2b6cb0",
         }
       }
     />
@@ -663,7 +359,7 @@ exports[`Storyshots Tokens/Color Blue 1`] = `
       <span
         className="label"
       >
-        #1d4ed8
+        #2b6cb0
       </span>
     </div>
   </div>
@@ -674,7 +370,7 @@ exports[`Storyshots Tokens/Color Blue 1`] = `
       className="color"
       style={
         Object {
-          "backgroundColor": "#1e40af",
+          "backgroundColor": "#2c5282",
         }
       }
     />
@@ -689,7 +385,7 @@ exports[`Storyshots Tokens/Color Blue 1`] = `
       <span
         className="label"
       >
-        #1e40af
+        #2c5282
       </span>
     </div>
   </div>
@@ -700,7 +396,7 @@ exports[`Storyshots Tokens/Color Blue 1`] = `
       className="color"
       style={
         Object {
-          "backgroundColor": "#1e3a8a",
+          "backgroundColor": "#2a4365",
         }
       }
     />
@@ -715,285 +411,7 @@ exports[`Storyshots Tokens/Color Blue 1`] = `
       <span
         className="label"
       >
-        #1e3a8a
-      </span>
-    </div>
-  </div>
-</div>
-`;
-
-exports[`Storyshots Tokens/Color Blue Gray 1`] = `
-<div
-  style={
-    Object {
-      "alignContent": "flex-start",
-      "display": "flex",
-      "flexDirection": "column",
-      "flexWrap": "wrap",
-      "gap": "10px 30px",
-      "height": "100%",
-      "justifyContent": "flex-start",
-      "maxHeight": 300,
-    }
-  }
->
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#f8fafc",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        var(--color-blue-gray-50)
-      </span>
-      <span
-        className="label"
-      >
-        #f8fafc
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#f1f5f9",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        var(--color-blue-gray-100)
-      </span>
-      <span
-        className="label"
-      >
-        #f1f5f9
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#e2e8f0",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        var(--color-blue-gray-200)
-      </span>
-      <span
-        className="label"
-      >
-        #e2e8f0
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#cbd5e1",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        var(--color-blue-gray-300)
-      </span>
-      <span
-        className="label"
-      >
-        #cbd5e1
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#94a3b8",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        var(--color-blue-gray-400)
-      </span>
-      <span
-        className="label"
-      >
-        #94a3b8
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#64748b",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        var(--color-blue-gray-500)
-      </span>
-      <span
-        className="label"
-      >
-        #64748b
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#475569",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        var(--color-blue-gray-600)
-      </span>
-      <span
-        className="label"
-      >
-        #475569
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#334155",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        var(--color-blue-gray-700)
-      </span>
-      <span
-        className="label"
-      >
-        #334155
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#1e293b",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        var(--color-blue-gray-800)
-      </span>
-      <span
-        className="label"
-      >
-        #1e293b
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#0f172a",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        var(--color-blue-gray-900)
-      </span>
-      <span
-        className="label"
-      >
-        #0f172a
+        #2a4365
       </span>
     </div>
   </div>
@@ -1011,7 +429,7 @@ exports[`Storyshots Tokens/Color Brand 1`] = `
       "gap": "10px 30px",
       "height": "100%",
       "justifyContent": "flex-start",
-      "maxHeight": 450,
+      "maxHeight": 300,
     }
   }
 >
@@ -1330,562 +748,6 @@ exports[`Storyshots Tokens/Color Brand 1`] = `
 </div>
 `;
 
-exports[`Storyshots Tokens/Color Cool Gray 1`] = `
-<div
-  style={
-    Object {
-      "alignContent": "flex-start",
-      "display": "flex",
-      "flexDirection": "column",
-      "flexWrap": "wrap",
-      "gap": "10px 30px",
-      "height": "100%",
-      "justifyContent": "flex-start",
-      "maxHeight": 300,
-    }
-  }
->
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#f9fafb",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        var(--color-cool-gray-50)
-      </span>
-      <span
-        className="label"
-      >
-        #f9fafb
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#f3f4f6",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        var(--color-cool-gray-100)
-      </span>
-      <span
-        className="label"
-      >
-        #f3f4f6
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#e5e7eb",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        var(--color-cool-gray-200)
-      </span>
-      <span
-        className="label"
-      >
-        #e5e7eb
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#d1d5db",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        var(--color-cool-gray-300)
-      </span>
-      <span
-        className="label"
-      >
-        #d1d5db
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#9ca3af",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        var(--color-cool-gray-400)
-      </span>
-      <span
-        className="label"
-      >
-        #9ca3af
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#6b7280",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        var(--color-cool-gray-500)
-      </span>
-      <span
-        className="label"
-      >
-        #6b7280
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#4b5563",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        var(--color-cool-gray-600)
-      </span>
-      <span
-        className="label"
-      >
-        #4b5563
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#374151",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        var(--color-cool-gray-700)
-      </span>
-      <span
-        className="label"
-      >
-        #374151
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#1f2937",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        var(--color-cool-gray-800)
-      </span>
-      <span
-        className="label"
-      >
-        #1f2937
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#111827",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        var(--color-cool-gray-900)
-      </span>
-      <span
-        className="label"
-      >
-        #111827
-      </span>
-    </div>
-  </div>
-</div>
-`;
-
-exports[`Storyshots Tokens/Color Cyan 1`] = `
-<div
-  style={
-    Object {
-      "alignContent": "flex-start",
-      "display": "flex",
-      "flexDirection": "column",
-      "flexWrap": "wrap",
-      "gap": "10px 30px",
-      "height": "100%",
-      "justifyContent": "flex-start",
-      "maxHeight": 300,
-    }
-  }
->
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#ecfeff",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        var(--color-cyan-50)
-      </span>
-      <span
-        className="label"
-      >
-        #ecfeff
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#cffafe",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        var(--color-cyan-100)
-      </span>
-      <span
-        className="label"
-      >
-        #cffafe
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#a5f3fc",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        var(--color-cyan-200)
-      </span>
-      <span
-        className="label"
-      >
-        #a5f3fc
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#67e8f9",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        var(--color-cyan-300)
-      </span>
-      <span
-        className="label"
-      >
-        #67e8f9
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#22d3ee",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        var(--color-cyan-400)
-      </span>
-      <span
-        className="label"
-      >
-        #22d3ee
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#06b6d4",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        var(--color-cyan-500)
-      </span>
-      <span
-        className="label"
-      >
-        #06b6d4
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#0891b2",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        var(--color-cyan-600)
-      </span>
-      <span
-        className="label"
-      >
-        #0891b2
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#0e7490",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        var(--color-cyan-700)
-      </span>
-      <span
-        className="label"
-      >
-        #0e7490
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#155e75",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        var(--color-cyan-800)
-      </span>
-      <span
-        className="label"
-      >
-        #155e75
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#164e63",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        var(--color-cyan-900)
-      </span>
-      <span
-        className="label"
-      >
-        #164e63
-      </span>
-    </div>
-  </div>
-</div>
-`;
-
 exports[`Storyshots Tokens/Color Decisions 1`] = `
 <div
   style={
@@ -1897,7 +759,7 @@ exports[`Storyshots Tokens/Color Decisions 1`] = `
       "gap": "10px 30px",
       "height": "100%",
       "justifyContent": "flex-start",
-      "maxHeight": 600,
+      "maxHeight": 300,
     }
   }
 >
@@ -1986,7 +848,7 @@ exports[`Storyshots Tokens/Color Decisions 1`] = `
       className="color"
       style={
         Object {
-          "backgroundColor": "#fcfdfd",
+          "backgroundColor": "#fff",
         }
       }
     />
@@ -2001,7 +863,7 @@ exports[`Storyshots Tokens/Color Decisions 1`] = `
       <span
         className="label"
       >
-        #fcfdfd
+        #fff
       </span>
     </div>
   </div>
@@ -2168,32 +1030,6 @@ exports[`Storyshots Tokens/Color Decisions 1`] = `
       className="color"
       style={
         Object {
-          "backgroundColor": "#fecdd3",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        var(--color-secondary-highlight)
-      </span>
-      <span
-        className="label"
-      >
-        #fecdd3
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
           "backgroundColor": "#fff",
         }
       }
@@ -2246,7 +1082,7 @@ exports[`Storyshots Tokens/Color Decisions 1`] = `
       className="color"
       style={
         Object {
-          "backgroundColor": "#34d399",
+          "backgroundColor": "#48bb78",
         }
       }
     />
@@ -2261,33 +1097,7 @@ exports[`Storyshots Tokens/Color Decisions 1`] = `
       <span
         className="label"
       >
-        #34d399
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#a7f3d0",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        var(--color-tertiary-highlight)
-      </span>
-      <span
-        className="label"
-      >
-        #a7f3d0
+        #48bb78
       </span>
     </div>
   </div>
@@ -2331,7 +1141,7 @@ exports[`Storyshots Tokens/Color Default 1`] = `
       "gap": "10px 30px",
       "height": "100%",
       "justifyContent": "flex-start",
-      "maxHeight": 300,
+      "maxHeight": 250,
     }
   }
 >
@@ -2364,562 +1174,6 @@ exports[`Storyshots Tokens/Color Default 1`] = `
 </div>
 `;
 
-exports[`Storyshots Tokens/Color Emerald 1`] = `
-<div
-  style={
-    Object {
-      "alignContent": "flex-start",
-      "display": "flex",
-      "flexDirection": "column",
-      "flexWrap": "wrap",
-      "gap": "10px 30px",
-      "height": "100%",
-      "justifyContent": "flex-start",
-      "maxHeight": 300,
-    }
-  }
->
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#ecfdf5",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        var(--color-emerald-50)
-      </span>
-      <span
-        className="label"
-      >
-        #ecfdf5
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#d1fae5",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        var(--color-emerald-100)
-      </span>
-      <span
-        className="label"
-      >
-        #d1fae5
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#a7f3d0",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        var(--color-emerald-200)
-      </span>
-      <span
-        className="label"
-      >
-        #a7f3d0
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#6ee7b7",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        var(--color-emerald-300)
-      </span>
-      <span
-        className="label"
-      >
-        #6ee7b7
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#34d399",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        var(--color-emerald-400)
-      </span>
-      <span
-        className="label"
-      >
-        #34d399
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#10b981",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        var(--color-emerald-500)
-      </span>
-      <span
-        className="label"
-      >
-        #10b981
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#059669",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        var(--color-emerald-600)
-      </span>
-      <span
-        className="label"
-      >
-        #059669
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#047857",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        var(--color-emerald-700)
-      </span>
-      <span
-        className="label"
-      >
-        #047857
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#065f46",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        var(--color-emerald-800)
-      </span>
-      <span
-        className="label"
-      >
-        #065f46
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#064e3b",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        var(--color-emerald-900)
-      </span>
-      <span
-        className="label"
-      >
-        #064e3b
-      </span>
-    </div>
-  </div>
-</div>
-`;
-
-exports[`Storyshots Tokens/Color Fuchsia 1`] = `
-<div
-  style={
-    Object {
-      "alignContent": "flex-start",
-      "display": "flex",
-      "flexDirection": "column",
-      "flexWrap": "wrap",
-      "gap": "10px 30px",
-      "height": "100%",
-      "justifyContent": "flex-start",
-      "maxHeight": 300,
-    }
-  }
->
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#fdf4ff",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        var(--color-fuchsia-50)
-      </span>
-      <span
-        className="label"
-      >
-        #fdf4ff
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#fae8ff",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        var(--color-fuchsia-100)
-      </span>
-      <span
-        className="label"
-      >
-        #fae8ff
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#f5d0fe",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        var(--color-fuchsia-200)
-      </span>
-      <span
-        className="label"
-      >
-        #f5d0fe
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#f0abfc",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        var(--color-fuchsia-300)
-      </span>
-      <span
-        className="label"
-      >
-        #f0abfc
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#e879f9",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        var(--color-fuchsia-400)
-      </span>
-      <span
-        className="label"
-      >
-        #e879f9
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#d946ef",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        var(--color-fuchsia-500)
-      </span>
-      <span
-        className="label"
-      >
-        #d946ef
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#c026d3",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        var(--color-fuchsia-600)
-      </span>
-      <span
-        className="label"
-      >
-        #c026d3
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#a21caf",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        var(--color-fuchsia-700)
-      </span>
-      <span
-        className="label"
-      >
-        #a21caf
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#86198f",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        var(--color-fuchsia-800)
-      </span>
-      <span
-        className="label"
-      >
-        #86198f
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#701a75",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        var(--color-fuchsia-900)
-      </span>
-      <span
-        className="label"
-      >
-        #701a75
-      </span>
-    </div>
-  </div>
-</div>
-`;
-
 exports[`Storyshots Tokens/Color Gray 1`] = `
 <div
   style={
@@ -2931,7 +1185,7 @@ exports[`Storyshots Tokens/Color Gray 1`] = `
       "gap": "10px 30px",
       "height": "100%",
       "justifyContent": "flex-start",
-      "maxHeight": 300,
+      "maxHeight": 250,
     }
   }
 >
@@ -2942,33 +1196,7 @@ exports[`Storyshots Tokens/Color Gray 1`] = `
       className="color"
       style={
         Object {
-          "backgroundColor": "#fafafa",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        var(--color-gray-50)
-      </span>
-      <span
-        className="label"
-      >
-        #fafafa
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#f4f4f5",
+          "backgroundColor": "#f7fafc",
         }
       }
     />
@@ -2983,7 +1211,7 @@ exports[`Storyshots Tokens/Color Gray 1`] = `
       <span
         className="label"
       >
-        #f4f4f5
+        #f7fafc
       </span>
     </div>
   </div>
@@ -2994,7 +1222,7 @@ exports[`Storyshots Tokens/Color Gray 1`] = `
       className="color"
       style={
         Object {
-          "backgroundColor": "#e4e4e7",
+          "backgroundColor": "#edf2f7",
         }
       }
     />
@@ -3009,7 +1237,7 @@ exports[`Storyshots Tokens/Color Gray 1`] = `
       <span
         className="label"
       >
-        #e4e4e7
+        #edf2f7
       </span>
     </div>
   </div>
@@ -3020,7 +1248,7 @@ exports[`Storyshots Tokens/Color Gray 1`] = `
       className="color"
       style={
         Object {
-          "backgroundColor": "#d4d4d8",
+          "backgroundColor": "#e2e8f0",
         }
       }
     />
@@ -3035,7 +1263,7 @@ exports[`Storyshots Tokens/Color Gray 1`] = `
       <span
         className="label"
       >
-        #d4d4d8
+        #e2e8f0
       </span>
     </div>
   </div>
@@ -3046,7 +1274,7 @@ exports[`Storyshots Tokens/Color Gray 1`] = `
       className="color"
       style={
         Object {
-          "backgroundColor": "#a1a1aa",
+          "backgroundColor": "#cbd5e0",
         }
       }
     />
@@ -3061,7 +1289,7 @@ exports[`Storyshots Tokens/Color Gray 1`] = `
       <span
         className="label"
       >
-        #a1a1aa
+        #cbd5e0
       </span>
     </div>
   </div>
@@ -3072,7 +1300,7 @@ exports[`Storyshots Tokens/Color Gray 1`] = `
       className="color"
       style={
         Object {
-          "backgroundColor": "#71717a",
+          "backgroundColor": "#a0aec0",
         }
       }
     />
@@ -3087,7 +1315,7 @@ exports[`Storyshots Tokens/Color Gray 1`] = `
       <span
         className="label"
       >
-        #71717a
+        #a0aec0
       </span>
     </div>
   </div>
@@ -3098,7 +1326,7 @@ exports[`Storyshots Tokens/Color Gray 1`] = `
       className="color"
       style={
         Object {
-          "backgroundColor": "#52525b",
+          "backgroundColor": "#718096",
         }
       }
     />
@@ -3113,7 +1341,7 @@ exports[`Storyshots Tokens/Color Gray 1`] = `
       <span
         className="label"
       >
-        #52525b
+        #718096
       </span>
     </div>
   </div>
@@ -3124,7 +1352,7 @@ exports[`Storyshots Tokens/Color Gray 1`] = `
       className="color"
       style={
         Object {
-          "backgroundColor": "#3f3f46",
+          "backgroundColor": "#4a5568",
         }
       }
     />
@@ -3139,7 +1367,7 @@ exports[`Storyshots Tokens/Color Gray 1`] = `
       <span
         className="label"
       >
-        #3f3f46
+        #4a5568
       </span>
     </div>
   </div>
@@ -3150,7 +1378,7 @@ exports[`Storyshots Tokens/Color Gray 1`] = `
       className="color"
       style={
         Object {
-          "backgroundColor": "#27272a",
+          "backgroundColor": "#2d3748",
         }
       }
     />
@@ -3165,7 +1393,7 @@ exports[`Storyshots Tokens/Color Gray 1`] = `
       <span
         className="label"
       >
-        #27272a
+        #2d3748
       </span>
     </div>
   </div>
@@ -3176,7 +1404,7 @@ exports[`Storyshots Tokens/Color Gray 1`] = `
       className="color"
       style={
         Object {
-          "backgroundColor": "#18181b",
+          "backgroundColor": "#1a202c",
         }
       }
     />
@@ -3191,7 +1419,7 @@ exports[`Storyshots Tokens/Color Gray 1`] = `
       <span
         className="label"
       >
-        #18181b
+        #1a202c
       </span>
     </div>
   </div>
@@ -3209,7 +1437,7 @@ exports[`Storyshots Tokens/Color Green 1`] = `
       "gap": "10px 30px",
       "height": "100%",
       "justifyContent": "flex-start",
-      "maxHeight": 300,
+      "maxHeight": 250,
     }
   }
 >
@@ -3220,33 +1448,7 @@ exports[`Storyshots Tokens/Color Green 1`] = `
       className="color"
       style={
         Object {
-          "backgroundColor": "#f0fdf4",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        var(--color-green-50)
-      </span>
-      <span
-        className="label"
-      >
-        #f0fdf4
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#dcfce7",
+          "backgroundColor": "#f0fff4",
         }
       }
     />
@@ -3261,7 +1463,7 @@ exports[`Storyshots Tokens/Color Green 1`] = `
       <span
         className="label"
       >
-        #dcfce7
+        #f0fff4
       </span>
     </div>
   </div>
@@ -3272,7 +1474,7 @@ exports[`Storyshots Tokens/Color Green 1`] = `
       className="color"
       style={
         Object {
-          "backgroundColor": "#bbf7d0",
+          "backgroundColor": "#c6f6d5",
         }
       }
     />
@@ -3287,7 +1489,7 @@ exports[`Storyshots Tokens/Color Green 1`] = `
       <span
         className="label"
       >
-        #bbf7d0
+        #c6f6d5
       </span>
     </div>
   </div>
@@ -3298,7 +1500,7 @@ exports[`Storyshots Tokens/Color Green 1`] = `
       className="color"
       style={
         Object {
-          "backgroundColor": "#86efac",
+          "backgroundColor": "#9ae6b4",
         }
       }
     />
@@ -3313,7 +1515,7 @@ exports[`Storyshots Tokens/Color Green 1`] = `
       <span
         className="label"
       >
-        #86efac
+        #9ae6b4
       </span>
     </div>
   </div>
@@ -3324,7 +1526,7 @@ exports[`Storyshots Tokens/Color Green 1`] = `
       className="color"
       style={
         Object {
-          "backgroundColor": "#4ade80",
+          "backgroundColor": "#68d391",
         }
       }
     />
@@ -3339,7 +1541,7 @@ exports[`Storyshots Tokens/Color Green 1`] = `
       <span
         className="label"
       >
-        #4ade80
+        #68d391
       </span>
     </div>
   </div>
@@ -3350,7 +1552,7 @@ exports[`Storyshots Tokens/Color Green 1`] = `
       className="color"
       style={
         Object {
-          "backgroundColor": "#22c55e",
+          "backgroundColor": "#48bb78",
         }
       }
     />
@@ -3365,7 +1567,7 @@ exports[`Storyshots Tokens/Color Green 1`] = `
       <span
         className="label"
       >
-        #22c55e
+        #48bb78
       </span>
     </div>
   </div>
@@ -3376,7 +1578,7 @@ exports[`Storyshots Tokens/Color Green 1`] = `
       className="color"
       style={
         Object {
-          "backgroundColor": "#16a34a",
+          "backgroundColor": "#38a169",
         }
       }
     />
@@ -3391,7 +1593,7 @@ exports[`Storyshots Tokens/Color Green 1`] = `
       <span
         className="label"
       >
-        #16a34a
+        #38a169
       </span>
     </div>
   </div>
@@ -3402,7 +1604,7 @@ exports[`Storyshots Tokens/Color Green 1`] = `
       className="color"
       style={
         Object {
-          "backgroundColor": "#15803d",
+          "backgroundColor": "#2f855a",
         }
       }
     />
@@ -3417,7 +1619,7 @@ exports[`Storyshots Tokens/Color Green 1`] = `
       <span
         className="label"
       >
-        #15803d
+        #2f855a
       </span>
     </div>
   </div>
@@ -3428,7 +1630,7 @@ exports[`Storyshots Tokens/Color Green 1`] = `
       className="color"
       style={
         Object {
-          "backgroundColor": "#166534",
+          "backgroundColor": "#276749",
         }
       }
     />
@@ -3443,7 +1645,7 @@ exports[`Storyshots Tokens/Color Green 1`] = `
       <span
         className="label"
       >
-        #166534
+        #276749
       </span>
     </div>
   </div>
@@ -3454,7 +1656,7 @@ exports[`Storyshots Tokens/Color Green 1`] = `
       className="color"
       style={
         Object {
-          "backgroundColor": "#14532d",
+          "backgroundColor": "#22543d",
         }
       }
     />
@@ -3469,7 +1671,7 @@ exports[`Storyshots Tokens/Color Green 1`] = `
       <span
         className="label"
       >
-        #14532d
+        #22543d
       </span>
     </div>
   </div>
@@ -3487,7 +1689,7 @@ exports[`Storyshots Tokens/Color Indigo 1`] = `
       "gap": "10px 30px",
       "height": "100%",
       "justifyContent": "flex-start",
-      "maxHeight": 300,
+      "maxHeight": 250,
     }
   }
 >
@@ -3498,33 +1700,7 @@ exports[`Storyshots Tokens/Color Indigo 1`] = `
       className="color"
       style={
         Object {
-          "backgroundColor": "#eef2ff",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        var(--color-indigo-50)
-      </span>
-      <span
-        className="label"
-      >
-        #eef2ff
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#e0e7ff",
+          "backgroundColor": "#ebf4ff",
         }
       }
     />
@@ -3539,7 +1715,7 @@ exports[`Storyshots Tokens/Color Indigo 1`] = `
       <span
         className="label"
       >
-        #e0e7ff
+        #ebf4ff
       </span>
     </div>
   </div>
@@ -3550,7 +1726,7 @@ exports[`Storyshots Tokens/Color Indigo 1`] = `
       className="color"
       style={
         Object {
-          "backgroundColor": "#c7d2fe",
+          "backgroundColor": "#c3dafe",
         }
       }
     />
@@ -3565,7 +1741,7 @@ exports[`Storyshots Tokens/Color Indigo 1`] = `
       <span
         className="label"
       >
-        #c7d2fe
+        #c3dafe
       </span>
     </div>
   </div>
@@ -3576,7 +1752,7 @@ exports[`Storyshots Tokens/Color Indigo 1`] = `
       className="color"
       style={
         Object {
-          "backgroundColor": "#a5b4fc",
+          "backgroundColor": "#a3bffa",
         }
       }
     />
@@ -3591,7 +1767,7 @@ exports[`Storyshots Tokens/Color Indigo 1`] = `
       <span
         className="label"
       >
-        #a5b4fc
+        #a3bffa
       </span>
     </div>
   </div>
@@ -3602,7 +1778,7 @@ exports[`Storyshots Tokens/Color Indigo 1`] = `
       className="color"
       style={
         Object {
-          "backgroundColor": "#818cf8",
+          "backgroundColor": "#7f9cf5",
         }
       }
     />
@@ -3617,7 +1793,7 @@ exports[`Storyshots Tokens/Color Indigo 1`] = `
       <span
         className="label"
       >
-        #818cf8
+        #7f9cf5
       </span>
     </div>
   </div>
@@ -3628,7 +1804,7 @@ exports[`Storyshots Tokens/Color Indigo 1`] = `
       className="color"
       style={
         Object {
-          "backgroundColor": "#6366f1",
+          "backgroundColor": "#667eea",
         }
       }
     />
@@ -3643,7 +1819,7 @@ exports[`Storyshots Tokens/Color Indigo 1`] = `
       <span
         className="label"
       >
-        #6366f1
+        #667eea
       </span>
     </div>
   </div>
@@ -3654,7 +1830,7 @@ exports[`Storyshots Tokens/Color Indigo 1`] = `
       className="color"
       style={
         Object {
-          "backgroundColor": "#4f46e5",
+          "backgroundColor": "#5a67d8",
         }
       }
     />
@@ -3669,7 +1845,7 @@ exports[`Storyshots Tokens/Color Indigo 1`] = `
       <span
         className="label"
       >
-        #4f46e5
+        #5a67d8
       </span>
     </div>
   </div>
@@ -3680,7 +1856,7 @@ exports[`Storyshots Tokens/Color Indigo 1`] = `
       className="color"
       style={
         Object {
-          "backgroundColor": "#4338ca",
+          "backgroundColor": "#4c51bf",
         }
       }
     />
@@ -3695,7 +1871,7 @@ exports[`Storyshots Tokens/Color Indigo 1`] = `
       <span
         className="label"
       >
-        #4338ca
+        #4c51bf
       </span>
     </div>
   </div>
@@ -3706,7 +1882,7 @@ exports[`Storyshots Tokens/Color Indigo 1`] = `
       className="color"
       style={
         Object {
-          "backgroundColor": "#3730a3",
+          "backgroundColor": "#434190",
         }
       }
     />
@@ -3721,7 +1897,7 @@ exports[`Storyshots Tokens/Color Indigo 1`] = `
       <span
         className="label"
       >
-        #3730a3
+        #434190
       </span>
     </div>
   </div>
@@ -3732,7 +1908,7 @@ exports[`Storyshots Tokens/Color Indigo 1`] = `
       className="color"
       style={
         Object {
-          "backgroundColor": "#312e81",
+          "backgroundColor": "#3c366b",
         }
       }
     />
@@ -3747,285 +1923,7 @@ exports[`Storyshots Tokens/Color Indigo 1`] = `
       <span
         className="label"
       >
-        #312e81
-      </span>
-    </div>
-  </div>
-</div>
-`;
-
-exports[`Storyshots Tokens/Color Lime 1`] = `
-<div
-  style={
-    Object {
-      "alignContent": "flex-start",
-      "display": "flex",
-      "flexDirection": "column",
-      "flexWrap": "wrap",
-      "gap": "10px 30px",
-      "height": "100%",
-      "justifyContent": "flex-start",
-      "maxHeight": 300,
-    }
-  }
->
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#f7fee7",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        var(--color-lime-50)
-      </span>
-      <span
-        className="label"
-      >
-        #f7fee7
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#ecfccb",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        var(--color-lime-100)
-      </span>
-      <span
-        className="label"
-      >
-        #ecfccb
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#d9f99d",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        var(--color-lime-200)
-      </span>
-      <span
-        className="label"
-      >
-        #d9f99d
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#bef264",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        var(--color-lime-300)
-      </span>
-      <span
-        className="label"
-      >
-        #bef264
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#a3e635",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        var(--color-lime-400)
-      </span>
-      <span
-        className="label"
-      >
-        #a3e635
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#84cc16",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        var(--color-lime-500)
-      </span>
-      <span
-        className="label"
-      >
-        #84cc16
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#65a30d",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        var(--color-lime-600)
-      </span>
-      <span
-        className="label"
-      >
-        #65a30d
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#4d7c0f",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        var(--color-lime-700)
-      </span>
-      <span
-        className="label"
-      >
-        #4d7c0f
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#3f6212",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        var(--color-lime-800)
-      </span>
-      <span
-        className="label"
-      >
-        #3f6212
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#365314",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        var(--color-lime-900)
-      </span>
-      <span
-        className="label"
-      >
-        #365314
+        #3c366b
       </span>
     </div>
   </div>
@@ -4043,7 +1941,7 @@ exports[`Storyshots Tokens/Color Orange 1`] = `
       "gap": "10px 30px",
       "height": "100%",
       "justifyContent": "flex-start",
-      "maxHeight": 300,
+      "maxHeight": 250,
     }
   }
 >
@@ -4054,33 +1952,7 @@ exports[`Storyshots Tokens/Color Orange 1`] = `
       className="color"
       style={
         Object {
-          "backgroundColor": "#fff7ed",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        var(--color-orange-50)
-      </span>
-      <span
-        className="label"
-      >
-        #fff7ed
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#ffedd5",
+          "backgroundColor": "#fffaf0",
         }
       }
     />
@@ -4095,7 +1967,7 @@ exports[`Storyshots Tokens/Color Orange 1`] = `
       <span
         className="label"
       >
-        #ffedd5
+        #fffaf0
       </span>
     </div>
   </div>
@@ -4106,7 +1978,7 @@ exports[`Storyshots Tokens/Color Orange 1`] = `
       className="color"
       style={
         Object {
-          "backgroundColor": "#fed7aa",
+          "backgroundColor": "#feebc8",
         }
       }
     />
@@ -4121,7 +1993,7 @@ exports[`Storyshots Tokens/Color Orange 1`] = `
       <span
         className="label"
       >
-        #fed7aa
+        #feebc8
       </span>
     </div>
   </div>
@@ -4132,7 +2004,7 @@ exports[`Storyshots Tokens/Color Orange 1`] = `
       className="color"
       style={
         Object {
-          "backgroundColor": "#fdba74",
+          "backgroundColor": "#fbd38d",
         }
       }
     />
@@ -4147,7 +2019,7 @@ exports[`Storyshots Tokens/Color Orange 1`] = `
       <span
         className="label"
       >
-        #fdba74
+        #fbd38d
       </span>
     </div>
   </div>
@@ -4158,7 +2030,7 @@ exports[`Storyshots Tokens/Color Orange 1`] = `
       className="color"
       style={
         Object {
-          "backgroundColor": "#fb923c",
+          "backgroundColor": "#f6ad55",
         }
       }
     />
@@ -4173,7 +2045,7 @@ exports[`Storyshots Tokens/Color Orange 1`] = `
       <span
         className="label"
       >
-        #fb923c
+        #f6ad55
       </span>
     </div>
   </div>
@@ -4184,7 +2056,7 @@ exports[`Storyshots Tokens/Color Orange 1`] = `
       className="color"
       style={
         Object {
-          "backgroundColor": "#f97316",
+          "backgroundColor": "#ed8936",
         }
       }
     />
@@ -4199,7 +2071,7 @@ exports[`Storyshots Tokens/Color Orange 1`] = `
       <span
         className="label"
       >
-        #f97316
+        #ed8936
       </span>
     </div>
   </div>
@@ -4210,7 +2082,7 @@ exports[`Storyshots Tokens/Color Orange 1`] = `
       className="color"
       style={
         Object {
-          "backgroundColor": "#ea580c",
+          "backgroundColor": "#dd6b20",
         }
       }
     />
@@ -4225,7 +2097,7 @@ exports[`Storyshots Tokens/Color Orange 1`] = `
       <span
         className="label"
       >
-        #ea580c
+        #dd6b20
       </span>
     </div>
   </div>
@@ -4236,7 +2108,7 @@ exports[`Storyshots Tokens/Color Orange 1`] = `
       className="color"
       style={
         Object {
-          "backgroundColor": "#c2410c",
+          "backgroundColor": "#c05621",
         }
       }
     />
@@ -4251,7 +2123,7 @@ exports[`Storyshots Tokens/Color Orange 1`] = `
       <span
         className="label"
       >
-        #c2410c
+        #c05621
       </span>
     </div>
   </div>
@@ -4262,7 +2134,7 @@ exports[`Storyshots Tokens/Color Orange 1`] = `
       className="color"
       style={
         Object {
-          "backgroundColor": "#9a3412",
+          "backgroundColor": "#9c4221",
         }
       }
     />
@@ -4277,7 +2149,7 @@ exports[`Storyshots Tokens/Color Orange 1`] = `
       <span
         className="label"
       >
-        #9a3412
+        #9c4221
       </span>
     </div>
   </div>
@@ -4288,7 +2160,7 @@ exports[`Storyshots Tokens/Color Orange 1`] = `
       className="color"
       style={
         Object {
-          "backgroundColor": "#7c2d12",
+          "backgroundColor": "#7b341e",
         }
       }
     />
@@ -4303,7 +2175,7 @@ exports[`Storyshots Tokens/Color Orange 1`] = `
       <span
         className="label"
       >
-        #7c2d12
+        #7b341e
       </span>
     </div>
   </div>
@@ -4321,7 +2193,7 @@ exports[`Storyshots Tokens/Color Pink 1`] = `
       "gap": "10px 30px",
       "height": "100%",
       "justifyContent": "flex-start",
-      "maxHeight": 300,
+      "maxHeight": 250,
     }
   }
 >
@@ -4332,33 +2204,7 @@ exports[`Storyshots Tokens/Color Pink 1`] = `
       className="color"
       style={
         Object {
-          "backgroundColor": "#fdf2f8",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        var(--color-pink-50)
-      </span>
-      <span
-        className="label"
-      >
-        #fdf2f8
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#fce7f3",
+          "backgroundColor": "#fff5f7",
         }
       }
     />
@@ -4373,7 +2219,7 @@ exports[`Storyshots Tokens/Color Pink 1`] = `
       <span
         className="label"
       >
-        #fce7f3
+        #fff5f7
       </span>
     </div>
   </div>
@@ -4384,7 +2230,7 @@ exports[`Storyshots Tokens/Color Pink 1`] = `
       className="color"
       style={
         Object {
-          "backgroundColor": "#fbcfe8",
+          "backgroundColor": "#fed7e2",
         }
       }
     />
@@ -4399,7 +2245,7 @@ exports[`Storyshots Tokens/Color Pink 1`] = `
       <span
         className="label"
       >
-        #fbcfe8
+        #fed7e2
       </span>
     </div>
   </div>
@@ -4410,7 +2256,7 @@ exports[`Storyshots Tokens/Color Pink 1`] = `
       className="color"
       style={
         Object {
-          "backgroundColor": "#f9a8d4",
+          "backgroundColor": "#fbb6ce",
         }
       }
     />
@@ -4425,7 +2271,7 @@ exports[`Storyshots Tokens/Color Pink 1`] = `
       <span
         className="label"
       >
-        #f9a8d4
+        #fbb6ce
       </span>
     </div>
   </div>
@@ -4436,7 +2282,7 @@ exports[`Storyshots Tokens/Color Pink 1`] = `
       className="color"
       style={
         Object {
-          "backgroundColor": "#f472b6",
+          "backgroundColor": "#f687b3",
         }
       }
     />
@@ -4451,7 +2297,7 @@ exports[`Storyshots Tokens/Color Pink 1`] = `
       <span
         className="label"
       >
-        #f472b6
+        #f687b3
       </span>
     </div>
   </div>
@@ -4462,7 +2308,7 @@ exports[`Storyshots Tokens/Color Pink 1`] = `
       className="color"
       style={
         Object {
-          "backgroundColor": "#ec4899",
+          "backgroundColor": "#ed64a6",
         }
       }
     />
@@ -4477,7 +2323,7 @@ exports[`Storyshots Tokens/Color Pink 1`] = `
       <span
         className="label"
       >
-        #ec4899
+        #ed64a6
       </span>
     </div>
   </div>
@@ -4488,7 +2334,7 @@ exports[`Storyshots Tokens/Color Pink 1`] = `
       className="color"
       style={
         Object {
-          "backgroundColor": "#db2777",
+          "backgroundColor": "#d53f8c",
         }
       }
     />
@@ -4503,7 +2349,7 @@ exports[`Storyshots Tokens/Color Pink 1`] = `
       <span
         className="label"
       >
-        #db2777
+        #d53f8c
       </span>
     </div>
   </div>
@@ -4514,7 +2360,7 @@ exports[`Storyshots Tokens/Color Pink 1`] = `
       className="color"
       style={
         Object {
-          "backgroundColor": "#be185d",
+          "backgroundColor": "#b83280",
         }
       }
     />
@@ -4529,7 +2375,7 @@ exports[`Storyshots Tokens/Color Pink 1`] = `
       <span
         className="label"
       >
-        #be185d
+        #b83280
       </span>
     </div>
   </div>
@@ -4540,7 +2386,7 @@ exports[`Storyshots Tokens/Color Pink 1`] = `
       className="color"
       style={
         Object {
-          "backgroundColor": "#9d174d",
+          "backgroundColor": "#97266d",
         }
       }
     />
@@ -4555,7 +2401,7 @@ exports[`Storyshots Tokens/Color Pink 1`] = `
       <span
         className="label"
       >
-        #9d174d
+        #97266d
       </span>
     </div>
   </div>
@@ -4566,7 +2412,7 @@ exports[`Storyshots Tokens/Color Pink 1`] = `
       className="color"
       style={
         Object {
-          "backgroundColor": "#831843",
+          "backgroundColor": "#702459",
         }
       }
     />
@@ -4581,7 +2427,7 @@ exports[`Storyshots Tokens/Color Pink 1`] = `
       <span
         className="label"
       >
-        #831843
+        #702459
       </span>
     </div>
   </div>
@@ -4599,7 +2445,7 @@ exports[`Storyshots Tokens/Color Purple 1`] = `
       "gap": "10px 30px",
       "height": "100%",
       "justifyContent": "flex-start",
-      "maxHeight": 300,
+      "maxHeight": 250,
     }
   }
 >
@@ -4620,7 +2466,7 @@ exports[`Storyshots Tokens/Color Purple 1`] = `
       <span
         className="label"
       >
-        var(--color-purple-50)
+        var(--color-purple-100)
       </span>
       <span
         className="label"
@@ -4636,33 +2482,7 @@ exports[`Storyshots Tokens/Color Purple 1`] = `
       className="color"
       style={
         Object {
-          "backgroundColor": "#f3e8ff",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        var(--color-purple-100)
-      </span>
-      <span
-        className="label"
-      >
-        #f3e8ff
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#e9d5ff",
+          "backgroundColor": "#e9d8fd",
         }
       }
     />
@@ -4677,7 +2497,7 @@ exports[`Storyshots Tokens/Color Purple 1`] = `
       <span
         className="label"
       >
-        #e9d5ff
+        #e9d8fd
       </span>
     </div>
   </div>
@@ -4688,7 +2508,7 @@ exports[`Storyshots Tokens/Color Purple 1`] = `
       className="color"
       style={
         Object {
-          "backgroundColor": "#d8b4fe",
+          "backgroundColor": "#d6bcfa",
         }
       }
     />
@@ -4703,7 +2523,7 @@ exports[`Storyshots Tokens/Color Purple 1`] = `
       <span
         className="label"
       >
-        #d8b4fe
+        #d6bcfa
       </span>
     </div>
   </div>
@@ -4714,7 +2534,7 @@ exports[`Storyshots Tokens/Color Purple 1`] = `
       className="color"
       style={
         Object {
-          "backgroundColor": "#c084fc",
+          "backgroundColor": "#b794f4",
         }
       }
     />
@@ -4729,7 +2549,7 @@ exports[`Storyshots Tokens/Color Purple 1`] = `
       <span
         className="label"
       >
-        #c084fc
+        #b794f4
       </span>
     </div>
   </div>
@@ -4740,7 +2560,7 @@ exports[`Storyshots Tokens/Color Purple 1`] = `
       className="color"
       style={
         Object {
-          "backgroundColor": "#a855f7",
+          "backgroundColor": "#9f7aea",
         }
       }
     />
@@ -4755,7 +2575,7 @@ exports[`Storyshots Tokens/Color Purple 1`] = `
       <span
         className="label"
       >
-        #a855f7
+        #9f7aea
       </span>
     </div>
   </div>
@@ -4766,7 +2586,7 @@ exports[`Storyshots Tokens/Color Purple 1`] = `
       className="color"
       style={
         Object {
-          "backgroundColor": "#9333ea",
+          "backgroundColor": "#805ad5",
         }
       }
     />
@@ -4781,7 +2601,7 @@ exports[`Storyshots Tokens/Color Purple 1`] = `
       <span
         className="label"
       >
-        #9333ea
+        #805ad5
       </span>
     </div>
   </div>
@@ -4792,7 +2612,7 @@ exports[`Storyshots Tokens/Color Purple 1`] = `
       className="color"
       style={
         Object {
-          "backgroundColor": "#7e22ce",
+          "backgroundColor": "#6b46c1",
         }
       }
     />
@@ -4807,7 +2627,7 @@ exports[`Storyshots Tokens/Color Purple 1`] = `
       <span
         className="label"
       >
-        #7e22ce
+        #6b46c1
       </span>
     </div>
   </div>
@@ -4818,7 +2638,7 @@ exports[`Storyshots Tokens/Color Purple 1`] = `
       className="color"
       style={
         Object {
-          "backgroundColor": "#6b21a8",
+          "backgroundColor": "#553c9a",
         }
       }
     />
@@ -4833,7 +2653,7 @@ exports[`Storyshots Tokens/Color Purple 1`] = `
       <span
         className="label"
       >
-        #6b21a8
+        #553c9a
       </span>
     </div>
   </div>
@@ -4844,7 +2664,7 @@ exports[`Storyshots Tokens/Color Purple 1`] = `
       className="color"
       style={
         Object {
-          "backgroundColor": "#581c87",
+          "backgroundColor": "#44337a",
         }
       }
     />
@@ -4859,7 +2679,7 @@ exports[`Storyshots Tokens/Color Purple 1`] = `
       <span
         className="label"
       >
-        #581c87
+        #44337a
       </span>
     </div>
   </div>
@@ -4877,7 +2697,7 @@ exports[`Storyshots Tokens/Color Red 1`] = `
       "gap": "10px 30px",
       "height": "100%",
       "justifyContent": "flex-start",
-      "maxHeight": 300,
+      "maxHeight": 250,
     }
   }
 >
@@ -4888,33 +2708,7 @@ exports[`Storyshots Tokens/Color Red 1`] = `
       className="color"
       style={
         Object {
-          "backgroundColor": "#fef2f2",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        var(--color-red-50)
-      </span>
-      <span
-        className="label"
-      >
-        #fef2f2
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#fee2e2",
+          "backgroundColor": "#fff5f5",
         }
       }
     />
@@ -4929,7 +2723,7 @@ exports[`Storyshots Tokens/Color Red 1`] = `
       <span
         className="label"
       >
-        #fee2e2
+        #fff5f5
       </span>
     </div>
   </div>
@@ -4940,7 +2734,7 @@ exports[`Storyshots Tokens/Color Red 1`] = `
       className="color"
       style={
         Object {
-          "backgroundColor": "#fecaca",
+          "backgroundColor": "#fed7d7",
         }
       }
     />
@@ -4955,7 +2749,7 @@ exports[`Storyshots Tokens/Color Red 1`] = `
       <span
         className="label"
       >
-        #fecaca
+        #fed7d7
       </span>
     </div>
   </div>
@@ -4966,7 +2760,7 @@ exports[`Storyshots Tokens/Color Red 1`] = `
       className="color"
       style={
         Object {
-          "backgroundColor": "#fca5a5",
+          "backgroundColor": "#feb2b2",
         }
       }
     />
@@ -4981,7 +2775,7 @@ exports[`Storyshots Tokens/Color Red 1`] = `
       <span
         className="label"
       >
-        #fca5a5
+        #feb2b2
       </span>
     </div>
   </div>
@@ -4992,7 +2786,7 @@ exports[`Storyshots Tokens/Color Red 1`] = `
       className="color"
       style={
         Object {
-          "backgroundColor": "#f87171",
+          "backgroundColor": "#fc8181",
         }
       }
     />
@@ -5007,7 +2801,7 @@ exports[`Storyshots Tokens/Color Red 1`] = `
       <span
         className="label"
       >
-        #f87171
+        #fc8181
       </span>
     </div>
   </div>
@@ -5018,7 +2812,7 @@ exports[`Storyshots Tokens/Color Red 1`] = `
       className="color"
       style={
         Object {
-          "backgroundColor": "#ef4444",
+          "backgroundColor": "#f56565",
         }
       }
     />
@@ -5033,7 +2827,7 @@ exports[`Storyshots Tokens/Color Red 1`] = `
       <span
         className="label"
       >
-        #ef4444
+        #f56565
       </span>
     </div>
   </div>
@@ -5044,7 +2838,7 @@ exports[`Storyshots Tokens/Color Red 1`] = `
       className="color"
       style={
         Object {
-          "backgroundColor": "#dc2626",
+          "backgroundColor": "#e53e3e",
         }
       }
     />
@@ -5059,7 +2853,7 @@ exports[`Storyshots Tokens/Color Red 1`] = `
       <span
         className="label"
       >
-        #dc2626
+        #e53e3e
       </span>
     </div>
   </div>
@@ -5070,7 +2864,7 @@ exports[`Storyshots Tokens/Color Red 1`] = `
       className="color"
       style={
         Object {
-          "backgroundColor": "#b91c1c",
+          "backgroundColor": "#c53030",
         }
       }
     />
@@ -5085,7 +2879,7 @@ exports[`Storyshots Tokens/Color Red 1`] = `
       <span
         className="label"
       >
-        #b91c1c
+        #c53030
       </span>
     </div>
   </div>
@@ -5096,7 +2890,7 @@ exports[`Storyshots Tokens/Color Red 1`] = `
       className="color"
       style={
         Object {
-          "backgroundColor": "#991b1b",
+          "backgroundColor": "#9b2c2c",
         }
       }
     />
@@ -5111,7 +2905,7 @@ exports[`Storyshots Tokens/Color Red 1`] = `
       <span
         className="label"
       >
-        #991b1b
+        #9b2c2c
       </span>
     </div>
   </div>
@@ -5122,7 +2916,7 @@ exports[`Storyshots Tokens/Color Red 1`] = `
       className="color"
       style={
         Object {
-          "backgroundColor": "#7f1d1d",
+          "backgroundColor": "#742a2a",
         }
       }
     />
@@ -5137,563 +2931,7 @@ exports[`Storyshots Tokens/Color Red 1`] = `
       <span
         className="label"
       >
-        #7f1d1d
-      </span>
-    </div>
-  </div>
-</div>
-`;
-
-exports[`Storyshots Tokens/Color Rose 1`] = `
-<div
-  style={
-    Object {
-      "alignContent": "flex-start",
-      "display": "flex",
-      "flexDirection": "column",
-      "flexWrap": "wrap",
-      "gap": "10px 30px",
-      "height": "100%",
-      "justifyContent": "flex-start",
-      "maxHeight": 300,
-    }
-  }
->
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#fff1f2",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        var(--color-rose-50)
-      </span>
-      <span
-        className="label"
-      >
-        #fff1f2
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#ffe4e6",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        var(--color-rose-100)
-      </span>
-      <span
-        className="label"
-      >
-        #ffe4e6
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#fecdd3",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        var(--color-rose-200)
-      </span>
-      <span
-        className="label"
-      >
-        #fecdd3
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#fda4af",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        var(--color-rose-300)
-      </span>
-      <span
-        className="label"
-      >
-        #fda4af
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#fb7185",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        var(--color-rose-400)
-      </span>
-      <span
-        className="label"
-      >
-        #fb7185
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#f43f5e",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        var(--color-rose-500)
-      </span>
-      <span
-        className="label"
-      >
-        #f43f5e
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#e11d48",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        var(--color-rose-600)
-      </span>
-      <span
-        className="label"
-      >
-        #e11d48
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#be123c",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        var(--color-rose-700)
-      </span>
-      <span
-        className="label"
-      >
-        #be123c
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#9f1239",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        var(--color-rose-800)
-      </span>
-      <span
-        className="label"
-      >
-        #9f1239
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#881337",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        var(--color-rose-900)
-      </span>
-      <span
-        className="label"
-      >
-        #881337
-      </span>
-    </div>
-  </div>
-</div>
-`;
-
-exports[`Storyshots Tokens/Color Sky 1`] = `
-<div
-  style={
-    Object {
-      "alignContent": "flex-start",
-      "display": "flex",
-      "flexDirection": "column",
-      "flexWrap": "wrap",
-      "gap": "10px 30px",
-      "height": "100%",
-      "justifyContent": "flex-start",
-      "maxHeight": 300,
-    }
-  }
->
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#f0f9ff",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        var(--color-sky-50)
-      </span>
-      <span
-        className="label"
-      >
-        #f0f9ff
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#e0f2fe",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        var(--color-sky-100)
-      </span>
-      <span
-        className="label"
-      >
-        #e0f2fe
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#bae6fd",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        var(--color-sky-200)
-      </span>
-      <span
-        className="label"
-      >
-        #bae6fd
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#7dd3fc",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        var(--color-sky-300)
-      </span>
-      <span
-        className="label"
-      >
-        #7dd3fc
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#38bdf8",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        var(--color-sky-400)
-      </span>
-      <span
-        className="label"
-      >
-        #38bdf8
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#0ea5e9",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        var(--color-sky-500)
-      </span>
-      <span
-        className="label"
-      >
-        #0ea5e9
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#0284c7",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        var(--color-sky-600)
-      </span>
-      <span
-        className="label"
-      >
-        #0284c7
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#0369a1",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        var(--color-sky-700)
-      </span>
-      <span
-        className="label"
-      >
-        #0369a1
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#075985",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        var(--color-sky-800)
-      </span>
-      <span
-        className="label"
-      >
-        #075985
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#0c4a6e",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        var(--color-sky-900)
-      </span>
-      <span
-        className="label"
-      >
-        #0c4a6e
+        #742a2a
       </span>
     </div>
   </div>
@@ -5711,7 +2949,7 @@ exports[`Storyshots Tokens/Color Teal 1`] = `
       "gap": "10px 30px",
       "height": "100%",
       "justifyContent": "flex-start",
-      "maxHeight": 300,
+      "maxHeight": 250,
     }
   }
 >
@@ -5722,33 +2960,7 @@ exports[`Storyshots Tokens/Color Teal 1`] = `
       className="color"
       style={
         Object {
-          "backgroundColor": "#f0fdfa",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        var(--color-teal-50)
-      </span>
-      <span
-        className="label"
-      >
-        #f0fdfa
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#ccfbf1",
+          "backgroundColor": "#e6fffa",
         }
       }
     />
@@ -5763,7 +2975,7 @@ exports[`Storyshots Tokens/Color Teal 1`] = `
       <span
         className="label"
       >
-        #ccfbf1
+        #e6fffa
       </span>
     </div>
   </div>
@@ -5774,7 +2986,7 @@ exports[`Storyshots Tokens/Color Teal 1`] = `
       className="color"
       style={
         Object {
-          "backgroundColor": "#99f6e4",
+          "backgroundColor": "#b2f5ea",
         }
       }
     />
@@ -5789,7 +3001,7 @@ exports[`Storyshots Tokens/Color Teal 1`] = `
       <span
         className="label"
       >
-        #99f6e4
+        #b2f5ea
       </span>
     </div>
   </div>
@@ -5800,7 +3012,7 @@ exports[`Storyshots Tokens/Color Teal 1`] = `
       className="color"
       style={
         Object {
-          "backgroundColor": "#5eead4",
+          "backgroundColor": "#81e6d9",
         }
       }
     />
@@ -5815,7 +3027,7 @@ exports[`Storyshots Tokens/Color Teal 1`] = `
       <span
         className="label"
       >
-        #5eead4
+        #81e6d9
       </span>
     </div>
   </div>
@@ -5826,7 +3038,7 @@ exports[`Storyshots Tokens/Color Teal 1`] = `
       className="color"
       style={
         Object {
-          "backgroundColor": "#2dd4bf",
+          "backgroundColor": "#4fd1c5",
         }
       }
     />
@@ -5841,7 +3053,7 @@ exports[`Storyshots Tokens/Color Teal 1`] = `
       <span
         className="label"
       >
-        #2dd4bf
+        #4fd1c5
       </span>
     </div>
   </div>
@@ -5852,7 +3064,7 @@ exports[`Storyshots Tokens/Color Teal 1`] = `
       className="color"
       style={
         Object {
-          "backgroundColor": "#14b8a6",
+          "backgroundColor": "#38b2ac",
         }
       }
     />
@@ -5867,7 +3079,7 @@ exports[`Storyshots Tokens/Color Teal 1`] = `
       <span
         className="label"
       >
-        #14b8a6
+        #38b2ac
       </span>
     </div>
   </div>
@@ -5878,7 +3090,7 @@ exports[`Storyshots Tokens/Color Teal 1`] = `
       className="color"
       style={
         Object {
-          "backgroundColor": "#0d9488",
+          "backgroundColor": "#319795",
         }
       }
     />
@@ -5893,7 +3105,7 @@ exports[`Storyshots Tokens/Color Teal 1`] = `
       <span
         className="label"
       >
-        #0d9488
+        #319795
       </span>
     </div>
   </div>
@@ -5904,7 +3116,7 @@ exports[`Storyshots Tokens/Color Teal 1`] = `
       className="color"
       style={
         Object {
-          "backgroundColor": "#0f766e",
+          "backgroundColor": "#2c7a7b",
         }
       }
     />
@@ -5919,7 +3131,7 @@ exports[`Storyshots Tokens/Color Teal 1`] = `
       <span
         className="label"
       >
-        #0f766e
+        #2c7a7b
       </span>
     </div>
   </div>
@@ -5930,7 +3142,7 @@ exports[`Storyshots Tokens/Color Teal 1`] = `
       className="color"
       style={
         Object {
-          "backgroundColor": "#115e59",
+          "backgroundColor": "#285e61",
         }
       }
     />
@@ -5945,7 +3157,7 @@ exports[`Storyshots Tokens/Color Teal 1`] = `
       <span
         className="label"
       >
-        #115e59
+        #285e61
       </span>
     </div>
   </div>
@@ -5956,7 +3168,7 @@ exports[`Storyshots Tokens/Color Teal 1`] = `
       className="color"
       style={
         Object {
-          "backgroundColor": "#134e4a",
+          "backgroundColor": "#234e52",
         }
       }
     />
@@ -5971,841 +3183,7 @@ exports[`Storyshots Tokens/Color Teal 1`] = `
       <span
         className="label"
       >
-        #134e4a
-      </span>
-    </div>
-  </div>
-</div>
-`;
-
-exports[`Storyshots Tokens/Color True Gray 1`] = `
-<div
-  style={
-    Object {
-      "alignContent": "flex-start",
-      "display": "flex",
-      "flexDirection": "column",
-      "flexWrap": "wrap",
-      "gap": "10px 30px",
-      "height": "100%",
-      "justifyContent": "flex-start",
-      "maxHeight": 300,
-    }
-  }
->
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#fafafa",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        var(--color-true-gray-50)
-      </span>
-      <span
-        className="label"
-      >
-        #fafafa
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#f5f5f5",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        var(--color-true-gray-100)
-      </span>
-      <span
-        className="label"
-      >
-        #f5f5f5
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#e5e5e5",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        var(--color-true-gray-200)
-      </span>
-      <span
-        className="label"
-      >
-        #e5e5e5
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#d4d4d4",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        var(--color-true-gray-300)
-      </span>
-      <span
-        className="label"
-      >
-        #d4d4d4
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#a3a3a3",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        var(--color-true-gray-400)
-      </span>
-      <span
-        className="label"
-      >
-        #a3a3a3
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#737373",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        var(--color-true-gray-500)
-      </span>
-      <span
-        className="label"
-      >
-        #737373
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#525252",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        var(--color-true-gray-600)
-      </span>
-      <span
-        className="label"
-      >
-        #525252
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#404040",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        var(--color-true-gray-700)
-      </span>
-      <span
-        className="label"
-      >
-        #404040
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#262626",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        var(--color-true-gray-800)
-      </span>
-      <span
-        className="label"
-      >
-        #262626
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#171717",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        var(--color-true-gray-900)
-      </span>
-      <span
-        className="label"
-      >
-        #171717
-      </span>
-    </div>
-  </div>
-</div>
-`;
-
-exports[`Storyshots Tokens/Color Violet 1`] = `
-<div
-  style={
-    Object {
-      "alignContent": "flex-start",
-      "display": "flex",
-      "flexDirection": "column",
-      "flexWrap": "wrap",
-      "gap": "10px 30px",
-      "height": "100%",
-      "justifyContent": "flex-start",
-      "maxHeight": 300,
-    }
-  }
->
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#f5f3ff",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        var(--color-violet-50)
-      </span>
-      <span
-        className="label"
-      >
-        #f5f3ff
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#ede9fe",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        var(--color-violet-100)
-      </span>
-      <span
-        className="label"
-      >
-        #ede9fe
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#ddd6fe",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        var(--color-violet-200)
-      </span>
-      <span
-        className="label"
-      >
-        #ddd6fe
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#c4b5fd",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        var(--color-violet-300)
-      </span>
-      <span
-        className="label"
-      >
-        #c4b5fd
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#a78bfa",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        var(--color-violet-400)
-      </span>
-      <span
-        className="label"
-      >
-        #a78bfa
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#8b5cf6",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        var(--color-violet-500)
-      </span>
-      <span
-        className="label"
-      >
-        #8b5cf6
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#7c3aed",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        var(--color-violet-600)
-      </span>
-      <span
-        className="label"
-      >
-        #7c3aed
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#6d28d9",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        var(--color-violet-700)
-      </span>
-      <span
-        className="label"
-      >
-        #6d28d9
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#5b21b6",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        var(--color-violet-800)
-      </span>
-      <span
-        className="label"
-      >
-        #5b21b6
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#4c1d95",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        var(--color-violet-900)
-      </span>
-      <span
-        className="label"
-      >
-        #4c1d95
-      </span>
-    </div>
-  </div>
-</div>
-`;
-
-exports[`Storyshots Tokens/Color Warm Gray 1`] = `
-<div
-  style={
-    Object {
-      "alignContent": "flex-start",
-      "display": "flex",
-      "flexDirection": "column",
-      "flexWrap": "wrap",
-      "gap": "10px 30px",
-      "height": "100%",
-      "justifyContent": "flex-start",
-      "maxHeight": 300,
-    }
-  }
->
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#fafaf9",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        var(--color-warm-gray-50)
-      </span>
-      <span
-        className="label"
-      >
-        #fafaf9
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#f5f5f4",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        var(--color-warm-gray-100)
-      </span>
-      <span
-        className="label"
-      >
-        #f5f5f4
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#e7e5e4",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        var(--color-warm-gray-200)
-      </span>
-      <span
-        className="label"
-      >
-        #e7e5e4
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#d6d3d1",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        var(--color-warm-gray-300)
-      </span>
-      <span
-        className="label"
-      >
-        #d6d3d1
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#a8a29e",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        var(--color-warm-gray-400)
-      </span>
-      <span
-        className="label"
-      >
-        #a8a29e
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#78716c",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        var(--color-warm-gray-500)
-      </span>
-      <span
-        className="label"
-      >
-        #78716c
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#57534e",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        var(--color-warm-gray-600)
-      </span>
-      <span
-        className="label"
-      >
-        #57534e
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#44403c",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        var(--color-warm-gray-700)
-      </span>
-      <span
-        className="label"
-      >
-        #44403c
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#292524",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        var(--color-warm-gray-800)
-      </span>
-      <span
-        className="label"
-      >
-        #292524
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#1c1917",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        var(--color-warm-gray-900)
-      </span>
-      <span
-        className="label"
-      >
-        #1c1917
+        #234e52
       </span>
     </div>
   </div>
@@ -6823,7 +3201,7 @@ exports[`Storyshots Tokens/Color Yellow 1`] = `
       "gap": "10px 30px",
       "height": "100%",
       "justifyContent": "flex-start",
-      "maxHeight": 300,
+      "maxHeight": 250,
     }
   }
 >
@@ -6834,33 +3212,7 @@ exports[`Storyshots Tokens/Color Yellow 1`] = `
       className="color"
       style={
         Object {
-          "backgroundColor": "#fefce8",
-        }
-      }
-    />
-    <div
-      className="description"
-    >
-      <span
-        className="label"
-      >
-        var(--color-yellow-50)
-      </span>
-      <span
-        className="label"
-      >
-        #fefce8
-      </span>
-    </div>
-  </div>
-  <div
-    className="container"
-  >
-    <div
-      className="color"
-      style={
-        Object {
-          "backgroundColor": "#fef9c3",
+          "backgroundColor": "#fffff0",
         }
       }
     />
@@ -6875,7 +3227,7 @@ exports[`Storyshots Tokens/Color Yellow 1`] = `
       <span
         className="label"
       >
-        #fef9c3
+        #fffff0
       </span>
     </div>
   </div>
@@ -6886,7 +3238,7 @@ exports[`Storyshots Tokens/Color Yellow 1`] = `
       className="color"
       style={
         Object {
-          "backgroundColor": "#fef08a",
+          "backgroundColor": "#fefcbf",
         }
       }
     />
@@ -6901,7 +3253,7 @@ exports[`Storyshots Tokens/Color Yellow 1`] = `
       <span
         className="label"
       >
-        #fef08a
+        #fefcbf
       </span>
     </div>
   </div>
@@ -6912,7 +3264,7 @@ exports[`Storyshots Tokens/Color Yellow 1`] = `
       className="color"
       style={
         Object {
-          "backgroundColor": "#fde047",
+          "backgroundColor": "#faf089",
         }
       }
     />
@@ -6927,7 +3279,7 @@ exports[`Storyshots Tokens/Color Yellow 1`] = `
       <span
         className="label"
       >
-        #fde047
+        #faf089
       </span>
     </div>
   </div>
@@ -6938,7 +3290,7 @@ exports[`Storyshots Tokens/Color Yellow 1`] = `
       className="color"
       style={
         Object {
-          "backgroundColor": "#facc15",
+          "backgroundColor": "#f6e05e",
         }
       }
     />
@@ -6953,7 +3305,7 @@ exports[`Storyshots Tokens/Color Yellow 1`] = `
       <span
         className="label"
       >
-        #facc15
+        #f6e05e
       </span>
     </div>
   </div>
@@ -6964,7 +3316,7 @@ exports[`Storyshots Tokens/Color Yellow 1`] = `
       className="color"
       style={
         Object {
-          "backgroundColor": "#eab308",
+          "backgroundColor": "#ecc94b",
         }
       }
     />
@@ -6979,7 +3331,7 @@ exports[`Storyshots Tokens/Color Yellow 1`] = `
       <span
         className="label"
       >
-        #eab308
+        #ecc94b
       </span>
     </div>
   </div>
@@ -6990,7 +3342,7 @@ exports[`Storyshots Tokens/Color Yellow 1`] = `
       className="color"
       style={
         Object {
-          "backgroundColor": "#ca8a04",
+          "backgroundColor": "#d69e2e",
         }
       }
     />
@@ -7005,7 +3357,7 @@ exports[`Storyshots Tokens/Color Yellow 1`] = `
       <span
         className="label"
       >
-        #ca8a04
+        #d69e2e
       </span>
     </div>
   </div>
@@ -7016,7 +3368,7 @@ exports[`Storyshots Tokens/Color Yellow 1`] = `
       className="color"
       style={
         Object {
-          "backgroundColor": "#a16207",
+          "backgroundColor": "#b7791f",
         }
       }
     />
@@ -7031,7 +3383,7 @@ exports[`Storyshots Tokens/Color Yellow 1`] = `
       <span
         className="label"
       >
-        #a16207
+        #b7791f
       </span>
     </div>
   </div>
@@ -7042,7 +3394,7 @@ exports[`Storyshots Tokens/Color Yellow 1`] = `
       className="color"
       style={
         Object {
-          "backgroundColor": "#854d0e",
+          "backgroundColor": "#975a16",
         }
       }
     />
@@ -7057,7 +3409,7 @@ exports[`Storyshots Tokens/Color Yellow 1`] = `
       <span
         className="label"
       >
-        #854d0e
+        #975a16
       </span>
     </div>
   </div>
@@ -7068,7 +3420,7 @@ exports[`Storyshots Tokens/Color Yellow 1`] = `
       className="color"
       style={
         Object {
-          "backgroundColor": "#713f12",
+          "backgroundColor": "#744210",
         }
       }
     />
@@ -7083,7 +3435,7 @@ exports[`Storyshots Tokens/Color Yellow 1`] = `
       <span
         className="label"
       >
-        #713f12
+        #744210
       </span>
     </div>
   </div>

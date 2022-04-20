@@ -1,3 +1,10 @@
+# [1.7.0](https://github.com/areyesdev/components-app-productivity/compare/v1.6.1...v1.7.0) (2022-04-20)
+
+
+### Features
+
+* **components:** new stable version ([0f8d60a](https://github.com/areyesdev/components-app-productivity/commit/0f8d60a548db77bfb63f8cda5ffb2bc0144fdac1))
+
 ## [1.6.1](https://github.com/areyesdev/components-app-productivity/compare/v1.6.0...v1.6.1) (2022-04-18)
 
 
